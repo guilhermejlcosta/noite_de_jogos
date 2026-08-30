@@ -1,0 +1,6722 @@
+[
+  {
+    "pergunta": "Qual é o maior planeta do Sistema Solar?",
+    "alternativas": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital da Austrália?",
+    "alternativas": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quantos lados tem um hexágono?",
+    "alternativas": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem pintou a Mona Lisa?",
+    "alternativas": [
+      "Van Gogh",
+      "Leonardo da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual oceano é o maior?",
+    "alternativas": [
+      "Atlântico",
+      "Pacífico",
+      "Índico",
+      "Ártico"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual animal é conhecido como rei da selva?",
+    "alternativas": [
+      "Tigre",
+      "Elefante",
+      "Leão",
+      "Gorila"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em qual país ficam as pirâmides de Gizé?",
+    "alternativas": [
+      "México",
+      "Egito",
+      "Grécia",
+      "Peru"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico do ouro?",
+    "alternativas": [
+      "Ag",
+      "Au",
+      "O",
+      "Go"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quantos jogadores um time de futebol tem em campo?",
+    "alternativas": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o menor país do mundo?",
+    "alternativas": [
+      "Mônaco",
+      "Vaticano",
+      "Malta",
+      "San Marino"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu Dom Casmurro?",
+    "alternativas": [
+      "Machado de Assis",
+      "Jorge Amado",
+      "José de Alencar",
+      "Carlos Drummond"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual planeta é conhecido como Planeta Vermelho?",
+    "alternativas": [
+      "Vênus",
+      "Mercúrio",
+      "Marte",
+      "Netuno"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destes mamíferos voa?",
+    "alternativas": [
+      "Pinguim",
+      "Morcego",
+      "Avestruz",
+      "Esquilo"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quantos minutos existem em duas horas?",
+    "alternativas": [
+      "90",
+      "100",
+      "120",
+      "140"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual idioma tem mais falantes nativos?",
+    "alternativas": [
+      "Inglês",
+      "Espanhol",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que continente fica o deserto do Saara?",
+    "alternativas": [
+      "Ásia",
+      "África",
+      "América",
+      "Oceania"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual instrumento mede a temperatura?",
+    "alternativas": [
+      "Barômetro",
+      "Termômetro",
+      "Higrômetro",
+      "Velocímetro"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a raiz quadrada de 81?",
+    "alternativas": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas cores não é primária na luz?",
+    "alternativas": [
+      "Vermelho",
+      "Verde",
+      "Azul",
+      "Amarelo"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual gás as plantas absorvem da atmosfera?",
+    "alternativas": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Gás carbônico",
+      "Hélio"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o maior órgão do corpo humano?",
+    "alternativas": [
+      "Coração",
+      "Fígado",
+      "Pele",
+      "Pulmão"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em qual esporte se usa uma cesta?",
+    "alternativas": [
+      "Vôlei",
+      "Basquete",
+      "Beisebol",
+      "Rúgbi"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual país tem formato aproximado de uma bota?",
+    "alternativas": [
+      "França",
+      "Portugal",
+      "Itália",
+      "Chile"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quantas cores tem o arco-íris tradicional?",
+    "alternativas": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Torre Eiffel'?",
+    "alternativas": [
+      "Roma",
+      "Barcelona",
+      "Londres",
+      "Paris"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Paris?",
+    "alternativas": [
+      "Big Ben",
+      "Sagrada Família",
+      "Torre Eiffel",
+      "Coliseu"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Coliseu'?",
+    "alternativas": [
+      "Paris",
+      "Barcelona",
+      "Londres",
+      "Roma"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Roma?",
+    "alternativas": [
+      "Big Ben",
+      "Coliseu",
+      "Sagrada Família",
+      "Torre Eiffel"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Big Ben'?",
+    "alternativas": [
+      "Roma",
+      "Londres",
+      "Paris",
+      "Barcelona"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Londres?",
+    "alternativas": [
+      "Coliseu",
+      "Torre Eiffel",
+      "Sagrada Família",
+      "Big Ben"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Sagrada Família'?",
+    "alternativas": [
+      "Roma",
+      "Londres",
+      "Barcelona",
+      "Paris"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Barcelona?",
+    "alternativas": [
+      "Big Ben",
+      "Coliseu",
+      "Torre Eiffel",
+      "Sagrada Família"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Cristo Redentor'?",
+    "alternativas": [
+      "Londres",
+      "Roma",
+      "Rio de Janeiro",
+      "Paris"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Rio de Janeiro?",
+    "alternativas": [
+      "Cristo Redentor",
+      "Coliseu",
+      "Torre Eiffel",
+      "Big Ben"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Estátua da Liberdade'?",
+    "alternativas": [
+      "Roma",
+      "Nova York",
+      "Paris",
+      "Londres"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Nova York?",
+    "alternativas": [
+      "Coliseu",
+      "Torre Eiffel",
+      "Estátua da Liberdade",
+      "Big Ben"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Opera House'?",
+    "alternativas": [
+      "Londres",
+      "Roma",
+      "Sydney",
+      "Paris"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Sydney?",
+    "alternativas": [
+      "Big Ben",
+      "Torre Eiffel",
+      "Opera House",
+      "Coliseu"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Machu Picchu'?",
+    "alternativas": [
+      "Cusco",
+      "Londres",
+      "Paris",
+      "Roma"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Cusco?",
+    "alternativas": [
+      "Coliseu",
+      "Machu Picchu",
+      "Big Ben",
+      "Torre Eiffel"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Burj Khalifa'?",
+    "alternativas": [
+      "Paris",
+      "Londres",
+      "Roma",
+      "Dubai"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Dubai?",
+    "alternativas": [
+      "Coliseu",
+      "Burj Khalifa",
+      "Torre Eiffel",
+      "Big Ben"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Taj Mahal'?",
+    "alternativas": [
+      "Paris",
+      "Londres",
+      "Roma",
+      "Agra"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Agra?",
+    "alternativas": [
+      "Big Ben",
+      "Torre Eiffel",
+      "Taj Mahal",
+      "Coliseu"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Portão de Brandemburgo'?",
+    "alternativas": [
+      "Roma",
+      "Paris",
+      "Berlim",
+      "Londres"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Berlim?",
+    "alternativas": [
+      "Coliseu",
+      "Torre Eiffel",
+      "Big Ben",
+      "Portão de Brandemburgo"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Acrópole'?",
+    "alternativas": [
+      "Paris",
+      "Londres",
+      "Atenas",
+      "Roma"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Atenas?",
+    "alternativas": [
+      "Acrópole",
+      "Torre Eiffel",
+      "Big Ben",
+      "Coliseu"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Museu do Louvre'?",
+    "alternativas": [
+      "Londres",
+      "Barcelona",
+      "Roma",
+      "Paris"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Golden Gate'?",
+    "alternativas": [
+      "Londres",
+      "São Francisco",
+      "Roma",
+      "Paris"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a São Francisco?",
+    "alternativas": [
+      "Golden Gate",
+      "Big Ben",
+      "Torre Eiffel",
+      "Coliseu"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Monte Fuji'?",
+    "alternativas": [
+      "Roma",
+      "Japão",
+      "Paris",
+      "Londres"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Japão?",
+    "alternativas": [
+      "Monte Fuji",
+      "Big Ben",
+      "Torre Eiffel",
+      "Coliseu"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Angkor Wat'?",
+    "alternativas": [
+      "Camboja",
+      "Paris",
+      "Londres",
+      "Roma"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Camboja?",
+    "alternativas": [
+      "Big Ben",
+      "Torre Eiffel",
+      "Angkor Wat",
+      "Coliseu"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Petra'?",
+    "alternativas": [
+      "Londres",
+      "Paris",
+      "Roma",
+      "Jordânia"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Jordânia?",
+    "alternativas": [
+      "Petra",
+      "Coliseu",
+      "Big Ben",
+      "Torre Eiffel"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Moais da Ilha de Páscoa'?",
+    "alternativas": [
+      "Roma",
+      "Paris",
+      "Londres",
+      "Chile"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Chile?",
+    "alternativas": [
+      "Moais da Ilha de Páscoa",
+      "Coliseu",
+      "Big Ben",
+      "Torre Eiffel"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Stonehenge'?",
+    "alternativas": [
+      "Roma",
+      "Paris",
+      "Londres",
+      "Inglaterra"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Inglaterra?",
+    "alternativas": [
+      "Torre Eiffel",
+      "Big Ben",
+      "Coliseu",
+      "Stonehenge"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Alhambra'?",
+    "alternativas": [
+      "Londres",
+      "Paris",
+      "Roma",
+      "Granada"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Granada?",
+    "alternativas": [
+      "Coliseu",
+      "Torre Eiffel",
+      "Alhambra",
+      "Big Ben"
+    ],
+    "correta": 2,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'CN Tower'?",
+    "alternativas": [
+      "Londres",
+      "Roma",
+      "Paris",
+      "Toronto"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Toronto?",
+    "alternativas": [
+      "Big Ben",
+      "CN Tower",
+      "Torre Eiffel",
+      "Coliseu"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Monte Rushmore'?",
+    "alternativas": [
+      "Paris",
+      "Londres",
+      "Roma",
+      "Dakota do Sul"
+    ],
+    "correta": 3,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a Dakota do Sul?",
+    "alternativas": [
+      "Coliseu",
+      "Monte Rushmore",
+      "Torre Eiffel",
+      "Big Ben"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Onde fica o ponto turístico 'Palácio de Versalhes'?",
+    "alternativas": [
+      "Roma",
+      "França",
+      "Paris",
+      "Londres"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual ponto turístico está associado a França?",
+    "alternativas": [
+      "Big Ben",
+      "Palácio de Versalhes",
+      "Torre Eiffel",
+      "Coliseu"
+    ],
+    "correta": 1,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual instrumento musical tradicionalmente possui 88 teclas?",
+    "alternativas": [
+      "Piano",
+      "Violino",
+      "Trompete",
+      "Clarinete"
+    ],
+    "correta": 0,
+    "categoria": "cultura geral",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Brasil?",
+    "alternativas": [
+      "Canberra",
+      "Ottawa",
+      "Ancara",
+      "Brasília"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Brasília é a capital de qual país?",
+    "alternativas": [
+      "Turquia",
+      "Canadá",
+      "Brasil",
+      "Austrália"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Canadá?",
+    "alternativas": [
+      "Canberra",
+      "Ancara",
+      "Ottawa",
+      "Brasília"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Ottawa é a capital de qual país?",
+    "alternativas": [
+      "Brasil",
+      "Turquia",
+      "Austrália",
+      "Canadá"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Austrália?",
+    "alternativas": [
+      "Ancara",
+      "Canberra",
+      "Ottawa",
+      "Brasília"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Canberra é a capital de qual país?",
+    "alternativas": [
+      "Turquia",
+      "Canadá",
+      "Brasil",
+      "Austrália"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Turquia?",
+    "alternativas": [
+      "Brasília",
+      "Canberra",
+      "Ancara",
+      "Ottawa"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Ancara é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Austrália",
+      "Turquia",
+      "Brasil"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Suíça?",
+    "alternativas": [
+      "Ottawa",
+      "Brasília",
+      "Berna",
+      "Canberra"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Berna é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Austrália",
+      "Brasil",
+      "Suíça"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Marrocos?",
+    "alternativas": [
+      "Brasília",
+      "Canberra",
+      "Ottawa",
+      "Rabat"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Rabat é a capital de qual país?",
+    "alternativas": [
+      "Marrocos",
+      "Brasil",
+      "Austrália",
+      "Canadá"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Nova Zelândia?",
+    "alternativas": [
+      "Brasília",
+      "Wellington",
+      "Canberra",
+      "Ottawa"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Wellington é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Brasil",
+      "Austrália",
+      "Nova Zelândia"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Noruega?",
+    "alternativas": [
+      "Oslo",
+      "Brasília",
+      "Ottawa",
+      "Canberra"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Oslo é a capital de qual país?",
+    "alternativas": [
+      "Brasil",
+      "Canadá",
+      "Noruega",
+      "Austrália"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Finlândia?",
+    "alternativas": [
+      "Canberra",
+      "Ottawa",
+      "Brasília",
+      "Helsinque"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Helsinque é a capital de qual país?",
+    "alternativas": [
+      "Austrália",
+      "Canadá",
+      "Finlândia",
+      "Brasil"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Polônia?",
+    "alternativas": [
+      "Brasília",
+      "Varsóvia",
+      "Canberra",
+      "Ottawa"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Varsóvia é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Austrália",
+      "Polônia",
+      "Brasil"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Hungria?",
+    "alternativas": [
+      "Canberra",
+      "Ottawa",
+      "Budapeste",
+      "Brasília"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Budapeste é a capital de qual país?",
+    "alternativas": [
+      "Austrália",
+      "Hungria",
+      "Canadá",
+      "Brasil"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de República Tcheca?",
+    "alternativas": [
+      "Brasília",
+      "Praga",
+      "Ottawa",
+      "Canberra"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Praga é a capital de qual país?",
+    "alternativas": [
+      "Austrália",
+      "República Tcheca",
+      "Canadá",
+      "Brasil"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Croácia?",
+    "alternativas": [
+      "Ottawa",
+      "Canberra",
+      "Zagreb",
+      "Brasília"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Zagreb é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Croácia",
+      "Brasil",
+      "Austrália"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Romênia?",
+    "alternativas": [
+      "Ottawa",
+      "Bucareste",
+      "Canberra",
+      "Brasília"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Bucareste é a capital de qual país?",
+    "alternativas": [
+      "Brasil",
+      "Austrália",
+      "Romênia",
+      "Canadá"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Bulgária?",
+    "alternativas": [
+      "Brasília",
+      "Canberra",
+      "Sófia",
+      "Ottawa"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Sófia é a capital de qual país?",
+    "alternativas": [
+      "Austrália",
+      "Canadá",
+      "Bulgária",
+      "Brasil"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Egito?",
+    "alternativas": [
+      "Canberra",
+      "Cairo",
+      "Ottawa",
+      "Brasília"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Cairo é a capital de qual país?",
+    "alternativas": [
+      "Egito",
+      "Brasil",
+      "Canadá",
+      "Austrália"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Quênia?",
+    "alternativas": [
+      "Brasília",
+      "Canberra",
+      "Ottawa",
+      "Nairóbi"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Nairóbi é a capital de qual país?",
+    "alternativas": [
+      "Austrália",
+      "Quênia",
+      "Canadá",
+      "Brasil"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Etiópia?",
+    "alternativas": [
+      "Adis Abeba",
+      "Brasília",
+      "Ottawa",
+      "Canberra"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Adis Abeba é a capital de qual país?",
+    "alternativas": [
+      "Brasil",
+      "Austrália",
+      "Etiópia",
+      "Canadá"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Nigéria?",
+    "alternativas": [
+      "Canberra",
+      "Ottawa",
+      "Abuja",
+      "Brasília"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Abuja é a capital de qual país?",
+    "alternativas": [
+      "Nigéria",
+      "Brasil",
+      "Austrália",
+      "Canadá"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Gana?",
+    "alternativas": [
+      "Brasília",
+      "Ottawa",
+      "Acra",
+      "Canberra"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Acra é a capital de qual país?",
+    "alternativas": [
+      "Austrália",
+      "Gana",
+      "Canadá",
+      "Brasil"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Argentina?",
+    "alternativas": [
+      "Brasília",
+      "Canberra",
+      "Ottawa",
+      "Buenos Aires"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Buenos Aires é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Argentina",
+      "Brasil",
+      "Austrália"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Chile?",
+    "alternativas": [
+      "Ottawa",
+      "Santiago",
+      "Canberra",
+      "Brasília"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Santiago é a capital de qual país?",
+    "alternativas": [
+      "Brasil",
+      "Chile",
+      "Austrália",
+      "Canadá"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Peru?",
+    "alternativas": [
+      "Lima",
+      "Brasília",
+      "Canberra",
+      "Ottawa"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Lima é a capital de qual país?",
+    "alternativas": [
+      "Austrália",
+      "Canadá",
+      "Peru",
+      "Brasil"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Colômbia?",
+    "alternativas": [
+      "Brasília",
+      "Ottawa",
+      "Canberra",
+      "Bogotá"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Bogotá é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Austrália",
+      "Colômbia",
+      "Brasil"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Equador?",
+    "alternativas": [
+      "Canberra",
+      "Brasília",
+      "Ottawa",
+      "Quito"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quito é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Brasil",
+      "Austrália",
+      "Equador"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Uruguai?",
+    "alternativas": [
+      "Ottawa",
+      "Brasília",
+      "Montevidéu",
+      "Canberra"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Montevidéu é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Austrália",
+      "Brasil",
+      "Uruguai"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Paraguai?",
+    "alternativas": [
+      "Canberra",
+      "Assunção",
+      "Brasília",
+      "Ottawa"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Assunção é a capital de qual país?",
+    "alternativas": [
+      "Brasil",
+      "Austrália",
+      "Canadá",
+      "Paraguai"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Japão?",
+    "alternativas": [
+      "Ottawa",
+      "Tóquio",
+      "Canberra",
+      "Brasília"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Tóquio é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Austrália",
+      "Brasil",
+      "Japão"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Coreia do Sul?",
+    "alternativas": [
+      "Seul",
+      "Ottawa",
+      "Brasília",
+      "Canberra"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Seul é a capital de qual país?",
+    "alternativas": [
+      "Coreia do Sul",
+      "Brasil",
+      "Austrália",
+      "Canadá"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Tailândia?",
+    "alternativas": [
+      "Ottawa",
+      "Canberra",
+      "Bangcoc",
+      "Brasília"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Bangcoc é a capital de qual país?",
+    "alternativas": [
+      "Canadá",
+      "Austrália",
+      "Brasil",
+      "Tailândia"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Islândia?",
+    "alternativas": [
+      "Dublin",
+      "Copenhague",
+      "Tallinn",
+      "Reiquiavique"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Reiquiavique é a capital de qual país?",
+    "alternativas": [
+      "Irlanda",
+      "Dinamarca",
+      "Estônia",
+      "Islândia"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Irlanda?",
+    "alternativas": [
+      "Dublin",
+      "Tallinn",
+      "Reiquiavique",
+      "Copenhague"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Dublin é a capital de qual país?",
+    "alternativas": [
+      "Estônia",
+      "Irlanda",
+      "Islândia",
+      "Dinamarca"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Dinamarca?",
+    "alternativas": [
+      "Dublin",
+      "Copenhague",
+      "Reiquiavique",
+      "Tallinn"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Copenhague é a capital de qual país?",
+    "alternativas": [
+      "Islândia",
+      "Dinamarca",
+      "Estônia",
+      "Irlanda"
+    ],
+    "correta": 1,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Estônia?",
+    "alternativas": [
+      "Copenhague",
+      "Reiquiavique",
+      "Tallinn",
+      "Dublin"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Tallinn é a capital de qual país?",
+    "alternativas": [
+      "Dinamarca",
+      "Islândia",
+      "Irlanda",
+      "Estônia"
+    ],
+    "correta": 3,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a capital de Letônia?",
+    "alternativas": [
+      "Riga",
+      "Copenhague",
+      "Reiquiavique",
+      "Dublin"
+    ],
+    "correta": 0,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Riga é a capital de qual país?",
+    "alternativas": [
+      "Irlanda",
+      "Islândia",
+      "Letônia",
+      "Dinamarca"
+    ],
+    "correta": 2,
+    "categoria": "geografia",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Hidrogênio?",
+    "alternativas": [
+      "He",
+      "N",
+      "C",
+      "H"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo H representa qual elemento?",
+    "alternativas": [
+      "Hélio",
+      "Carbono",
+      "Nitrogênio",
+      "Hidrogênio"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Hélio?",
+    "alternativas": [
+      "He",
+      "H",
+      "C",
+      "N"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo He representa qual elemento?",
+    "alternativas": [
+      "Hidrogênio",
+      "Carbono",
+      "Nitrogênio",
+      "Hélio"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Carbono?",
+    "alternativas": [
+      "He",
+      "N",
+      "C",
+      "H"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo C representa qual elemento?",
+    "alternativas": [
+      "Hélio",
+      "Hidrogênio",
+      "Carbono",
+      "Nitrogênio"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Nitrogênio?",
+    "alternativas": [
+      "He",
+      "C",
+      "H",
+      "N"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo N representa qual elemento?",
+    "alternativas": [
+      "Carbono",
+      "Hidrogênio",
+      "Hélio",
+      "Nitrogênio"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Oxigênio?",
+    "alternativas": [
+      "He",
+      "H",
+      "O",
+      "C"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo O representa qual elemento?",
+    "alternativas": [
+      "Carbono",
+      "Oxigênio",
+      "Hélio",
+      "Hidrogênio"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Sódio?",
+    "alternativas": [
+      "Na",
+      "He",
+      "H",
+      "C"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Na representa qual elemento?",
+    "alternativas": [
+      "Hidrogênio",
+      "Sódio",
+      "Hélio",
+      "Carbono"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Magnésio?",
+    "alternativas": [
+      "He",
+      "H",
+      "Mg",
+      "C"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Mg representa qual elemento?",
+    "alternativas": [
+      "Hélio",
+      "Magnésio",
+      "Carbono",
+      "Hidrogênio"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Alumínio?",
+    "alternativas": [
+      "H",
+      "He",
+      "C",
+      "Al"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Al representa qual elemento?",
+    "alternativas": [
+      "Hidrogênio",
+      "Alumínio",
+      "Hélio",
+      "Carbono"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Silício?",
+    "alternativas": [
+      "Si",
+      "H",
+      "C",
+      "He"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Si representa qual elemento?",
+    "alternativas": [
+      "Hidrogênio",
+      "Silício",
+      "Hélio",
+      "Carbono"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Fósforo?",
+    "alternativas": [
+      "He",
+      "H",
+      "P",
+      "C"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo P representa qual elemento?",
+    "alternativas": [
+      "Hélio",
+      "Hidrogênio",
+      "Fósforo",
+      "Carbono"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Enxofre?",
+    "alternativas": [
+      "He",
+      "H",
+      "C",
+      "S"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo S representa qual elemento?",
+    "alternativas": [
+      "Hidrogênio",
+      "Carbono",
+      "Enxofre",
+      "Hélio"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Cloro?",
+    "alternativas": [
+      "H",
+      "He",
+      "C",
+      "Cl"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Cl representa qual elemento?",
+    "alternativas": [
+      "Carbono",
+      "Hidrogênio",
+      "Hélio",
+      "Cloro"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Potássio?",
+    "alternativas": [
+      "He",
+      "C",
+      "K",
+      "H"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo K representa qual elemento?",
+    "alternativas": [
+      "Potássio",
+      "Carbono",
+      "Hidrogênio",
+      "Hélio"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Cálcio?",
+    "alternativas": [
+      "He",
+      "C",
+      "H",
+      "Ca"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Ca representa qual elemento?",
+    "alternativas": [
+      "Hélio",
+      "Cálcio",
+      "Carbono",
+      "Hidrogênio"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Ferro?",
+    "alternativas": [
+      "He",
+      "H",
+      "C",
+      "Fe"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Fe representa qual elemento?",
+    "alternativas": [
+      "Hidrogênio",
+      "Ferro",
+      "Hélio",
+      "Carbono"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Cobre?",
+    "alternativas": [
+      "Cu",
+      "He",
+      "C",
+      "H"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Cu representa qual elemento?",
+    "alternativas": [
+      "Carbono",
+      "Hélio",
+      "Hidrogênio",
+      "Cobre"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Zinco?",
+    "alternativas": [
+      "C",
+      "Zn",
+      "H",
+      "He"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Zn representa qual elemento?",
+    "alternativas": [
+      "Carbono",
+      "Zinco",
+      "Hélio",
+      "Hidrogênio"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Prata?",
+    "alternativas": [
+      "C",
+      "He",
+      "Ag",
+      "H"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Ag representa qual elemento?",
+    "alternativas": [
+      "Prata",
+      "Hidrogênio",
+      "Carbono",
+      "Hélio"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Estanho?",
+    "alternativas": [
+      "H",
+      "C",
+      "Sn",
+      "He"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Sn representa qual elemento?",
+    "alternativas": [
+      "Estanho",
+      "Hélio",
+      "Carbono",
+      "Hidrogênio"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o símbolo químico de Chumbo?",
+    "alternativas": [
+      "Pb",
+      "H",
+      "He",
+      "C"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "O símbolo Pb representa qual elemento?",
+    "alternativas": [
+      "Hidrogênio",
+      "Chumbo",
+      "Hélio",
+      "Carbono"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual organela celular produz a maior parte da energia?",
+    "alternativas": [
+      "Núcleo",
+      "Mitocôndria",
+      "Lisossomo",
+      "Ribossomo"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual camada da atmosfera concentra a maior parte do ozônio?",
+    "alternativas": [
+      "Troposfera",
+      "Mesosfera",
+      "Estratosfera",
+      "Termosfera"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual tipo sanguíneo é doador universal de hemácias?",
+    "alternativas": [
+      "O negativo",
+      "A positivo",
+      "B negativo",
+      "AB positivo"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual estrutura leva sangue do coração para o corpo?",
+    "alternativas": [
+      "Alvéolos",
+      "Neurônios",
+      "Veias",
+      "Artérias"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual vitamina é produzida na pele com exposição solar?",
+    "alternativas": [
+      "Vitamina B12",
+      "Vitamina D",
+      "Vitamina K",
+      "Vitamina C"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Como se chama a mudança direta do estado sólido para o gasoso?",
+    "alternativas": [
+      "Sublimação",
+      "Condensação",
+      "Fusão",
+      "Vaporização"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual escala mede a dureza dos minerais?",
+    "alternativas": [
+      "Escala Richter",
+      "Escala Celsius",
+      "Escala Beaufort",
+      "Escala de Mohs"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual partícula possui carga elétrica negativa?",
+    "alternativas": [
+      "Nêutron",
+      "Fóton",
+      "Próton",
+      "Elétron"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a unidade de resistência elétrica?",
+    "alternativas": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Que cientista formulou as leis do movimento e da gravitação?",
+    "alternativas": [
+      "Louis Pasteur",
+      "Charles Darwin",
+      "Niels Bohr",
+      "Isaac Newton"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual processo celular produz duas células-filhas idênticas?",
+    "alternativas": [
+      "Meiose",
+      "Osmose",
+      "Mitose",
+      "Fotossíntese"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o pH aproximado de uma solução neutra?",
+    "alternativas": [
+      "14",
+      "5",
+      "0",
+      "7"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual planeta possui a Grande Mancha Vermelha?",
+    "alternativas": [
+      "Netuno",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual lei relaciona pressão e volume de um gás?",
+    "alternativas": [
+      "Lei de Hooke",
+      "Lei de Boyle",
+      "Lei de Ohm",
+      "Lei de Hubble"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual tecido vegetal transporta água das raízes?",
+    "alternativas": [
+      "Xilema",
+      "Meristema",
+      "Floema",
+      "Epiderme"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual estrutura do ouvido ajuda a controlar o equilíbrio?",
+    "alternativas": [
+      "Cóclea",
+      "Martelo",
+      "Canais semicirculares",
+      "Tímpano"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o principal componente do gás natural?",
+    "alternativas": [
+      "Oxigênio",
+      "Butano",
+      "Hidrogênio",
+      "Metano"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual fenômeno separa a luz branca em cores?",
+    "alternativas": [
+      "Convecção",
+      "Dispersão",
+      "Condução",
+      "Indução"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual órgão humano produz insulina?",
+    "alternativas": [
+      "Rim",
+      "Baço",
+      "Pâncreas",
+      "Fígado"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual grupo de animais possui pele úmida e sofre metamorfose?",
+    "alternativas": [
+      "Mamíferos",
+      "Répteis",
+      "Anfíbios",
+      "Aracnídeos"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual planeta tem o dia mais longo do Sistema Solar?",
+    "alternativas": [
+      "Mercúrio",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual unidade mede frequência?",
+    "alternativas": [
+      "Hertz",
+      "Tesla",
+      "Joule",
+      "Pascal"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Que composto tem fórmula NaCl?",
+    "alternativas": [
+      "Carbonato de cálcio",
+      "Cloreto de sódio",
+      "Amônia",
+      "Sulfato de cobre"
+    ],
+    "correta": 1,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual cientista propôs a seleção natural?",
+    "alternativas": [
+      "Robert Hooke",
+      "Antoine Lavoisier",
+      "Charles Darwin",
+      "Gregor Mendel"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a velocidade aproximada da luz no vácuo?",
+    "alternativas": [
+      "30 mil km/s",
+      "3 milhões de km/s",
+      "3 mil km/s",
+      "300 mil km/s"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual camada da Terra é líquida e rica em ferro?",
+    "alternativas": [
+      "Crosta",
+      "Núcleo interno",
+      "Núcleo externo",
+      "Manto superior"
+    ],
+    "correta": 2,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual molécula armazena informação genética?",
+    "alternativas": [
+      "ATP",
+      "Colágeno",
+      "Glicose",
+      "DNA"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual aparelho registra terremotos?",
+    "alternativas": [
+      "Sismógrafo",
+      "Espectrômetro",
+      "Anemômetro",
+      "Altímetro"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual metal é líquido em temperatura ambiente?",
+    "alternativas": [
+      "Mercúrio",
+      "Ferro",
+      "Titânio",
+      "Alumínio"
+    ],
+    "correta": 0,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é a unidade de potência no SI?",
+    "alternativas": [
+      "Volt",
+      "Newton",
+      "Kelvin",
+      "Watt"
+    ],
+    "correta": 3,
+    "categoria": "ciências",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Dom Casmurro'?",
+    "alternativas": [
+      "Miguel de Cervantes",
+      "Machado de Assis",
+      "Guimarães Rosa",
+      "Jorge Amado"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Cortiço'?",
+    "alternativas": [
+      "Aluísio Azevedo",
+      "Antoine de Saint-Exupéry",
+      "José de Alencar",
+      "George Orwell"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Vidas Secas'?",
+    "alternativas": [
+      "Clarice Lispector",
+      "Mary Shelley",
+      "Jane Austen",
+      "Graciliano Ramos"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Capitães da Areia'?",
+    "alternativas": [
+      "Jorge Amado",
+      "Guimarães Rosa",
+      "Miguel de Cervantes",
+      "Bram Stoker"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Iracema'?",
+    "alternativas": [
+      "Victor Hugo",
+      "José de Alencar",
+      "George Orwell",
+      "Antoine de Saint-Exupéry"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Guarani'?",
+    "alternativas": [
+      "Franz Kafka",
+      "Jane Austen",
+      "José de Alencar",
+      "Mary Shelley"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'A Hora da Estrela'?",
+    "alternativas": [
+      "Bram Stoker",
+      "Miguel de Cervantes",
+      "Clarice Lispector",
+      "Gabriel García Márquez"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Grande Sertão: Veredas'?",
+    "alternativas": [
+      "Antoine de Saint-Exupéry",
+      "Guimarães Rosa",
+      "Machado de Assis",
+      "Victor Hugo"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Memórias Póstumas de Brás Cubas'?",
+    "alternativas": [
+      "Franz Kafka",
+      "Aluísio Azevedo",
+      "Mary Shelley",
+      "Machado de Assis"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Alienista'?",
+    "alternativas": [
+      "Bram Stoker",
+      "Graciliano Ramos",
+      "Gabriel García Márquez",
+      "Machado de Assis"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu '1984'?",
+    "alternativas": [
+      "Machado de Assis",
+      "Victor Hugo",
+      "George Orwell",
+      "Jorge Amado"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'A Revolução dos Bichos'?",
+    "alternativas": [
+      "Franz Kafka",
+      "José de Alencar",
+      "George Orwell",
+      "Aluísio Azevedo"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Orgulho e Preconceito'?",
+    "alternativas": [
+      "Jane Austen",
+      "Gabriel García Márquez",
+      "Graciliano Ramos",
+      "Clarice Lispector"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Dom Quixote'?",
+    "alternativas": [
+      "Machado de Assis",
+      "Jorge Amado",
+      "Guimarães Rosa",
+      "Miguel de Cervantes"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Pequeno Príncipe'?",
+    "alternativas": [
+      "Aluísio Azevedo",
+      "George Orwell",
+      "José de Alencar",
+      "Antoine de Saint-Exupéry"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Frankenstein'?",
+    "alternativas": [
+      "Mary Shelley",
+      "Graciliano Ramos",
+      "Jane Austen",
+      "Clarice Lispector"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Drácula'?",
+    "alternativas": [
+      "Miguel de Cervantes",
+      "Guimarães Rosa",
+      "Bram Stoker",
+      "Jorge Amado"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Os Miseráveis'?",
+    "alternativas": [
+      "José de Alencar",
+      "George Orwell",
+      "Antoine de Saint-Exupéry",
+      "Victor Hugo"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'A Metamorfose'?",
+    "alternativas": [
+      "Franz Kafka",
+      "Mary Shelley",
+      "Clarice Lispector",
+      "Jane Austen"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Cem Anos de Solidão'?",
+    "alternativas": [
+      "Miguel de Cervantes",
+      "Bram Stoker",
+      "Guimarães Rosa",
+      "Gabriel García Márquez"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Hamlet'?",
+    "alternativas": [
+      "Homero",
+      "Dante Alighieri",
+      "William Shakespeare",
+      "Johann Wolfgang von Goethe"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por William Shakespeare?",
+    "alternativas": [
+      "Ilíada",
+      "Odisseia",
+      "Hamlet",
+      "A Divina Comédia"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'A Divina Comédia'?",
+    "alternativas": [
+      "Homero",
+      "Dante Alighieri",
+      "William Shakespeare",
+      "Johann Wolfgang von Goethe"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Dante Alighieri?",
+    "alternativas": [
+      "Odisseia",
+      "Hamlet",
+      "Ilíada",
+      "A Divina Comédia"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Ilíada'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Johann Wolfgang von Goethe",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Homero?",
+    "alternativas": [
+      "Odisseia",
+      "Ilíada",
+      "Hamlet",
+      "A Divina Comédia"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Odisseia'?",
+    "alternativas": [
+      "Johann Wolfgang von Goethe",
+      "William Shakespeare",
+      "Dante Alighieri",
+      "Homero"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Fausto'?",
+    "alternativas": [
+      "William Shakespeare",
+      "Johann Wolfgang von Goethe",
+      "Dante Alighieri",
+      "Homero"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Johann Wolfgang von Goethe?",
+    "alternativas": [
+      "Fausto",
+      "A Divina Comédia",
+      "Hamlet",
+      "Ilíada"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Madame Bovary'?",
+    "alternativas": [
+      "Homero",
+      "Gustave Flaubert",
+      "William Shakespeare",
+      "Dante Alighieri"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Gustave Flaubert?",
+    "alternativas": [
+      "A Divina Comédia",
+      "Hamlet",
+      "Ilíada",
+      "Madame Bovary"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Guerra e Paz'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Liev Tolstói",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Liev Tolstói?",
+    "alternativas": [
+      "Ilíada",
+      "Hamlet",
+      "A Divina Comédia",
+      "Guerra e Paz"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Crime e Castigo'?",
+    "alternativas": [
+      "Fiódor Dostoiévski",
+      "Homero",
+      "Dante Alighieri",
+      "William Shakespeare"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Fiódor Dostoiévski?",
+    "alternativas": [
+      "Ilíada",
+      "Crime e Castigo",
+      "Hamlet",
+      "A Divina Comédia"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Processo'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Franz Kafka",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Franz Kafka?",
+    "alternativas": [
+      "O Processo",
+      "Hamlet",
+      "A Divina Comédia",
+      "Ilíada"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Retrato de Dorian Gray'?",
+    "alternativas": [
+      "William Shakespeare",
+      "Homero",
+      "Dante Alighieri",
+      "Oscar Wilde"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Oscar Wilde?",
+    "alternativas": [
+      "Ilíada",
+      "Hamlet",
+      "O Retrato de Dorian Gray",
+      "A Divina Comédia"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Moby Dick'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Homero",
+      "William Shakespeare",
+      "Herman Melville"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Herman Melville?",
+    "alternativas": [
+      "A Divina Comédia",
+      "Hamlet",
+      "Moby Dick",
+      "Ilíada"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'As Aventuras de Tom Sawyer'?",
+    "alternativas": [
+      "Homero",
+      "William Shakespeare",
+      "Mark Twain",
+      "Dante Alighieri"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Mark Twain?",
+    "alternativas": [
+      "Hamlet",
+      "A Divina Comédia",
+      "Ilíada",
+      "As Aventuras de Tom Sawyer"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Morro dos Ventos Uivantes'?",
+    "alternativas": [
+      "Homero",
+      "Emily Brontë",
+      "Dante Alighieri",
+      "William Shakespeare"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Emily Brontë?",
+    "alternativas": [
+      "Ilíada",
+      "O Morro dos Ventos Uivantes",
+      "Hamlet",
+      "A Divina Comédia"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Jane Eyre'?",
+    "alternativas": [
+      "Homero",
+      "William Shakespeare",
+      "Dante Alighieri",
+      "Charlotte Brontë"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Charlotte Brontë?",
+    "alternativas": [
+      "Jane Eyre",
+      "Hamlet",
+      "A Divina Comédia",
+      "Ilíada"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Sol é para Todos'?",
+    "alternativas": [
+      "Homero",
+      "William Shakespeare",
+      "Harper Lee",
+      "Dante Alighieri"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Harper Lee?",
+    "alternativas": [
+      "Hamlet",
+      "A Divina Comédia",
+      "O Sol é para Todos",
+      "Ilíada"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Grande Gatsby'?",
+    "alternativas": [
+      "Homero",
+      "Dante Alighieri",
+      "William Shakespeare",
+      "F. Scott Fitzgerald"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por F. Scott Fitzgerald?",
+    "alternativas": [
+      "A Divina Comédia",
+      "Hamlet",
+      "Ilíada",
+      "O Grande Gatsby"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Ulisses'?",
+    "alternativas": [
+      "William Shakespeare",
+      "Homero",
+      "James Joyce",
+      "Dante Alighieri"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por James Joyce?",
+    "alternativas": [
+      "A Divina Comédia",
+      "Ulisses",
+      "Hamlet",
+      "Ilíada"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Ensaio sobre a Cegueira'?",
+    "alternativas": [
+      "José Saramago",
+      "Dante Alighieri",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por José Saramago?",
+    "alternativas": [
+      "Hamlet",
+      "A Divina Comédia",
+      "Ilíada",
+      "Ensaio sobre a Cegueira"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'A Peste'?",
+    "alternativas": [
+      "Albert Camus",
+      "Dante Alighieri",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Albert Camus?",
+    "alternativas": [
+      "A Peste",
+      "Hamlet",
+      "Ilíada",
+      "A Divina Comédia"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Nome da Rosa'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Umberto Eco",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Umberto Eco?",
+    "alternativas": [
+      "A Divina Comédia",
+      "O Nome da Rosa",
+      "Hamlet",
+      "Ilíada"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Fahrenheit 451'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Ray Bradbury",
+      "William Shakespeare",
+      "Homero"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Ray Bradbury?",
+    "alternativas": [
+      "Hamlet",
+      "A Divina Comédia",
+      "Fahrenheit 451",
+      "Ilíada"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Admirável Mundo Novo'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Aldous Huxley",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Aldous Huxley?",
+    "alternativas": [
+      "Admirável Mundo Novo",
+      "Ilíada",
+      "Hamlet",
+      "A Divina Comédia"
+    ],
+    "correta": 0,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'O Senhor das Moscas'?",
+    "alternativas": [
+      "William Shakespeare",
+      "Dante Alighieri",
+      "Homero",
+      "William Golding"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por William Golding?",
+    "alternativas": [
+      "Hamlet",
+      "A Divina Comédia",
+      "Ilíada",
+      "O Senhor das Moscas"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'A Cor Púrpura'?",
+    "alternativas": [
+      "Dante Alighieri",
+      "Alice Walker",
+      "Homero",
+      "William Shakespeare"
+    ],
+    "correta": 1,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Alice Walker?",
+    "alternativas": [
+      "Ilíada",
+      "A Divina Comédia",
+      "Hamlet",
+      "A Cor Púrpura"
+    ],
+    "correta": 3,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quem escreveu 'Beloved'?",
+    "alternativas": [
+      "William Shakespeare",
+      "Homero",
+      "Toni Morrison",
+      "Dante Alighieri"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual destas obras foi escrita por Toni Morrison?",
+    "alternativas": [
+      "Ilíada",
+      "A Divina Comédia",
+      "Beloved",
+      "Hamlet"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "A qual movimento literário pertenceu Castro Alves?",
+    "alternativas": [
+      "Realismo",
+      "Parnasianismo",
+      "Romantismo",
+      "Modernismo"
+    ],
+    "correta": 2,
+    "categoria": "literatura",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Início da Revolução Francesa?",
+    "alternativas": [
+      "1801",
+      "1789",
+      "1779",
+      "1794"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Independência do Brasil?",
+    "alternativas": [
+      "1827",
+      "1812",
+      "1822",
+      "1834"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Proclamação da República no Brasil?",
+    "alternativas": [
+      "1901",
+      "1889",
+      "1879",
+      "1894"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Abolição da escravidão no Brasil?",
+    "alternativas": [
+      "1888",
+      "1878",
+      "1893",
+      "1900"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Chegada dos portugueses ao Brasil?",
+    "alternativas": [
+      "1500",
+      "1512",
+      "1490",
+      "1505"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Queda de Constantinopla?",
+    "alternativas": [
+      "1453",
+      "1465",
+      "1443",
+      "1458"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Início da Primeira Guerra Mundial?",
+    "alternativas": [
+      "1919",
+      "1904",
+      "1926",
+      "1914"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Fim da Primeira Guerra Mundial?",
+    "alternativas": [
+      "1918",
+      "1923",
+      "1930",
+      "1908"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Início da Segunda Guerra Mundial?",
+    "alternativas": [
+      "1951",
+      "1929",
+      "1944",
+      "1939"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Fim da Segunda Guerra Mundial?",
+    "alternativas": [
+      "1935",
+      "1957",
+      "1945",
+      "1950"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Queda do Muro de Berlim?",
+    "alternativas": [
+      "2001",
+      "1994",
+      "1989",
+      "1979"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Primeiro pouso humano na Lua?",
+    "alternativas": [
+      "1974",
+      "1959",
+      "1969",
+      "1981"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Criação da ONU?",
+    "alternativas": [
+      "1935",
+      "1950",
+      "1945",
+      "1957"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Revolução Russa?",
+    "alternativas": [
+      "1907",
+      "1922",
+      "1929",
+      "1917"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Crise de 1929?",
+    "alternativas": [
+      "1934",
+      "1929",
+      "1941",
+      "1919"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Independência dos Estados Unidos?",
+    "alternativas": [
+      "1776",
+      "1781",
+      "1766",
+      "1788"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Invenção da imprensa por Gutenberg?",
+    "alternativas": [
+      "1430",
+      "1440",
+      "1445",
+      "1452"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Início da Era Vargas?",
+    "alternativas": [
+      "1935",
+      "1930",
+      "1920",
+      "1942"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Promulgação da Constituição brasileira atual?",
+    "alternativas": [
+      "1988",
+      "1978",
+      "1993",
+      "2000"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Transferência da corte portuguesa para o Brasil?",
+    "alternativas": [
+      "1813",
+      "1820",
+      "1798",
+      "1808"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Coroação de Carlos Magno?",
+    "alternativas": [
+      "800",
+      "1066",
+      "1347",
+      "1215"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 800?",
+    "alternativas": [
+      "Coroação de Carlos Magno",
+      "Início da Peste Negra na Europa",
+      "Assinatura da Magna Carta",
+      "Batalha de Hastings"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Batalha de Hastings?",
+    "alternativas": [
+      "800",
+      "1066",
+      "1347",
+      "1215"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1066?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Coroação de Carlos Magno",
+      "Batalha de Hastings",
+      "Início da Peste Negra na Europa"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Assinatura da Magna Carta?",
+    "alternativas": [
+      "1066",
+      "1215",
+      "1347",
+      "800"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1215?",
+    "alternativas": [
+      "Batalha de Hastings",
+      "Início da Peste Negra na Europa",
+      "Coroação de Carlos Magno",
+      "Assinatura da Magna Carta"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Início da Peste Negra na Europa?",
+    "alternativas": [
+      "800",
+      "1215",
+      "1066",
+      "1347"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1347?",
+    "alternativas": [
+      "Coroação de Carlos Magno",
+      "Assinatura da Magna Carta",
+      "Batalha de Hastings",
+      "Início da Peste Negra na Europa"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Viagem de Colombo à América?",
+    "alternativas": [
+      "1492",
+      "1215",
+      "800",
+      "1066"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1492?",
+    "alternativas": [
+      "Batalha de Hastings",
+      "Assinatura da Magna Carta",
+      "Viagem de Colombo à América",
+      "Coroação de Carlos Magno"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Início da Reforma Protestante?",
+    "alternativas": [
+      "800",
+      "1215",
+      "1517",
+      "1066"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1517?",
+    "alternativas": [
+      "Batalha de Hastings",
+      "Início da Reforma Protestante",
+      "Assinatura da Magna Carta",
+      "Coroação de Carlos Magno"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Revolução Gloriosa?",
+    "alternativas": [
+      "800",
+      "1688",
+      "1215",
+      "1066"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1688?",
+    "alternativas": [
+      "Coroação de Carlos Magno",
+      "Revolução Gloriosa",
+      "Batalha de Hastings",
+      "Assinatura da Magna Carta"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Início da Revolução Industrial?",
+    "alternativas": [
+      "1066",
+      "1760",
+      "800",
+      "1215"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1760?",
+    "alternativas": [
+      "Início da Revolução Industrial",
+      "Coroação de Carlos Magno",
+      "Batalha de Hastings",
+      "Assinatura da Magna Carta"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Congresso de Viena?",
+    "alternativas": [
+      "1215",
+      "800",
+      "1815",
+      "1066"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1815?",
+    "alternativas": [
+      "Coroação de Carlos Magno",
+      "Batalha de Hastings",
+      "Assinatura da Magna Carta",
+      "Congresso de Viena"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Unificação da Itália?",
+    "alternativas": [
+      "1215",
+      "800",
+      "1861",
+      "1066"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1861?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Unificação da Itália",
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Unificação da Alemanha?",
+    "alternativas": [
+      "800",
+      "1871",
+      "1215",
+      "1066"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1871?",
+    "alternativas": [
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno",
+      "Assinatura da Magna Carta",
+      "Unificação da Alemanha"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Primeira Olimpíada moderna?",
+    "alternativas": [
+      "1896",
+      "1215",
+      "800",
+      "1066"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1896?",
+    "alternativas": [
+      "Batalha de Hastings",
+      "Primeira Olimpíada moderna",
+      "Coroação de Carlos Magno",
+      "Assinatura da Magna Carta"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Revolução Mexicana?",
+    "alternativas": [
+      "1066",
+      "1215",
+      "800",
+      "1910"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1910?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Coroação de Carlos Magno",
+      "Revolução Mexicana",
+      "Batalha de Hastings"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Quebra da Bolsa de Nova York?",
+    "alternativas": [
+      "1066",
+      "1215",
+      "800",
+      "1929"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1929?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno",
+      "Quebra da Bolsa de Nova York"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Fundação de Brasília?",
+    "alternativas": [
+      "1960",
+      "1066",
+      "1215",
+      "800"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1960?",
+    "alternativas": [
+      "Fundação de Brasília",
+      "Batalha de Hastings",
+      "Assinatura da Magna Carta",
+      "Coroação de Carlos Magno"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Crise dos Mísseis de Cuba?",
+    "alternativas": [
+      "1066",
+      "1215",
+      "1962",
+      "800"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1962?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Coroação de Carlos Magno",
+      "Batalha de Hastings",
+      "Crise dos Mísseis de Cuba"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Golpe militar no Brasil?",
+    "alternativas": [
+      "1215",
+      "1066",
+      "1964",
+      "800"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1964?",
+    "alternativas": [
+      "Coroação de Carlos Magno",
+      "Assinatura da Magna Carta",
+      "Golpe militar no Brasil",
+      "Batalha de Hastings"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Revolução dos Cravos?",
+    "alternativas": [
+      "800",
+      "1974",
+      "1066",
+      "1215"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1974?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Coroação de Carlos Magno",
+      "Batalha de Hastings",
+      "Revolução dos Cravos"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Fim da Guerra do Vietnã?",
+    "alternativas": [
+      "1215",
+      "1975",
+      "1066",
+      "800"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1975?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno",
+      "Fim da Guerra do Vietnã"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Constituição Cidadã brasileira?",
+    "alternativas": [
+      "800",
+      "1215",
+      "1066",
+      "1988"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1988?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Constituição Cidadã brasileira",
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Dissolução da União Soviética?",
+    "alternativas": [
+      "1066",
+      "1991",
+      "1215",
+      "800"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1991?",
+    "alternativas": [
+      "Dissolução da União Soviética",
+      "Assinatura da Magna Carta",
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Fim do apartheid com eleição de Mandela?",
+    "alternativas": [
+      "1215",
+      "1994",
+      "1066",
+      "800"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1994?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Coroação de Carlos Magno",
+      "Fim do apartheid com eleição de Mandela",
+      "Batalha de Hastings"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Adoção do euro como moeda contábil?",
+    "alternativas": [
+      "800",
+      "1215",
+      "1999",
+      "1066"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1999?",
+    "alternativas": [
+      "Coroação de Carlos Magno",
+      "Adoção do euro como moeda contábil",
+      "Assinatura da Magna Carta",
+      "Batalha de Hastings"
+    ],
+    "correta": 1,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Atentados de 11 de setembro?",
+    "alternativas": [
+      "1215",
+      "1066",
+      "2001",
+      "800"
+    ],
+    "correta": 2,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 2001?",
+    "alternativas": [
+      "Atentados de 11 de setembro",
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno",
+      "Assinatura da Magna Carta"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em que ano ocorreu: Primeiro voo dos irmãos Wright?",
+    "alternativas": [
+      "1903",
+      "1066",
+      "1215",
+      "800"
+    ],
+    "correta": 0,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual evento ocorreu em 1903?",
+    "alternativas": [
+      "Assinatura da Magna Carta",
+      "Batalha de Hastings",
+      "Coroação de Carlos Magno",
+      "Primeiro voo dos irmãos Wright"
+    ],
+    "correta": 3,
+    "categoria": "história",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra é sinônimo de 'sucinto'?",
+    "alternativas": [
+      "Impreciso",
+      "Conciso",
+      "Confuso",
+      "Extenso"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra é antônimo de 'efêmero'?",
+    "alternativas": [
+      "Duradouro",
+      "Passageiro",
+      "Breve",
+      "Transitório"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em 'Precisa-se de funcionários', o 'se' é:",
+    "alternativas": [
+      "Pronome reflexivo",
+      "Partícula expletiva",
+      "Conjunção",
+      "Índice de indeterminação do sujeito"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual figura de linguagem exagera intencionalmente uma ideia?",
+    "alternativas": [
+      "Metonímia",
+      "Eufemismo",
+      "Antítese",
+      "Hipérbole"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual figura atribui características humanas a seres inanimados?",
+    "alternativas": [
+      "Personificação",
+      "Pleonasmo",
+      "Elipse",
+      "Ironia"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o plural de 'cidadão'?",
+    "alternativas": [
+      "Cidadães",
+      "Cidadãos-es",
+      "Cidadãos",
+      "Cidadões"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra está escrita corretamente?",
+    "alternativas": [
+      "Esceção",
+      "Exceção",
+      "Eceção",
+      "Excessão"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Na frase 'Embora chovesse, saímos', 'embora' indica:",
+    "alternativas": [
+      "Conclusão",
+      "Condição",
+      "Concessão",
+      "Causa"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual termo nomeia uma palavra de sentido oposto a outra?",
+    "alternativas": [
+      "Parônimo",
+      "Homônimo",
+      "Antônimo",
+      "Sinônimo"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o coletivo de lobos?",
+    "alternativas": [
+      "Cardume",
+      "Alcateia",
+      "Enxame",
+      "Manada"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o coletivo de peixes?",
+    "alternativas": [
+      "Alcateia",
+      "Matilha",
+      "Cardume",
+      "Rebanho"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em qual alternativa há uma palavra proparoxítona?",
+    "alternativas": [
+      "Lâmpada",
+      "Anel",
+      "Café",
+      "Papel"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual classe de palavra modifica um verbo?",
+    "alternativas": [
+      "Advérbio",
+      "Artigo",
+      "Substantivo",
+      "Adjetivo"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual sinal normalmente introduz uma enumeração?",
+    "alternativas": [
+      "Ponto e vírgula",
+      "Apóstrofo",
+      "Dois-pontos",
+      "Reticências"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra deriva de 'pedra'?",
+    "alternativas": [
+      "Pérola",
+      "Pedir",
+      "Perder",
+      "Pedreiro"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Em 'O livro que comprei', a palavra 'que' retoma:",
+    "alternativas": [
+      "Eu",
+      "O livro",
+      "A compra",
+      "Uma pessoa"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Altruísta'?",
+    "alternativas": [
+      "Fora de sua época",
+      "Que demonstra bondade",
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Pessoa que age em benefício de outros?",
+    "alternativas": [
+      "Altruísta",
+      "Ambíguo",
+      "Benevolente",
+      "Anacrônico"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Ambíguo'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Fora de sua época",
+      "Que demonstra bondade",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que permite mais de uma interpretação?",
+    "alternativas": [
+      "Anacrônico",
+      "Benevolente",
+      "Ambíguo",
+      "Altruísta"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Anacrônico'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Que demonstra bondade",
+      "Que permite mais de uma interpretação",
+      "Fora de sua época"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Fora de sua época?",
+    "alternativas": [
+      "Ambíguo",
+      "Benevolente",
+      "Altruísta",
+      "Anacrônico"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Benevolente'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Fora de sua época",
+      "Que demonstra bondade",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que demonstra bondade?",
+    "alternativas": [
+      "Anacrônico",
+      "Ambíguo",
+      "Benevolente",
+      "Altruísta"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Cético'?",
+    "alternativas": [
+      "Que tende a duvidar",
+      "Pessoa que age em benefício de outros",
+      "Fora de sua época",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que tende a duvidar?",
+    "alternativas": [
+      "Ambíguo",
+      "Anacrônico",
+      "Altruísta",
+      "Cético"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Coerente'?",
+    "alternativas": [
+      "Fora de sua época",
+      "Que apresenta lógica e harmonia",
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que apresenta lógica e harmonia?",
+    "alternativas": [
+      "Anacrônico",
+      "Coerente",
+      "Ambíguo",
+      "Altruísta"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Condescendente'?",
+    "alternativas": [
+      "Fora de sua época",
+      "Excessivamente tolerante",
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Excessivamente tolerante?",
+    "alternativas": [
+      "Altruísta",
+      "Condescendente",
+      "Anacrônico",
+      "Ambíguo"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Diligente'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Cuidadoso e aplicado",
+      "Que permite mais de uma interpretação",
+      "Fora de sua época"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Cuidadoso e aplicado?",
+    "alternativas": [
+      "Diligente",
+      "Altruísta",
+      "Ambíguo",
+      "Anacrônico"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Dissonante'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Fora de sua época",
+      "Pessoa que age em benefício de outros",
+      "Que não está em harmonia"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que não está em harmonia?",
+    "alternativas": [
+      "Dissonante",
+      "Anacrônico",
+      "Ambíguo",
+      "Altruísta"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Eloquente'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros",
+      "Fora de sua época",
+      "Que se expressa com clareza e persuasão"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que se expressa com clareza e persuasão?",
+    "alternativas": [
+      "Eloquente",
+      "Altruísta",
+      "Ambíguo",
+      "Anacrônico"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Empírico'?",
+    "alternativas": [
+      "Fora de sua época",
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros",
+      "Baseado na experiência"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Baseado na experiência?",
+    "alternativas": [
+      "Empírico",
+      "Altruísta",
+      "Anacrônico",
+      "Ambíguo"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Escasso'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Existente em pouca quantidade",
+      "Fora de sua época",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Existente em pouca quantidade?",
+    "alternativas": [
+      "Altruísta",
+      "Escasso",
+      "Anacrônico",
+      "Ambíguo"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Explícito'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Fora de sua época",
+      "Expresso de maneira clara",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Expresso de maneira clara?",
+    "alternativas": [
+      "Explícito",
+      "Anacrônico",
+      "Ambíguo",
+      "Altruísta"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Factível'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Que pode ser realizado",
+      "Fora de sua época",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que pode ser realizado?",
+    "alternativas": [
+      "Ambíguo",
+      "Altruísta",
+      "Anacrônico",
+      "Factível"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Idôneo'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Adequado e digno de confiança",
+      "Fora de sua época",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Adequado e digno de confiança?",
+    "alternativas": [
+      "Ambíguo",
+      "Altruísta",
+      "Idôneo",
+      "Anacrônico"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Iminente'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Que está prestes a acontecer",
+      "Que permite mais de uma interpretação",
+      "Fora de sua época"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que está prestes a acontecer?",
+    "alternativas": [
+      "Anacrônico",
+      "Altruísta",
+      "Ambíguo",
+      "Iminente"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Imparcial'?",
+    "alternativas": [
+      "Fora de sua época",
+      "Que permite mais de uma interpretação",
+      "Que não favorece nenhum lado",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que não favorece nenhum lado?",
+    "alternativas": [
+      "Ambíguo",
+      "Anacrônico",
+      "Altruísta",
+      "Imparcial"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Inócuo'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros",
+      "Que não causa dano",
+      "Fora de sua época"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que não causa dano?",
+    "alternativas": [
+      "Ambíguo",
+      "Inócuo",
+      "Anacrônico",
+      "Altruísta"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Intrínseco'?",
+    "alternativas": [
+      "Fora de sua época",
+      "Pessoa que age em benefício de outros",
+      "Que pertence à essência",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que pertence à essência?",
+    "alternativas": [
+      "Ambíguo",
+      "Altruísta",
+      "Intrínseco",
+      "Anacrônico"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Lacônico'?",
+    "alternativas": [
+      "Pessoa que age em benefício de outros",
+      "Fora de sua época",
+      "Que permite mais de uma interpretação",
+      "Que usa poucas palavras"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que usa poucas palavras?",
+    "alternativas": [
+      "Altruísta",
+      "Ambíguo",
+      "Anacrônico",
+      "Lacônico"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Meticuloso'?",
+    "alternativas": [
+      "Extremamente cuidadoso",
+      "Que permite mais de uma interpretação",
+      "Fora de sua época",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Extremamente cuidadoso?",
+    "alternativas": [
+      "Altruísta",
+      "Meticuloso",
+      "Ambíguo",
+      "Anacrônico"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Obsoleto'?",
+    "alternativas": [
+      "Que caiu em desuso",
+      "Pessoa que age em benefício de outros",
+      "Fora de sua época",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que caiu em desuso?",
+    "alternativas": [
+      "Altruísta",
+      "Anacrônico",
+      "Ambíguo",
+      "Obsoleto"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Paradoxal'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Que envolve aparente contradição",
+      "Fora de sua época",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que envolve aparente contradição?",
+    "alternativas": [
+      "Ambíguo",
+      "Paradoxal",
+      "Altruísta",
+      "Anacrônico"
+    ],
+    "correta": 1,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Plausível'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros",
+      "Que parece razoável",
+      "Fora de sua época"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que parece razoável?",
+    "alternativas": [
+      "Plausível",
+      "Ambíguo",
+      "Altruísta",
+      "Anacrônico"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Pragmático'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Pessoa que age em benefício de outros",
+      "Fora de sua época",
+      "Voltado para resultados práticos"
+    ],
+    "correta": 3,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Voltado para resultados práticos?",
+    "alternativas": [
+      "Pragmático",
+      "Anacrônico",
+      "Altruísta",
+      "Ambíguo"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Prolixo'?",
+    "alternativas": [
+      "Que permite mais de uma interpretação",
+      "Fora de sua época",
+      "Que usa palavras em excesso",
+      "Pessoa que age em benefício de outros"
+    ],
+    "correta": 2,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Que usa palavras em excesso?",
+    "alternativas": [
+      "Prolixo",
+      "Altruísta",
+      "Anacrônico",
+      "Ambíguo"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o significado de 'Resiliente'?",
+    "alternativas": [
+      "Capaz de se recuperar de adversidades",
+      "Fora de sua época",
+      "Pessoa que age em benefício de outros",
+      "Que permite mais de uma interpretação"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual palavra significa: Capaz de se recuperar de adversidades?",
+    "alternativas": [
+      "Resiliente",
+      "Anacrônico",
+      "Ambíguo",
+      "Altruísta"
+    ],
+    "correta": 0,
+    "categoria": "português",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 12?",
+    "alternativas": [
+      "2.4",
+      "3.0",
+      "1.8",
+      "0.6"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 13?",
+    "alternativas": [
+      "0.52",
+      "3.9",
+      "3.25",
+      "2.6"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 14?",
+    "alternativas": [
+      "3.5",
+      "0.47",
+      "4.2",
+      "4.9"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 15?",
+    "alternativas": [
+      "2.25",
+      "0.75",
+      "1.5",
+      "2.5"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 16?",
+    "alternativas": [
+      "2.4",
+      "1.6",
+      "1.07",
+      "3.2"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 17?",
+    "alternativas": [
+      "2.55",
+      "0.85",
+      "3.4",
+      "4.25"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 18?",
+    "alternativas": [
+      "5.4",
+      "3.6",
+      "4.5",
+      "0.72"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 19?",
+    "alternativas": [
+      "0.63",
+      "6.65",
+      "4.75",
+      "5.7"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 20?",
+    "alternativas": [
+      "2",
+      "1.0",
+      "3.0",
+      "2.0"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 21?",
+    "alternativas": [
+      "3.15",
+      "2.1",
+      "1.4",
+      "4.2"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 22?",
+    "alternativas": [
+      "1.1",
+      "5.5",
+      "4.4",
+      "3.3"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 23?",
+    "alternativas": [
+      "5.75",
+      "0.92",
+      "4.6",
+      "6.9"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 24?",
+    "alternativas": [
+      "8.4",
+      "7.2",
+      "6.0",
+      "0.8"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 25?",
+    "alternativas": [
+      "2.5",
+      "1.25",
+      "3.75",
+      "3.5"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 26?",
+    "alternativas": [
+      "2.6",
+      "1.73",
+      "5.2",
+      "3.9"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 27?",
+    "alternativas": [
+      "1.35",
+      "5.4",
+      "6.75",
+      "4.05"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 28?",
+    "alternativas": [
+      "7",
+      "8.4",
+      "5.6",
+      "1.12"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 29?",
+    "alternativas": [
+      "8.7",
+      "7.25",
+      "0.97",
+      "10.15"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 30?",
+    "alternativas": [
+      "3.0",
+      "3",
+      "1.5",
+      "4.5"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 31?",
+    "alternativas": [
+      "6.2",
+      "4.65",
+      "2.07",
+      "3.1"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 32?",
+    "alternativas": [
+      "1.6",
+      "8.0",
+      "4.8",
+      "6.4"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 33?",
+    "alternativas": [
+      "9.9",
+      "8.25",
+      "1.32",
+      "6.6"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 34?",
+    "alternativas": [
+      "1.13",
+      "8.5",
+      "10.2",
+      "11.9"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 35?",
+    "alternativas": [
+      "1.75",
+      "5.25",
+      "3.5",
+      "4.5"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 36?",
+    "alternativas": [
+      "5.4",
+      "7.2",
+      "2.4",
+      "3.6"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 37?",
+    "alternativas": [
+      "7.4",
+      "5.55",
+      "1.85",
+      "9.25"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 38?",
+    "alternativas": [
+      "1.52",
+      "7.6",
+      "11.4",
+      "9.5"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 39?",
+    "alternativas": [
+      "11.7",
+      "13.65",
+      "9.75",
+      "1.3"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 40?",
+    "alternativas": [
+      "4",
+      "4.0",
+      "6.0",
+      "2.0"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 41?",
+    "alternativas": [
+      "2.73",
+      "6.15",
+      "8.2",
+      "4.1"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 42?",
+    "alternativas": [
+      "2.1",
+      "10.5",
+      "8.4",
+      "6.3"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 43?",
+    "alternativas": [
+      "12.9",
+      "10.75",
+      "8.6",
+      "1.72"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 44?",
+    "alternativas": [
+      "1.47",
+      "15.4",
+      "13.2",
+      "11.0"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 45?",
+    "alternativas": [
+      "4.5",
+      "5.5",
+      "6.75",
+      "2.25"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 46?",
+    "alternativas": [
+      "9.2",
+      "4.6",
+      "6.9",
+      "3.07"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 47?",
+    "alternativas": [
+      "2.35",
+      "9.4",
+      "11.75",
+      "7.05"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 48?",
+    "alternativas": [
+      "14.4",
+      "9.6",
+      "12",
+      "1.92"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 49?",
+    "alternativas": [
+      "17.15",
+      "14.7",
+      "1.63",
+      "12.25"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 50?",
+    "alternativas": [
+      "5.0",
+      "2.5",
+      "5",
+      "7.5"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 51?",
+    "alternativas": [
+      "5.1",
+      "3.4",
+      "7.65",
+      "10.2"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 52?",
+    "alternativas": [
+      "13.0",
+      "7.8",
+      "10.4",
+      "2.6"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 53?",
+    "alternativas": [
+      "15.9",
+      "10.6",
+      "2.12",
+      "13.25"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 54?",
+    "alternativas": [
+      "1.8",
+      "13.5",
+      "18.9",
+      "16.2"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 55?",
+    "alternativas": [
+      "5.5",
+      "2.75",
+      "8.25",
+      "6.5"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 56?",
+    "alternativas": [
+      "11.2",
+      "3.73",
+      "8.4",
+      "5.6"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 57?",
+    "alternativas": [
+      "11.4",
+      "2.85",
+      "8.55",
+      "14.25"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 58?",
+    "alternativas": [
+      "11.6",
+      "14.5",
+      "2.32",
+      "17.4"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 59?",
+    "alternativas": [
+      "14.75",
+      "20.65",
+      "17.7",
+      "1.97"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 60?",
+    "alternativas": [
+      "3.0",
+      "6",
+      "9.0",
+      "6.0"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 61?",
+    "alternativas": [
+      "6.1",
+      "9.15",
+      "4.07",
+      "12.2"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 62?",
+    "alternativas": [
+      "3.1",
+      "12.4",
+      "15.5",
+      "9.3"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 63?",
+    "alternativas": [
+      "12.6",
+      "18.9",
+      "2.52",
+      "15.75"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 64?",
+    "alternativas": [
+      "22.4",
+      "2.13",
+      "16.0",
+      "19.2"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 65?",
+    "alternativas": [
+      "9.75",
+      "6.5",
+      "7.5",
+      "3.25"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 66?",
+    "alternativas": [
+      "13.2",
+      "4.4",
+      "9.9",
+      "6.6"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 67?",
+    "alternativas": [
+      "13.4",
+      "16.75",
+      "10.05",
+      "3.35"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 68?",
+    "alternativas": [
+      "13.6",
+      "2.72",
+      "17",
+      "20.4"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 69?",
+    "alternativas": [
+      "24.15",
+      "20.7",
+      "2.3",
+      "17.25"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 70?",
+    "alternativas": [
+      "3.5",
+      "7",
+      "7.0",
+      "10.5"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 71?",
+    "alternativas": [
+      "14.2",
+      "10.65",
+      "4.73",
+      "7.1"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 72?",
+    "alternativas": [
+      "14.4",
+      "18.0",
+      "3.6",
+      "10.8"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 73?",
+    "alternativas": [
+      "2.92",
+      "18.25",
+      "14.6",
+      "21.9"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 74?",
+    "alternativas": [
+      "18.5",
+      "22.2",
+      "25.9",
+      "2.47"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 75?",
+    "alternativas": [
+      "11.25",
+      "7.5",
+      "3.75",
+      "8.5"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 76?",
+    "alternativas": [
+      "7.6",
+      "5.07",
+      "15.2",
+      "11.4"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 20% de 77?",
+    "alternativas": [
+      "11.55",
+      "19.25",
+      "15.4",
+      "3.85"
+    ],
+    "correta": 2,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 25% de 78?",
+    "alternativas": [
+      "19.5",
+      "23.4",
+      "3.12",
+      "15.6"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 30% de 79?",
+    "alternativas": [
+      "23.7",
+      "2.63",
+      "19.75",
+      "27.65"
+    ],
+    "correta": 0,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 10% de 80?",
+    "alternativas": [
+      "12.0",
+      "8",
+      "4.0",
+      "8.0"
+    ],
+    "correta": 1,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Quanto é 15% de 81?",
+    "alternativas": [
+      "8.1",
+      "16.2",
+      "5.4",
+      "12.15"
+    ],
+    "correta": 3,
+    "categoria": "matemática",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 10, 14, 18, 22, ...?",
+    "alternativas": [
+      "30",
+      "27",
+      "25",
+      "26"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 11, 16, 21, 26, ...?",
+    "alternativas": [
+      "30",
+      "31",
+      "32",
+      "36"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 12, 18, 24, 30, ...?",
+    "alternativas": [
+      "42",
+      "36",
+      "37",
+      "35"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 0, 7, 14, 21, ...?",
+    "alternativas": [
+      "29",
+      "35",
+      "27",
+      "28"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 1, 9, 17, 25, ...?",
+    "alternativas": [
+      "34",
+      "32",
+      "41",
+      "33"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 2, 11, 20, 29, ...?",
+    "alternativas": [
+      "38",
+      "39",
+      "37",
+      "47"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 3, 5, 7, 9, ...?",
+    "alternativas": [
+      "13",
+      "11",
+      "12",
+      "10"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 4, 7, 10, 13, ...?",
+    "alternativas": [
+      "16",
+      "19",
+      "15",
+      "17"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 5, 9, 13, 17, ...?",
+    "alternativas": [
+      "20",
+      "22",
+      "25",
+      "21"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 6, 11, 16, 21, ...?",
+    "alternativas": [
+      "31",
+      "26",
+      "27",
+      "25"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 7, 13, 19, 25, ...?",
+    "alternativas": [
+      "31",
+      "30",
+      "37",
+      "32"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 8, 15, 22, 29, ...?",
+    "alternativas": [
+      "37",
+      "35",
+      "36",
+      "43"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 9, 17, 25, 33, ...?",
+    "alternativas": [
+      "49",
+      "41",
+      "42",
+      "40"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 10, 19, 28, 37, ...?",
+    "alternativas": [
+      "45",
+      "46",
+      "55",
+      "47"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 11, 13, 15, 17, ...?",
+    "alternativas": [
+      "20",
+      "18",
+      "19",
+      "21"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 12, 15, 18, 21, ...?",
+    "alternativas": [
+      "27",
+      "24",
+      "25",
+      "23"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 0, 4, 8, 12, ...?",
+    "alternativas": [
+      "15",
+      "17",
+      "20",
+      "16"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 1, 6, 11, 16, ...?",
+    "alternativas": [
+      "21",
+      "22",
+      "20",
+      "26"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 2, 8, 14, 20, ...?",
+    "alternativas": [
+      "26",
+      "27",
+      "32",
+      "25"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 3, 10, 17, 24, ...?",
+    "alternativas": [
+      "38",
+      "30",
+      "32",
+      "31"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 4, 12, 20, 28, ...?",
+    "alternativas": [
+      "35",
+      "37",
+      "44",
+      "36"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 5, 14, 23, 32, ...?",
+    "alternativas": [
+      "50",
+      "40",
+      "42",
+      "41"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 6, 8, 10, 12, ...?",
+    "alternativas": [
+      "13",
+      "15",
+      "16",
+      "14"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 7, 10, 13, 16, ...?",
+    "alternativas": [
+      "18",
+      "19",
+      "20",
+      "22"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 8, 12, 16, 20, ...?",
+    "alternativas": [
+      "25",
+      "28",
+      "24",
+      "23"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 9, 14, 19, 24, ...?",
+    "alternativas": [
+      "28",
+      "34",
+      "29",
+      "30"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 10, 16, 22, 28, ...?",
+    "alternativas": [
+      "40",
+      "33",
+      "35",
+      "34"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 11, 18, 25, 32, ...?",
+    "alternativas": [
+      "40",
+      "38",
+      "39",
+      "46"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 12, 20, 28, 36, ...?",
+    "alternativas": [
+      "45",
+      "44",
+      "52",
+      "43"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 0, 9, 18, 27, ...?",
+    "alternativas": [
+      "37",
+      "36",
+      "45",
+      "35"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 1, 3, 5, 7, ...?",
+    "alternativas": [
+      "8",
+      "9",
+      "11",
+      "10"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 2, 5, 8, 11, ...?",
+    "alternativas": [
+      "15",
+      "13",
+      "14",
+      "17"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 3, 7, 11, 15, ...?",
+    "alternativas": [
+      "20",
+      "18",
+      "23",
+      "19"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 4, 9, 14, 19, ...?",
+    "alternativas": [
+      "29",
+      "25",
+      "23",
+      "24"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 5, 11, 17, 23, ...?",
+    "alternativas": [
+      "35",
+      "28",
+      "29",
+      "30"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 6, 13, 20, 27, ...?",
+    "alternativas": [
+      "33",
+      "41",
+      "35",
+      "34"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 7, 15, 23, 31, ...?",
+    "alternativas": [
+      "38",
+      "39",
+      "47",
+      "40"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 8, 17, 26, 35, ...?",
+    "alternativas": [
+      "44",
+      "45",
+      "53",
+      "43"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 9, 11, 13, 15, ...?",
+    "alternativas": [
+      "17",
+      "16",
+      "18",
+      "19"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 10, 13, 16, 19, ...?",
+    "alternativas": [
+      "22",
+      "23",
+      "25",
+      "21"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 11, 15, 19, 23, ...?",
+    "alternativas": [
+      "26",
+      "31",
+      "27",
+      "28"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 12, 17, 22, 27, ...?",
+    "alternativas": [
+      "32",
+      "37",
+      "31",
+      "33"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 0, 6, 12, 18, ...?",
+    "alternativas": [
+      "24",
+      "23",
+      "30",
+      "25"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 1, 8, 15, 22, ...?",
+    "alternativas": [
+      "36",
+      "30",
+      "29",
+      "28"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 2, 10, 18, 26, ...?",
+    "alternativas": [
+      "34",
+      "33",
+      "35",
+      "42"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 3, 12, 21, 30, ...?",
+    "alternativas": [
+      "40",
+      "48",
+      "38",
+      "39"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 4, 6, 8, 10, ...?",
+    "alternativas": [
+      "11",
+      "13",
+      "14",
+      "12"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 5, 8, 11, 14, ...?",
+    "alternativas": [
+      "16",
+      "18",
+      "20",
+      "17"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 6, 10, 14, 18, ...?",
+    "alternativas": [
+      "26",
+      "23",
+      "21",
+      "22"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 7, 12, 17, 22, ...?",
+    "alternativas": [
+      "27",
+      "28",
+      "26",
+      "32"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 8, 14, 20, 26, ...?",
+    "alternativas": [
+      "31",
+      "38",
+      "33",
+      "32"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 9, 16, 23, 30, ...?",
+    "alternativas": [
+      "37",
+      "36",
+      "38",
+      "44"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 10, 18, 26, 34, ...?",
+    "alternativas": [
+      "50",
+      "41",
+      "42",
+      "43"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 11, 20, 29, 38, ...?",
+    "alternativas": [
+      "56",
+      "46",
+      "48",
+      "47"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 12, 14, 16, 18, ...?",
+    "alternativas": [
+      "22",
+      "20",
+      "21",
+      "19"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 0, 3, 6, 9, ...?",
+    "alternativas": [
+      "11",
+      "13",
+      "15",
+      "12"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 1, 5, 9, 13, ...?",
+    "alternativas": [
+      "18",
+      "17",
+      "21",
+      "16"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 2, 7, 12, 17, ...?",
+    "alternativas": [
+      "23",
+      "22",
+      "27",
+      "21"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 3, 9, 15, 21, ...?",
+    "alternativas": [
+      "33",
+      "28",
+      "26",
+      "27"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 4, 11, 18, 25, ...?",
+    "alternativas": [
+      "33",
+      "39",
+      "32",
+      "31"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 5, 13, 21, 29, ...?",
+    "alternativas": [
+      "36",
+      "45",
+      "37",
+      "38"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 6, 15, 24, 33, ...?",
+    "alternativas": [
+      "43",
+      "42",
+      "41",
+      "51"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 7, 9, 11, 13, ...?",
+    "alternativas": [
+      "17",
+      "15",
+      "16",
+      "14"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 8, 11, 14, 17, ...?",
+    "alternativas": [
+      "23",
+      "20",
+      "19",
+      "21"
+    ],
+    "correta": 1,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 9, 13, 17, 21, ...?",
+    "alternativas": [
+      "25",
+      "26",
+      "24",
+      "29"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 10, 15, 20, 25, ...?",
+    "alternativas": [
+      "29",
+      "31",
+      "30",
+      "35"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 11, 17, 23, 29, ...?",
+    "alternativas": [
+      "35",
+      "41",
+      "36",
+      "34"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 12, 19, 26, 33, ...?",
+    "alternativas": [
+      "40",
+      "39",
+      "41",
+      "47"
+    ],
+    "correta": 0,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 0, 8, 16, 24, ...?",
+    "alternativas": [
+      "31",
+      "40",
+      "32",
+      "33"
+    ],
+    "correta": 2,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  },
+  {
+    "pergunta": "Qual é o próximo termo: 1, 10, 19, 28, ...?",
+    "alternativas": [
+      "36",
+      "46",
+      "38",
+      "37"
+    ],
+    "correta": 3,
+    "categoria": "lógica",
+    "dificuldade": "media"
+  }
+]

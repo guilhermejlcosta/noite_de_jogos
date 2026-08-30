@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Não Pode</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/nao_pode/style.css"
+    >
+
+</head>
+
+<body>
+
+<div class="container">
+
+
+    <!-- =====================================================
+         ENTRADA
+         ===================================================== -->
+
+    <div
+        id="entrada"
+        class="card"
+    >
+
+        <h1>
+            🎮 NÃO PODE
+        </h1>
+
+
+        <div id="entradaNova">
+
+            <input
+                id="nome"
+                type="text"
+                placeholder="Seu nome"
+                maxlength="20"
+                autocomplete="off"
+            >
+
+
+            <button
+                class="verde"
+                onclick="entrar()"
+            >
+                ENTRAR NA SALA
+            </button>
+
+
+            <button
+                class="cinza"
+                onclick="mostrarRecuperacao()"
+            >
+                🔑 RECONECTAR COM CÓDIGO
+            </button>
+
+        </div>
+
+
+        <div
+            id="recuperacao"
+            style="display: none;"
+        >
+
+            <h2>
+                Reconectar
+            </h2>
+
+
+            <input
+                id="codigoRecuperacao"
+                type="text"
+                inputmode="numeric"
+                maxlength="4"
+                placeholder="Código de 4 números"
+                autocomplete="off"
+            >
+
+
+            <button
+                class="azul"
+                onclick="recuperarComCodigo()"
+            >
+                RECONECTAR
+            </button>
+
+
+            <button
+                class="cinza"
+                onclick="esconderRecuperacao()"
+            >
+                VOLTAR
+            </button>
+
+        </div>
+
+
+        <div
+            id="status"
+            class="status"
+        >
+            Conectando...
+        </div>
+
+
+        <div class="versao">
+            versão 0.10 modular
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         SALA DO NÃO PODE
+         ===================================================== -->
+
+    <div
+        id="sala"
+        class="card"
+        style="display: none;"
+    >
+
+        <div class="controle-som">
+
+            <button
+                id="botaoSomSala"
+                class="cinza"
+                onclick="alternarSom()"
+            >
+                🔊 Sons ligados
+            </button>
+
+        </div>
+
+
+        <h1>
+            🎮 NÃO PODE
+        </h1>
+
+
+        <div class="codigo-destaque">
+
+            Seu código de recuperação
+
+            <strong id="meuCodigoSala">
+                ----
+            </strong>
+
+            <small>
+                Use se precisar entrar por outro celular.
+            </small>
+
+        </div>
+
+
+        <h2>
+            Jogadores
+        </h2>
+
+
+        <div id="listaJogadores">
+        </div>
+
+
+        <!-- =================================================
+             CONFIGURAÇÃO DO HOST
+             ================================================= -->
+
+        <div
+            id="configHost"
+            class="config"
+            style="display: none;"
+        >
+
+            <h3 style="margin-top: 0;">
+                ⚙️ Configuração da partida
+            </h3>
+
+
+            <label for="tempoPartida">
+                Tempo por jogador
+            </label>
+
+
+            <input
+                id="tempoPartida"
+                type="number"
+                value="60"
+                min="10"
+                max="300"
+            >
+
+
+            <label for="quantidadeRodadas">
+                Quantidade de rodadas
+            </label>
+
+
+            <input
+                id="quantidadeRodadas"
+                type="number"
+                value="5"
+                min="1"
+                max="20"
+            >
+
+
+            <small>
+                Em cada rodada, todos os jogadores jogam uma vez.
+            </small>
+
+
+            <button
+                id="botaoComecar"
+                class="verde"
+                onclick="comecarJogo()"
+            >
+                🎲 COMEÇAR JOGO
+            </button>
+
+        </div>
+
+
+        <div
+            id="avisoHost"
+            class="status"
+        >
+        </div>
+
+
+        <div class="versao">
+            versão 0.10 modular
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         JOGO
+         ===================================================== -->
+
+    <div
+        id="jogo"
+        class="card"
+        style="display: none;"
+    >
+
+        <div class="controle-som">
+
+            <button
+                id="botaoSomJogo"
+                class="cinza"
+                onclick="alternarSom()"
+            >
+                🔊 Sons ligados
+            </button>
+
+        </div>
+
+
+        <h1>
+            🎮 NÃO PODE
+        </h1>
+
+
+        <div class="topo-jogo">
+
+
+            <div class="info-box">
+
+                RODADA
+
+                <strong id="rodadaInfo">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="info-box">
+
+                TEMPO
+
+                <strong id="tempoConfigInfo">
+                    -
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             JOGADOR ATUAL
+             ================================================= -->
+
+        <div
+            id="areaVez"
+            class="vez"
+        >
+
+            VEZ DE
+
+            <strong id="jogadorAtual">
+                -
+            </strong>
+
+        </div>
+
+
+        <!-- =================================================
+             CRONÔMETRO
+             ================================================= -->
+
+        <div
+            id="cronometro"
+            class="timer timer-parado"
+        >
+            --:--
+        </div>
+
+
+        <!-- =================================================
+             PAUSA
+             ================================================= -->
+
+        <div
+            id="areaPausa"
+            class="pausa"
+            style="display: none;"
+        >
+
+            <h2>
+                ⏸ PARTIDA PAUSADA
+            </h2>
+
+
+            <p id="textoPausa">
+            </p>
+
+
+            <button
+                id="botaoPularDesconectado"
+                class="amarelo"
+                onclick="pularDesconectado()"
+                style="display: none;"
+            >
+                ⏭ PULAR JOGADOR
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             TEMPO ESGOTADO
+             ================================================= -->
+
+        <div
+            id="avisoTempo"
+            class="aviso-tempo"
+            style="display: none;"
+        >
+            ⏰ TEMPO ESGOTADO
+        </div>
+
+
+        <!-- =================================================
+             REVELAR CARTA
+             ================================================= -->
+
+        <div
+            id="areaRevelar"
+            style="display: none;"
+        >
+
+            <div class="escondida">
+
+                <span>
+                    🃏
+                </span>
+
+                <h2>
+                    Sua carta está pronta
+                </h2>
+
+                <p>
+                    O cronômetro começa quando você revelar.
+                </p>
+
+            </div>
+
+
+            <button
+                class="azul"
+                onclick="revelarCarta()"
+            >
+                👀 REVELAR CARTA
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             CARTA
+             ================================================= -->
+
+        <div
+            id="carta"
+            class="carta"
+            style="display: none;"
+        >
+
+            <div>
+                SUA PALAVRA
+            </div>
+
+
+            <div
+                id="palavra"
+                class="palavra"
+            >
+            </div>
+
+
+            <strong>
+                NÃO PODE FALAR:
+            </strong>
+
+
+            <div id="proibidas">
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CARTA ESCONDIDA
+             ================================================= -->
+
+        <div
+            id="cartaEscondida"
+            class="escondida"
+        >
+
+            <span>
+                🤫
+            </span>
+
+            <h2>
+                Carta escondida
+            </h2>
+
+            <p id="textoEscondido">
+                Aguardando o jogador revelar a carta.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             CONTROLES DO HOST
+             ================================================= -->
+
+        <div
+            id="controlesHost"
+            style="display: none;"
+        >
+
+            <div class="botoes">
+
+
+                <button
+                    class="verde"
+                    onclick="resultado(true)"
+                >
+                    ✅ ACERTOU
+                </button>
+
+
+                <button
+                    class="vermelho"
+                    onclick="resultado(false)"
+                >
+                    ❌ ERROU
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CÓDIGO
+             ================================================= -->
+
+        <div class="codigo-destaque">
+
+            Seu código de recuperação
+
+            <strong id="meuCodigoJogo">
+                ----
+            </strong>
+
+        </div>
+
+
+        <!-- =================================================
+             PLACAR
+             ================================================= -->
+
+        <div class="placar">
+
+            <h3>
+                🏆 Placar
+            </h3>
+
+            <div id="placar">
+            </div>
+
+        </div>
+
+
+        <div class="versao">
+            versão 0.10 modular
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         FINAL
+         ===================================================== -->
+
+    <div
+        id="final"
+        class="card"
+        style="display: none;"
+    >
+
+        <h1>
+            🎮 NÃO PODE
+        </h1>
+
+
+        <div class="trofeu">
+            🏆
+        </div>
+
+
+        <div class="final-titulo">
+            Fim da partida!
+        </div>
+
+
+        <div
+            id="vencedor"
+            class="vencedor"
+        >
+        </div>
+
+
+        <h3>
+            Placar final
+        </h3>
+
+
+        <div id="placarFinal">
+        </div>
+
+
+        <!-- =================================================
+             DECISÃO DO HOST
+             ================================================= -->
+
+        <button
+            id="botaoNovaPartida"
+            class="amarelo"
+            onclick="novaPartida()"
+            style="display: none;"
+        >
+            🔄 JOGAR NOVAMENTE
+        </button>
+
+
+        <button
+            id="botaoVoltarLobby"
+            class="azul"
+            onclick="voltarLobby()"
+            style="display: none;"
+        >
+            🎮 VOLTAR PARA NOITE DE JOGOS
+        </button>
+
+
+        <div
+            id="avisoNovaPartida"
+            class="status"
+        >
+        </div>
+
+
+        <div class="versao">
+            versão 0.10 modular
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+
+     v=10 força atualização nos celulares.
+     ========================================================= -->
+
+<script src="/static/nao_pode/game.js?v=10"></script>
+
+
+</body>
+
+</html>

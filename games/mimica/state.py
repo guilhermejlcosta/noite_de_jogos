@@ -1,0 +1,20 @@
+VERSAO = "0.1"
+
+jogo_iniciado = False
+jogo_finalizado = False
+ordem_jogadores = []
+indice_atual = 0
+jogador_atual_id = None
+rodada_atual = 1
+rodadas_configuradas = 3
+tempo_configurado = 60
+tempo_restante = 60
+tema_atual = None
+tema_revelado = False
+temas_usados = []
+pontos = {}
+turno_travado = False
+partida_pausada = False
+jogador_pausado_id = None
+timer_task = None
+jogadores_retornando_lobby = set()

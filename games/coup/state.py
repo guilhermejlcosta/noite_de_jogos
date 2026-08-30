@@ -1,0 +1,13 @@
+VERSAO = "0.1"
+jogo_iniciado = False
+jogo_finalizado = False
+fase = "aguardando"
+participantes = []
+jogadores = {}
+baralho = []
+indice_turno = 0
+acao_pendente = None
+mensagem = ""
+historico = []
+vencedor_id = None
+jogadores_retornando_lobby = set()

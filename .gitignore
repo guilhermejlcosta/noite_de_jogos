@@ -1,0 +1,14 @@
+# Ambiente e caches Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ferramentas e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Arquivos locais
+.env

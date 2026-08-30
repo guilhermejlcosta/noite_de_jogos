@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Noite de Jogos</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/main.css"
+    >
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- =====================================================
+         TELA DE ENTRADA
+         ===================================================== -->
+
+    <div
+        id="entrada"
+        class="card"
+    >
+
+        <div class="logo">
+            🎮
+        </div>
+
+        <h1>
+            NOITE DE JOGOS
+        </h1>
+
+        <p class="subtitulo">
+            Entre na sala e prepare-se para jogar.
+        </p>
+
+
+        <!-- =================================================
+             ENTRADA NORMAL
+             ================================================= -->
+
+        <div id="entradaNova">
+
+            <input
+                id="nome"
+                type="text"
+                placeholder="Seu nome"
+                maxlength="20"
+                autocomplete="off"
+            >
+
+            <button
+                class="verde"
+                onclick="entrar()"
+            >
+                ENTRAR NA SALA
+            </button>
+
+            <button
+                class="cinza"
+                onclick="mostrarRecuperacao()"
+            >
+                🔑 RECONECTAR COM CÓDIGO
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             RECUPERAÇÃO POR CÓDIGO
+             ================================================= -->
+
+        <div
+            id="recuperacao"
+            style="display: none;"
+        >
+
+            <h2>
+                Reconectar
+            </h2>
+
+            <input
+                id="codigoRecuperacao"
+                type="text"
+                inputmode="numeric"
+                maxlength="4"
+                placeholder="Código de 4 números"
+                autocomplete="off"
+            >
+
+            <button
+                class="azul"
+                onclick="recuperarComCodigo()"
+            >
+                RECONECTAR
+            </button>
+
+            <button
+                class="cinza"
+                onclick="esconderRecuperacao()"
+            >
+                VOLTAR
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             STATUS DE CONEXÃO
+             ================================================= -->
+
+        <div
+            id="status"
+            class="status"
+        >
+            Conectando...
+        </div>
+
+
+        <div class="versao">
+            Noite de Jogos 0.2
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         LOBBY
+         ===================================================== -->
+
+    <div
+        id="lobby"
+        class="card"
+        style="display: none;"
+    >
+
+        <div class="logo pequeno">
+            🎮
+        </div>
+
+        <h1>
+            NOITE DE JOGOS
+        </h1>
+
+
+        <!-- =================================================
+             CÓDIGO DE RECUPERAÇÃO
+             ================================================= -->
+
+        <div class="codigo-destaque">
+
+            Seu código de recuperação
+
+            <strong id="meuCodigo">
+                ----
+            </strong>
+
+            <small>
+                Guarde esse código caso precise trocar de celular.
+            </small>
+
+        </div>
+
+
+        <!-- =================================================
+             JOGADORES
+             ================================================= -->
+
+        <section>
+
+            <h2>
+                👥 Jogadores
+            </h2>
+
+            <div id="listaJogadores">
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             JOGOS
+             ================================================= -->
+
+        <section>
+
+            <h2>
+                🎲 Escolha o jogo
+            </h2>
+
+            <div
+                id="avisoHost"
+                class="status"
+            >
+                Aguardando jogadores...
+            </div>
+
+            <div
+                id="listaJogos"
+                class="grid-jogos"
+            >
+            </div>
+
+        </section>
+
+
+        <div class="versao">
+            Noite de Jogos 0.2
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="modalRegras" class="modal-regras oculto" role="dialog" aria-modal="true" aria-labelledby="tituloRegras">
+    <div class="modal-regras-conteudo">
+        <button id="fecharRegras" class="fechar-regras" type="button" aria-label="Fechar regras">×</button>
+        <div id="iconeRegras" class="modal-regras-icone"></div>
+        <h2 id="tituloRegras"></h2>
+        <h3>Objetivo</h3>
+        <p id="objetivoRegras"></p>
+        <h3>Como jogar</h3>
+        <ol id="passosRegras"></ol>
+        <h3>Exemplo</h3>
+        <p id="exemploRegras" class="exemplo-regras"></p>
+    </div>
+</div>
+
+
+<!-- =========================================================
+     JAVASCRIPT DO LOBBY
+
+     ?v=3 serve para evitar que o navegador use uma versão
+     antiga do lobby.js que esteja no cache.
+     ========================================================= -->
+
+<script src="/static/js/lobby.js?v=4"></script>
+
+</body>
+</html>

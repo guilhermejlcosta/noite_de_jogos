@@ -1,0 +1,13 @@
+[
+  {"id": "nome", "nome": "Nome"},
+  {"id": "animal", "nome": "Animal"},
+  {"id": "comida", "nome": "Comida"},
+  {"id": "cep", "nome": "CEP (Cidade, Estado ou País)"},
+  {"id": "fruta", "nome": "Fruta"},
+  {"id": "filme_serie_anime", "nome": "Filme, Série ou Anime"},
+  {"id": "personagem", "nome": "Personagem"},
+  {"id": "carro", "nome": "Carro"},
+  {"id": "marca", "nome": "Marca"},
+  {"id": "objeto", "nome": "Objeto"},
+  {"id": "profissao", "nome": "Profissão"}
+]

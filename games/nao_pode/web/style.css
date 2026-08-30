@@ -1,0 +1,900 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    padding: 20px;
+
+    min-height: 100vh;
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    background:
+        #111827;
+
+    color:
+        white;
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    align-items:
+        center;
+
+}
+
+
+.container {
+
+    width:
+        100%;
+
+    max-width:
+        470px;
+
+}
+
+
+.card {
+
+    background:
+        #1f2937;
+
+    padding:
+        28px;
+
+    border-radius:
+        20px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(
+            0,
+            0,
+            0,
+            .4
+        );
+
+}
+
+
+h1 {
+
+    text-align:
+        center;
+
+    margin-top:
+        0;
+
+    font-size:
+        38px;
+
+}
+
+
+h2 {
+
+    text-align:
+        center;
+
+}
+
+
+input {
+
+    width:
+        100%;
+
+    padding:
+        15px;
+
+    margin:
+        6px 0 14px;
+
+    border:
+        none;
+
+    border-radius:
+        10px;
+
+    font-size:
+        18px;
+
+}
+
+
+label {
+
+    display:
+        block;
+
+    font-weight:
+        bold;
+
+    margin-top:
+        10px;
+
+}
+
+
+button {
+
+    width:
+        100%;
+
+    padding:
+        16px;
+
+    margin-top:
+        10px;
+
+    border:
+        none;
+
+    border-radius:
+        10px;
+
+    font-size:
+        18px;
+
+    font-weight:
+        bold;
+
+    cursor:
+        pointer;
+
+}
+
+
+button:disabled {
+
+    opacity:
+        .45;
+
+    cursor:
+        default;
+
+}
+
+
+.verde {
+
+    background:
+        #10b981;
+
+    color:
+        white;
+
+}
+
+
+.vermelho {
+
+    background:
+        #ef4444;
+
+    color:
+        white;
+
+}
+
+
+.azul {
+
+    background:
+        #2563eb;
+
+    color:
+        white;
+
+}
+
+
+.amarelo {
+
+    background:
+        #f59e0b;
+
+    color:
+        #111827;
+
+}
+
+
+.cinza {
+
+    background:
+        #4b5563;
+
+    color:
+        white;
+
+}
+
+
+.status {
+
+    text-align:
+        center;
+
+    margin-top:
+        18px;
+
+    color:
+        #9ca3af;
+
+}
+
+
+.versao {
+
+    text-align:
+        center;
+
+    color:
+        #6b7280;
+
+    font-size:
+        12px;
+
+    margin-top:
+        18px;
+
+}
+
+
+.jogador {
+
+    background:
+        #374151;
+
+    padding:
+        14px;
+
+    margin-bottom:
+        10px;
+
+    border-radius:
+        10px;
+
+}
+
+
+.linha-jogador {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    gap:
+        10px;
+
+}
+
+
+.host {
+
+    color:
+        #fbbf24;
+
+    font-size:
+        13px;
+
+    font-weight:
+        bold;
+
+    margin-top:
+        4px;
+
+}
+
+
+.codigo {
+
+    color:
+        #c4b5fd;
+
+    font-size:
+        13px;
+
+    margin-top:
+        5px;
+
+}
+
+
+.config {
+
+    margin-top:
+        22px;
+
+    padding:
+        18px;
+
+    background:
+        #111827;
+
+    border-radius:
+        14px;
+
+}
+
+
+.config small {
+
+    color:
+        #9ca3af;
+
+}
+
+
+.codigo-destaque {
+
+    background:
+        #312e81;
+
+    padding:
+        12px;
+
+    border-radius:
+        10px;
+
+    text-align:
+        center;
+
+    margin:
+        15px 0;
+
+}
+
+
+.codigo-destaque strong {
+
+    display:
+        block;
+
+    font-size:
+        28px;
+
+    letter-spacing:
+        4px;
+
+    margin-top:
+        5px;
+
+}
+
+
+#recuperacao,
+#sala,
+#jogo,
+#final {
+
+    display:
+        none;
+
+}
+
+
+.topo-jogo {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap:
+        10px;
+
+    margin-bottom:
+        16px;
+
+}
+
+
+.info-box {
+
+    background:
+        #374151;
+
+    padding:
+        12px;
+
+    border-radius:
+        12px;
+
+    text-align:
+        center;
+
+}
+
+
+.info-box strong {
+
+    display:
+        block;
+
+    font-size:
+        21px;
+
+    margin-top:
+        4px;
+
+}
+
+
+.vez {
+
+    background:
+        #374151;
+
+    padding:
+        18px;
+
+    border-radius:
+        15px;
+
+    text-align:
+        center;
+
+    margin-bottom:
+        18px;
+
+}
+
+
+.vez strong {
+
+    display:
+        block;
+
+    font-size:
+        30px;
+
+    margin-top:
+        5px;
+
+}
+
+
+.minhaVez {
+
+    background:
+        #10b981;
+
+}
+
+
+.timer {
+
+    text-align:
+        center;
+
+    font-size:
+        58px;
+
+    font-weight:
+        bold;
+
+    margin:
+        12px 0 20px;
+
+}
+
+
+.timer-parado {
+
+    color:
+        #9ca3af;
+
+}
+
+
+.timer-acabando {
+
+    color:
+        #f87171;
+
+    animation:
+        pulsarTimer
+        .55s
+        ease-in-out
+        infinite
+        alternate;
+
+}
+
+
+.carta {
+
+    background:
+        white;
+
+    color:
+        #111827;
+
+    padding:
+        24px;
+
+    border-radius:
+        20px;
+
+    text-align:
+        center;
+
+    margin-bottom:
+        18px;
+
+}
+
+
+.palavra {
+
+    font-size:
+        38px;
+
+    font-weight:
+        bold;
+
+    margin:
+        14px 0 22px;
+
+}
+
+
+.proibida {
+
+    background:
+        #fee2e2;
+
+    color:
+        #991b1b;
+
+    padding:
+        10px;
+
+    margin:
+        8px 0;
+
+    border-radius:
+        8px;
+
+    font-weight:
+        bold;
+
+}
+
+
+.escondida {
+
+    background:
+        #374151;
+
+    text-align:
+        center;
+
+    padding:
+        28px 20px;
+
+    border-radius:
+        20px;
+
+    margin-bottom:
+        18px;
+
+}
+
+
+.escondida span {
+
+    font-size:
+        48px;
+
+}
+
+
+.aviso-tempo {
+
+    background:
+        #7f1d1d;
+
+    padding:
+        15px;
+
+    border-radius:
+        12px;
+
+    text-align:
+        center;
+
+    font-weight:
+        bold;
+
+    margin-bottom:
+        16px;
+
+    display:
+        none;
+
+}
+
+
+.pausa {
+
+    display:
+        none;
+
+    background:
+        #78350f;
+
+    padding:
+        20px;
+
+    border-radius:
+        15px;
+
+    text-align:
+        center;
+
+    margin-bottom:
+        18px;
+
+}
+
+
+.botoes {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap:
+        10px;
+
+}
+
+
+.placar {
+
+    margin-top:
+        24px;
+
+}
+
+
+.placar-item {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    background:
+        #374151;
+
+    padding:
+        12px 14px;
+
+    border-radius:
+        9px;
+
+    margin-bottom:
+        7px;
+
+}
+
+
+.placar-item.lider {
+
+    outline:
+        2px solid
+        #fbbf24;
+
+}
+
+
+.final-titulo {
+
+    text-align:
+        center;
+
+    font-size:
+        28px;
+
+}
+
+
+.trofeu {
+
+    text-align:
+        center;
+
+    font-size:
+        70px;
+
+    margin:
+        10px 0;
+
+}
+
+
+.vencedor {
+
+    text-align:
+        center;
+
+    font-size:
+        30px;
+
+    font-weight:
+        bold;
+
+    margin-bottom:
+        24px;
+
+}
+
+
+.controle-som {
+
+    display:
+        flex;
+
+    justify-content:
+        flex-end;
+
+    margin-bottom:
+        10px;
+
+}
+
+
+.controle-som button {
+
+    width:
+        auto;
+
+    padding:
+        9px 13px;
+
+    margin:
+        0;
+
+    font-size:
+        14px;
+
+}
+
+
+.troca-turno {
+
+    animation:
+        entradaTurno
+        .65s
+        ease;
+
+}
+
+
+.troca-turno strong {
+
+    animation:
+        nomeTurno
+        .65s
+        ease;
+
+}
+
+
+@keyframes entradaTurno {
+
+    0% {
+
+        opacity:
+            .2;
+
+        transform:
+            scale(.88)
+            translateY(-12px);
+
+    }
+
+
+    55% {
+
+        transform:
+            scale(1.05);
+
+    }
+
+
+    100% {
+
+        opacity:
+            1;
+
+        transform:
+            scale(1)
+            translateY(0);
+
+    }
+
+}
+
+
+@keyframes nomeTurno {
+
+    0% {
+
+        letter-spacing:
+            9px;
+
+        opacity:
+            .25;
+
+    }
+
+
+    100% {
+
+        letter-spacing:
+            normal;
+
+        opacity:
+            1;
+
+    }
+
+}
+
+
+@keyframes pulsarTimer {
+
+    from {
+
+        transform:
+            scale(1);
+
+    }
+
+
+    to {
+
+        transform:
+            scale(1.07);
+
+    }
+
+}
+
+
+@media (
+    prefers-reduced-motion:
+    reduce
+) {
+
+    .troca-turno,
+    .troca-turno strong,
+    .timer-acabando {
+
+        animation:
+            none;
+
+    }
+
+}

@@ -1,0 +1,5002 @@
+[
+  {
+    "palavra": "PIZZA",
+    "proibidas": [
+      "queijo",
+      "massa",
+      "forno",
+      "redonda",
+      "italiana"
+    ]
+  },
+  {
+    "palavra": "AVIÃO",
+    "proibidas": [
+      "voar",
+      "piloto",
+      "aeroporto",
+      "céu",
+      "viagem"
+    ]
+  },
+  {
+    "palavra": "FUTEBOL",
+    "proibidas": [
+      "bola",
+      "gol",
+      "jogador",
+      "campo",
+      "time"
+    ]
+  },
+  {
+    "palavra": "CACHORRO",
+    "proibidas": [
+      "animal",
+      "latir",
+      "pet",
+      "rabo",
+      "osso"
+    ]
+  },
+  {
+    "palavra": "CELULAR",
+    "proibidas": [
+      "telefone",
+      "ligar",
+      "mensagem",
+      "aplicativo",
+      "tela"
+    ]
+  },
+  {
+    "palavra": "NETFLIX",
+    "proibidas": [
+      "série",
+      "filme",
+      "streaming",
+      "assistir",
+      "televisão"
+    ]
+  },
+  {
+    "palavra": "HAMBÚRGUER",
+    "proibidas": [
+      "carne",
+      "pão",
+      "lanche",
+      "queijo",
+      "fast-food"
+    ]
+  },
+  {
+    "palavra": "BANHEIRO",
+    "proibidas": [
+      "privada",
+      "chuveiro",
+      "banho",
+      "xixi",
+      "casa"
+    ]
+  },
+  {
+    "palavra": "ARROZ",
+    "proibidas": [
+      "feijão",
+      "branco",
+      "panela",
+      "comida",
+      "grão"
+    ]
+  },
+  {
+    "palavra": "FEIJÃO",
+    "proibidas": [
+      "arroz",
+      "preto",
+      "panela",
+      "grão",
+      "comida"
+    ]
+  },
+  {
+    "palavra": "MACARRÃO",
+    "proibidas": [
+      "massa",
+      "molho",
+      "italiano",
+      "espaguete",
+      "garfo"
+    ]
+  },
+  {
+    "palavra": "LASANHA",
+    "proibidas": [
+      "massa",
+      "queijo",
+      "molho",
+      "forno",
+      "italiana"
+    ]
+  },
+  {
+    "palavra": "SUSHI",
+    "proibidas": [
+      "japonês",
+      "peixe",
+      "arroz",
+      "cru",
+      "shoyu"
+    ]
+  },
+  {
+    "palavra": "CHURRASCO",
+    "proibidas": [
+      "carne",
+      "grelha",
+      "carvão",
+      "espeto",
+      "picanha"
+    ]
+  },
+  {
+    "palavra": "PIPOCA",
+    "proibidas": [
+      "milho",
+      "cinema",
+      "estourar",
+      "panela",
+      "manteiga"
+    ]
+  },
+  {
+    "palavra": "SORVETE",
+    "proibidas": [
+      "gelado",
+      "casquinha",
+      "doce",
+      "cremoso",
+      "verão"
+    ]
+  },
+  {
+    "palavra": "CHOCOLATE",
+    "proibidas": [
+      "cacau",
+      "doce",
+      "barra",
+      "bombom",
+      "leite"
+    ]
+  },
+  {
+    "palavra": "BRIGADEIRO",
+    "proibidas": [
+      "chocolate",
+      "festa",
+      "doce",
+      "leite condensado",
+      "granulado"
+    ]
+  },
+  {
+    "palavra": "BOLO",
+    "proibidas": [
+      "aniversário",
+      "farinha",
+      "forno",
+      "doce",
+      "vela"
+    ]
+  },
+  {
+    "palavra": "PÃO",
+    "proibidas": [
+      "padaria",
+      "farinha",
+      "café",
+      "miolo",
+      "casca"
+    ]
+  },
+  {
+    "palavra": "QUEIJO",
+    "proibidas": [
+      "leite",
+      "amarelo",
+      "mussarela",
+      "fatia",
+      "laticínio"
+    ]
+  },
+  {
+    "palavra": "PRESUNTO",
+    "proibidas": [
+      "porco",
+      "fatia",
+      "sanduíche",
+      "frio",
+      "carne"
+    ]
+  },
+  {
+    "palavra": "OVO",
+    "proibidas": [
+      "galinha",
+      "gema",
+      "clara",
+      "frito",
+      "cozido"
+    ]
+  },
+  {
+    "palavra": "BACON",
+    "proibidas": [
+      "porco",
+      "gordura",
+      "frito",
+      "crocante",
+      "carne"
+    ]
+  },
+  {
+    "palavra": "BATATA",
+    "proibidas": [
+      "frita",
+      "purê",
+      "legume",
+      "chips",
+      "inglesa"
+    ]
+  },
+  {
+    "palavra": "TOMATE",
+    "proibidas": [
+      "vermelho",
+      "salada",
+      "molho",
+      "fruta",
+      "ketchup"
+    ]
+  },
+  {
+    "palavra": "ALFACE",
+    "proibidas": [
+      "salada",
+      "verde",
+      "folha",
+      "hortaliça",
+      "sanduíche"
+    ]
+  },
+  {
+    "palavra": "CEBOLA",
+    "proibidas": [
+      "chorar",
+      "camadas",
+      "tempero",
+      "roxa",
+      "branca"
+    ]
+  },
+  {
+    "palavra": "ALHO",
+    "proibidas": [
+      "tempero",
+      "dente",
+      "cheiro",
+      "cozinha",
+      "cebola"
+    ]
+  },
+  {
+    "palavra": "CENOURA",
+    "proibidas": [
+      "laranja",
+      "coelho",
+      "legume",
+      "salada",
+      "raiz"
+    ]
+  },
+  {
+    "palavra": "MILHO",
+    "proibidas": [
+      "pipoca",
+      "amarelo",
+      "espiga",
+      "grão",
+      "festa junina"
+    ]
+  },
+  {
+    "palavra": "ERVILHA",
+    "proibidas": [
+      "verde",
+      "grão",
+      "lata",
+      "legume",
+      "sopa"
+    ]
+  },
+  {
+    "palavra": "PALMITO",
+    "proibidas": [
+      "pizza",
+      "conserva",
+      "branco",
+      "salada",
+      "recheio"
+    ]
+  },
+  {
+    "palavra": "ABACAXI",
+    "proibidas": [
+      "fruta",
+      "amarelo",
+      "coroa",
+      "doce",
+      "tropical"
+    ]
+  },
+  {
+    "palavra": "BANANA",
+    "proibidas": [
+      "fruta",
+      "amarela",
+      "macaco",
+      "cacho",
+      "casca"
+    ]
+  },
+  {
+    "palavra": "MAÇÃ",
+    "proibidas": [
+      "fruta",
+      "vermelha",
+      "árvore",
+      "suco",
+      "branca de neve"
+    ]
+  },
+  {
+    "palavra": "LARANJA",
+    "proibidas": [
+      "fruta",
+      "suco",
+      "cítrica",
+      "cor",
+      "vitamina"
+    ]
+  },
+  {
+    "palavra": "LIMÃO",
+    "proibidas": [
+      "azedo",
+      "verde",
+      "caipirinha",
+      "suco",
+      "cítrico"
+    ]
+  },
+  {
+    "palavra": "MORANGO",
+    "proibidas": [
+      "vermelho",
+      "fruta",
+      "doce",
+      "semente",
+      "chantilly"
+    ]
+  },
+  {
+    "palavra": "MELANCIA",
+    "proibidas": [
+      "fruta",
+      "grande",
+      "vermelha",
+      "sementes",
+      "verde"
+    ]
+  },
+  {
+    "palavra": "UVA",
+    "proibidas": [
+      "vinho",
+      "cacho",
+      "fruta",
+      "roxa",
+      "passa"
+    ]
+  },
+  {
+    "palavra": "MANGA",
+    "proibidas": [
+      "fruta",
+      "amarela",
+      "caroço",
+      "doce",
+      "árvore"
+    ]
+  },
+  {
+    "palavra": "MAMÃO",
+    "proibidas": [
+      "fruta",
+      "laranja",
+      "semente",
+      "café da manhã",
+      "doce"
+    ]
+  },
+  {
+    "palavra": "COCO",
+    "proibidas": [
+      "praia",
+      "água",
+      "fruta",
+      "casca",
+      "branco"
+    ]
+  },
+  {
+    "palavra": "ABACATE",
+    "proibidas": [
+      "verde",
+      "guacamole",
+      "fruta",
+      "cremoso",
+      "caroço"
+    ]
+  },
+  {
+    "palavra": "CAFÉ",
+    "proibidas": [
+      "bebida",
+      "cafeína",
+      "preto",
+      "xícara",
+      "manhã"
+    ]
+  },
+  {
+    "palavra": "LEITE",
+    "proibidas": [
+      "vaca",
+      "branco",
+      "copo",
+      "queijo",
+      "cereal"
+    ]
+  },
+  {
+    "palavra": "ÁGUA",
+    "proibidas": [
+      "beber",
+      "sede",
+      "líquido",
+      "transparente",
+      "garrafa"
+    ]
+  },
+  {
+    "palavra": "REFRIGERANTE",
+    "proibidas": [
+      "gás",
+      "cola",
+      "lata",
+      "doce",
+      "bebida"
+    ]
+  },
+  {
+    "palavra": "SUCO",
+    "proibidas": [
+      "fruta",
+      "bebida",
+      "copo",
+      "natural",
+      "liquidificador"
+    ]
+  },
+  {
+    "palavra": "CHÁ",
+    "proibidas": [
+      "bebida",
+      "quente",
+      "erva",
+      "xícara",
+      "infusão"
+    ]
+  },
+  {
+    "palavra": "CERVEJA",
+    "proibidas": [
+      "álcool",
+      "bar",
+      "gelada",
+      "lata",
+      "espuma"
+    ]
+  },
+  {
+    "palavra": "VINHO",
+    "proibidas": [
+      "uva",
+      "taça",
+      "álcool",
+      "tinto",
+      "garrafa"
+    ]
+  },
+  {
+    "palavra": "CAIPIRINHA",
+    "proibidas": [
+      "limão",
+      "cachaça",
+      "gelo",
+      "bebida",
+      "açúcar"
+    ]
+  },
+  {
+    "palavra": "COXINHA",
+    "proibidas": [
+      "frango",
+      "salgado",
+      "frita",
+      "massa",
+      "lanchonete"
+    ]
+  },
+  {
+    "palavra": "PASTEL",
+    "proibidas": [
+      "feira",
+      "frito",
+      "massa",
+      "recheio",
+      "caldo de cana"
+    ]
+  },
+  {
+    "palavra": "ESFIRRA",
+    "proibidas": [
+      "árabe",
+      "massa",
+      "carne",
+      "aberta",
+      "Habib's"
+    ]
+  },
+  {
+    "palavra": "TAPIOCA",
+    "proibidas": [
+      "mandioca",
+      "goma",
+      "frigideira",
+      "recheio",
+      "nordeste"
+    ]
+  },
+  {
+    "palavra": "PANQUECA",
+    "proibidas": [
+      "massa",
+      "frigideira",
+      "recheio",
+      "doce",
+      "americana"
+    ]
+  },
+  {
+    "palavra": "WAFFLE",
+    "proibidas": [
+      "quadrado",
+      "massa",
+      "café da manhã",
+      "xarope",
+      "doce"
+    ]
+  },
+  {
+    "palavra": "CEREAL",
+    "proibidas": [
+      "leite",
+      "café da manhã",
+      "flocos",
+      "tigela",
+      "milho"
+    ]
+  },
+  {
+    "palavra": "IOGURTE",
+    "proibidas": [
+      "leite",
+      "geladeira",
+      "cremoso",
+      "fruta",
+      "laticínio"
+    ]
+  },
+  {
+    "palavra": "MANTEIGA",
+    "proibidas": [
+      "pão",
+      "gordura",
+      "amarela",
+      "leite",
+      "derreter"
+    ]
+  },
+  {
+    "palavra": "MARGARINA",
+    "proibidas": [
+      "pão",
+      "amarela",
+      "geladeira",
+      "untar",
+      "gordura"
+    ]
+  },
+  {
+    "palavra": "KETCHUP",
+    "proibidas": [
+      "tomate",
+      "vermelho",
+      "molho",
+      "hambúrguer",
+      "batata"
+    ]
+  },
+  {
+    "palavra": "MAIONESE",
+    "proibidas": [
+      "molho",
+      "ovo",
+      "branca",
+      "sanduíche",
+      "salada"
+    ]
+  },
+  {
+    "palavra": "MOSTARDA",
+    "proibidas": [
+      "amarela",
+      "molho",
+      "cachorro-quente",
+      "semente",
+      "condimento"
+    ]
+  },
+  {
+    "palavra": "PIMENTA",
+    "proibidas": [
+      "ardida",
+      "vermelha",
+      "tempero",
+      "picante",
+      "molho"
+    ]
+  },
+  {
+    "palavra": "SAL",
+    "proibidas": [
+      "salgado",
+      "tempero",
+      "branco",
+      "cozinha",
+      "mar"
+    ]
+  },
+  {
+    "palavra": "AÇÚCAR",
+    "proibidas": [
+      "doce",
+      "branco",
+      "café",
+      "sobremesa",
+      "cristal"
+    ]
+  },
+  {
+    "palavra": "FARINHA",
+    "proibidas": [
+      "trigo",
+      "pão",
+      "bolo",
+      "branca",
+      "massa"
+    ]
+  },
+  {
+    "palavra": "FERMENTO",
+    "proibidas": [
+      "crescer",
+      "massa",
+      "pão",
+      "bolo",
+      "levedura"
+    ]
+  },
+  {
+    "palavra": "AZEITE",
+    "proibidas": [
+      "óleo",
+      "oliva",
+      "salada",
+      "garrafa",
+      "cozinha"
+    ]
+  },
+  {
+    "palavra": "ÓLEO",
+    "proibidas": [
+      "fritura",
+      "cozinha",
+      "gordura",
+      "panela",
+      "soja"
+    ]
+  },
+  {
+    "palavra": "GELADEIRA",
+    "proibidas": [
+      "frio",
+      "cozinha",
+      "comida",
+      "freezer",
+      "porta"
+    ]
+  },
+  {
+    "palavra": "FOGÃO",
+    "proibidas": [
+      "cozinha",
+      "fogo",
+      "panela",
+      "gás",
+      "boca"
+    ]
+  },
+  {
+    "palavra": "FORNO",
+    "proibidas": [
+      "assar",
+      "quente",
+      "cozinha",
+      "bolo",
+      "pizza"
+    ]
+  },
+  {
+    "palavra": "MICRO-ONDAS",
+    "proibidas": [
+      "aquecer",
+      "cozinha",
+      "minutos",
+      "prato",
+      "eletrodoméstico"
+    ]
+  },
+  {
+    "palavra": "LIQUIDIFICADOR",
+    "proibidas": [
+      "bater",
+      "copo",
+      "cozinha",
+      "suco",
+      "lâmina"
+    ]
+  },
+  {
+    "palavra": "BATEDEIRA",
+    "proibidas": [
+      "massa",
+      "bolo",
+      "misturar",
+      "cozinha",
+      "velocidade"
+    ]
+  },
+  {
+    "palavra": "PANELA",
+    "proibidas": [
+      "cozinha",
+      "fogão",
+      "comida",
+      "tampa",
+      "cozinhar"
+    ]
+  },
+  {
+    "palavra": "FRIGIDEIRA",
+    "proibidas": [
+      "fritar",
+      "ovo",
+      "panela",
+      "fogão",
+      "cabo"
+    ]
+  },
+  {
+    "palavra": "GARFO",
+    "proibidas": [
+      "talher",
+      "comer",
+      "dentes",
+      "prato",
+      "faca"
+    ]
+  },
+  {
+    "palavra": "FACA",
+    "proibidas": [
+      "cortar",
+      "lâmina",
+      "cozinha",
+      "garfo",
+      "afiada"
+    ]
+  },
+  {
+    "palavra": "COLHER",
+    "proibidas": [
+      "talher",
+      "sopa",
+      "comer",
+      "prato",
+      "café"
+    ]
+  },
+  {
+    "palavra": "PRATO",
+    "proibidas": [
+      "comida",
+      "louça",
+      "mesa",
+      "garfo",
+      "redondo"
+    ]
+  },
+  {
+    "palavra": "COPO",
+    "proibidas": [
+      "beber",
+      "água",
+      "vidro",
+      "mesa",
+      "caneca"
+    ]
+  },
+  {
+    "palavra": "XÍCARA",
+    "proibidas": [
+      "café",
+      "chá",
+      "asa",
+      "pires",
+      "pequena"
+    ]
+  },
+  {
+    "palavra": "GARRAFA",
+    "proibidas": [
+      "água",
+      "bebida",
+      "tampa",
+      "plástico",
+      "vidro"
+    ]
+  },
+  {
+    "palavra": "ABRIDOR",
+    "proibidas": [
+      "garrafa",
+      "abrir",
+      "tampa",
+      "cerveja",
+      "cozinha"
+    ]
+  },
+  {
+    "palavra": "GUARDANAPO",
+    "proibidas": [
+      "papel",
+      "mesa",
+      "limpar",
+      "boca",
+      "restaurante"
+    ]
+  },
+  {
+    "palavra": "MESA",
+    "proibidas": [
+      "cadeira",
+      "comer",
+      "móvel",
+      "quatro pernas",
+      "sala"
+    ]
+  },
+  {
+    "palavra": "CADEIRA",
+    "proibidas": [
+      "sentar",
+      "mesa",
+      "móvel",
+      "encosto",
+      "pernas"
+    ]
+  },
+  {
+    "palavra": "SOFÁ",
+    "proibidas": [
+      "sala",
+      "sentar",
+      "televisão",
+      "almofada",
+      "móvel"
+    ]
+  },
+  {
+    "palavra": "CAMA",
+    "proibidas": [
+      "dormir",
+      "quarto",
+      "colchão",
+      "travesseiro",
+      "lençol"
+    ]
+  },
+  {
+    "palavra": "COLCHÃO",
+    "proibidas": [
+      "cama",
+      "dormir",
+      "espuma",
+      "mola",
+      "quarto"
+    ]
+  },
+  {
+    "palavra": "TRAVESSEIRO",
+    "proibidas": [
+      "cabeça",
+      "dormir",
+      "cama",
+      "fronha",
+      "macio"
+    ]
+  },
+  {
+    "palavra": "COBERTOR",
+    "proibidas": [
+      "frio",
+      "cama",
+      "dormir",
+      "quente",
+      "manta"
+    ]
+  },
+  {
+    "palavra": "LENÇOL",
+    "proibidas": [
+      "cama",
+      "tecido",
+      "dormir",
+      "colchão",
+      "fronha"
+    ]
+  },
+  {
+    "palavra": "ALMOFADA",
+    "proibidas": [
+      "sofá",
+      "macia",
+      "encosto",
+      "decoração",
+      "travesseiro"
+    ]
+  },
+  {
+    "palavra": "ARMÁRIO",
+    "proibidas": [
+      "guardar",
+      "porta",
+      "roupa",
+      "móvel",
+      "gaveta"
+    ]
+  },
+  {
+    "palavra": "GUARDA-ROUPA",
+    "proibidas": [
+      "roupa",
+      "quarto",
+      "cabide",
+      "porta",
+      "móvel"
+    ]
+  },
+  {
+    "palavra": "ESPELHO",
+    "proibidas": [
+      "reflexo",
+      "vidro",
+      "imagem",
+      "banheiro",
+      "olhar"
+    ]
+  },
+  {
+    "palavra": "CHUVEIRO",
+    "proibidas": [
+      "banho",
+      "água",
+      "banheiro",
+      "quente",
+      "sabonete"
+    ]
+  },
+  {
+    "palavra": "SABONETE",
+    "proibidas": [
+      "banho",
+      "espuma",
+      "cheiro",
+      "higiene",
+      "chuveiro"
+    ]
+  },
+  {
+    "palavra": "SHAMPOO",
+    "proibidas": [
+      "cabelo",
+      "banho",
+      "lavar",
+      "espuma",
+      "condicionador"
+    ]
+  },
+  {
+    "palavra": "CONDICIONADOR",
+    "proibidas": [
+      "cabelo",
+      "shampoo",
+      "banho",
+      "macio",
+      "lavar"
+    ]
+  },
+  {
+    "palavra": "ESCOVA DE DENTES",
+    "proibidas": [
+      "dente",
+      "pasta",
+      "banheiro",
+      "escovar",
+      "higiene"
+    ]
+  },
+  {
+    "palavra": "PASTA DE DENTE",
+    "proibidas": [
+      "escova",
+      "dente",
+      "menta",
+      "higiene",
+      "creme"
+    ]
+  },
+  {
+    "palavra": "TOALHA",
+    "proibidas": [
+      "banho",
+      "secar",
+      "tecido",
+      "banheiro",
+      "molhada"
+    ]
+  },
+  {
+    "palavra": "PAPEL HIGIÊNICO",
+    "proibidas": [
+      "banheiro",
+      "rolo",
+      "papel",
+      "privada",
+      "limpar"
+    ]
+  },
+  {
+    "palavra": "VASSOURA",
+    "proibidas": [
+      "varrer",
+      "chão",
+      "limpeza",
+      "cabo",
+      "poeira"
+    ]
+  },
+  {
+    "palavra": "RODO",
+    "proibidas": [
+      "chão",
+      "água",
+      "limpeza",
+      "puxar",
+      "cabo"
+    ]
+  },
+  {
+    "palavra": "BALDE",
+    "proibidas": [
+      "água",
+      "limpeza",
+      "plástico",
+      "alça",
+      "chão"
+    ]
+  },
+  {
+    "palavra": "ASPIRADOR",
+    "proibidas": [
+      "poeira",
+      "limpar",
+      "chão",
+      "sucção",
+      "eletrodoméstico"
+    ]
+  },
+  {
+    "palavra": "MÁQUINA DE LAVAR",
+    "proibidas": [
+      "roupa",
+      "sabão",
+      "água",
+      "lavanderia",
+      "centrifugar"
+    ]
+  },
+  {
+    "palavra": "VARAL",
+    "proibidas": [
+      "roupa",
+      "secar",
+      "pregador",
+      "sol",
+      "lavanderia"
+    ]
+  },
+  {
+    "palavra": "FERRO DE PASSAR",
+    "proibidas": [
+      "roupa",
+      "quente",
+      "amassado",
+      "vapor",
+      "tábua"
+    ]
+  },
+  {
+    "palavra": "VENTILADOR",
+    "proibidas": [
+      "vento",
+      "calor",
+      "hélice",
+      "ar",
+      "ligar"
+    ]
+  },
+  {
+    "palavra": "AR-CONDICIONADO",
+    "proibidas": [
+      "frio",
+      "calor",
+      "temperatura",
+      "ar",
+      "controle"
+    ]
+  },
+  {
+    "palavra": "TELEVISÃO",
+    "proibidas": [
+      "assistir",
+      "controle",
+      "canal",
+      "tela",
+      "sala"
+    ]
+  },
+  {
+    "palavra": "CONTROLE REMOTO",
+    "proibidas": [
+      "televisão",
+      "botão",
+      "pilha",
+      "canal",
+      "volume"
+    ]
+  },
+  {
+    "palavra": "LÂMPADA",
+    "proibidas": [
+      "luz",
+      "acesa",
+      "energia",
+      "teto",
+      "quebrar"
+    ]
+  },
+  {
+    "palavra": "TOMADA",
+    "proibidas": [
+      "energia",
+      "plugue",
+      "parede",
+      "eletricidade",
+      "carregador"
+    ]
+  },
+  {
+    "palavra": "PORTA",
+    "proibidas": [
+      "abrir",
+      "fechar",
+      "chave",
+      "entrada",
+      "maçaneta"
+    ]
+  },
+  {
+    "palavra": "JANELA",
+    "proibidas": [
+      "vidro",
+      "abrir",
+      "cortina",
+      "parede",
+      "vento"
+    ]
+  },
+  {
+    "palavra": "CHAVE",
+    "proibidas": [
+      "abrir",
+      "porta",
+      "fechadura",
+      "carro",
+      "metal"
+    ]
+  },
+  {
+    "palavra": "CADEADO",
+    "proibidas": [
+      "chave",
+      "trancar",
+      "segurança",
+      "metal",
+      "senha"
+    ]
+  },
+  {
+    "palavra": "RELÓGIO",
+    "proibidas": [
+      "horas",
+      "tempo",
+      "pulso",
+      "ponteiro",
+      "despertador"
+    ]
+  },
+  {
+    "palavra": "DESPERTADOR",
+    "proibidas": [
+      "acordar",
+      "hora",
+      "alarme",
+      "manhã",
+      "relógio"
+    ]
+  },
+  {
+    "palavra": "MOCHILA",
+    "proibidas": [
+      "costas",
+      "escola",
+      "carregar",
+      "bolsa",
+      "zíper"
+    ]
+  },
+  {
+    "palavra": "BOLSA",
+    "proibidas": [
+      "carregar",
+      "mulher",
+      "alça",
+      "dinheiro",
+      "acessório"
+    ]
+  },
+  {
+    "palavra": "CARTEIRA",
+    "proibidas": [
+      "dinheiro",
+      "documento",
+      "bolso",
+      "cartão",
+      "couro"
+    ]
+  },
+  {
+    "palavra": "ÓCULOS",
+    "proibidas": [
+      "enxergar",
+      "lente",
+      "rosto",
+      "armação",
+      "visão"
+    ]
+  },
+  {
+    "palavra": "ÓCULOS DE SOL",
+    "proibidas": [
+      "sol",
+      "escuro",
+      "lente",
+      "praia",
+      "rosto"
+    ]
+  },
+  {
+    "palavra": "GUARDA-CHUVA",
+    "proibidas": [
+      "chuva",
+      "abrir",
+      "molhar",
+      "cabo",
+      "proteção"
+    ]
+  },
+  {
+    "palavra": "TESOURA",
+    "proibidas": [
+      "cortar",
+      "papel",
+      "lâmina",
+      "escola",
+      "ponta"
+    ]
+  },
+  {
+    "palavra": "COLA",
+    "proibidas": [
+      "grudar",
+      "papel",
+      "escola",
+      "adesivo",
+      "branca"
+    ]
+  },
+  {
+    "palavra": "CANETA",
+    "proibidas": [
+      "escrever",
+      "tinta",
+      "papel",
+      "azul",
+      "escola"
+    ]
+  },
+  {
+    "palavra": "LÁPIS",
+    "proibidas": [
+      "escrever",
+      "grafite",
+      "apontador",
+      "papel",
+      "borracha"
+    ]
+  },
+  {
+    "palavra": "BORRACHA",
+    "proibidas": [
+      "apagar",
+      "lápis",
+      "escola",
+      "papel",
+      "branca"
+    ]
+  },
+  {
+    "palavra": "CADERNO",
+    "proibidas": [
+      "escrever",
+      "folha",
+      "escola",
+      "matéria",
+      "espiral"
+    ]
+  },
+  {
+    "palavra": "LIVRO",
+    "proibidas": [
+      "ler",
+      "página",
+      "história",
+      "capa",
+      "biblioteca"
+    ]
+  },
+  {
+    "palavra": "DICIONÁRIO",
+    "proibidas": [
+      "palavra",
+      "significado",
+      "livro",
+      "alfabeto",
+      "consulta"
+    ]
+  },
+  {
+    "palavra": "RÉGUA",
+    "proibidas": [
+      "medir",
+      "centímetro",
+      "reta",
+      "escola",
+      "plástico"
+    ]
+  },
+  {
+    "palavra": "CALCULADORA",
+    "proibidas": [
+      "conta",
+      "número",
+      "matemática",
+      "botão",
+      "somar"
+    ]
+  },
+  {
+    "palavra": "COMPUTADOR",
+    "proibidas": [
+      "teclado",
+      "mouse",
+      "monitor",
+      "internet",
+      "processador"
+    ]
+  },
+  {
+    "palavra": "NOTEBOOK",
+    "proibidas": [
+      "computador",
+      "portátil",
+      "teclado",
+      "tela",
+      "bateria"
+    ]
+  },
+  {
+    "palavra": "TECLADO",
+    "proibidas": [
+      "digitar",
+      "computador",
+      "letra",
+      "tecla",
+      "mouse"
+    ]
+  },
+  {
+    "palavra": "MOUSE",
+    "proibidas": [
+      "computador",
+      "clicar",
+      "cursor",
+      "botão",
+      "teclado"
+    ]
+  },
+  {
+    "palavra": "MONITOR",
+    "proibidas": [
+      "tela",
+      "computador",
+      "imagem",
+      "mesa",
+      "HDMI"
+    ]
+  },
+  {
+    "palavra": "IMPRESSORA",
+    "proibidas": [
+      "papel",
+      "imprimir",
+      "tinta",
+      "documento",
+      "cartucho"
+    ]
+  },
+  {
+    "palavra": "PENDRIVE",
+    "proibidas": [
+      "USB",
+      "arquivo",
+      "memória",
+      "computador",
+      "pequeno"
+    ]
+  },
+  {
+    "palavra": "HD",
+    "proibidas": [
+      "armazenamento",
+      "computador",
+      "arquivo",
+      "disco",
+      "memória"
+    ]
+  },
+  {
+    "palavra": "SSD",
+    "proibidas": [
+      "armazenamento",
+      "rápido",
+      "computador",
+      "disco",
+      "memória"
+    ]
+  },
+  {
+    "palavra": "ROTEADOR",
+    "proibidas": [
+      "internet",
+      "Wi-Fi",
+      "rede",
+      "senha",
+      "modem"
+    ]
+  },
+  {
+    "palavra": "WI-FI",
+    "proibidas": [
+      "internet",
+      "sem fio",
+      "rede",
+      "senha",
+      "roteador"
+    ]
+  },
+  {
+    "palavra": "INTERNET",
+    "proibidas": [
+      "site",
+      "rede",
+      "Wi-Fi",
+      "online",
+      "navegar"
+    ]
+  },
+  {
+    "palavra": "SITE",
+    "proibidas": [
+      "internet",
+      "página",
+      "navegador",
+      "URL",
+      "online"
+    ]
+  },
+  {
+    "palavra": "GOOGLE",
+    "proibidas": [
+      "busca",
+      "pesquisa",
+      "internet",
+      "site",
+      "Chrome"
+    ]
+  },
+  {
+    "palavra": "YOUTUBE",
+    "proibidas": [
+      "vídeo",
+      "assistir",
+      "canal",
+      "internet",
+      "inscrever"
+    ]
+  },
+  {
+    "palavra": "WHATSAPP",
+    "proibidas": [
+      "mensagem",
+      "celular",
+      "grupo",
+      "áudio",
+      "verde"
+    ]
+  },
+  {
+    "palavra": "TELEGRAM",
+    "proibidas": [
+      "mensagem",
+      "aplicativo",
+      "grupo",
+      "bot",
+      "azul"
+    ]
+  },
+  {
+    "palavra": "INSTAGRAM",
+    "proibidas": [
+      "foto",
+      "story",
+      "rede social",
+      "curtir",
+      "seguidores"
+    ]
+  },
+  {
+    "palavra": "FACEBOOK",
+    "proibidas": [
+      "rede social",
+      "amigos",
+      "curtir",
+      "perfil",
+      "Meta"
+    ]
+  },
+  {
+    "palavra": "TIKTOK",
+    "proibidas": [
+      "vídeo",
+      "curto",
+      "dança",
+      "rede social",
+      "rolar"
+    ]
+  },
+  {
+    "palavra": "SPOTIFY",
+    "proibidas": [
+      "música",
+      "ouvir",
+      "playlist",
+      "streaming",
+      "verde"
+    ]
+  },
+  {
+    "palavra": "PIX",
+    "proibidas": [
+      "pagamento",
+      "banco",
+      "transferência",
+      "QR Code",
+      "dinheiro"
+    ]
+  },
+  {
+    "palavra": "CARTÃO DE CRÉDITO",
+    "proibidas": [
+      "comprar",
+      "fatura",
+      "limite",
+      "banco",
+      "parcelar"
+    ]
+  },
+  {
+    "palavra": "DINHEIRO",
+    "proibidas": [
+      "nota",
+      "moeda",
+      "comprar",
+      "real",
+      "carteira"
+    ]
+  },
+  {
+    "palavra": "MOEDA",
+    "proibidas": [
+      "dinheiro",
+      "metal",
+      "cara ou coroa",
+      "centavo",
+      "redonda"
+    ]
+  },
+  {
+    "palavra": "BANCO",
+    "proibidas": [
+      "dinheiro",
+      "conta",
+      "agência",
+      "cartão",
+      "empréstimo"
+    ]
+  },
+  {
+    "palavra": "CAIXA ELETRÔNICO",
+    "proibidas": [
+      "banco",
+      "sacar",
+      "dinheiro",
+      "senha",
+      "cartão"
+    ]
+  },
+  {
+    "palavra": "BOLETO",
+    "proibidas": [
+      "pagar",
+      "código de barras",
+      "banco",
+      "vencimento",
+      "conta"
+    ]
+  },
+  {
+    "palavra": "SENHA",
+    "proibidas": [
+      "entrar",
+      "segurança",
+      "código",
+      "login",
+      "secreta"
+    ]
+  },
+  {
+    "palavra": "EMAIL",
+    "proibidas": [
+      "mensagem",
+      "internet",
+      "caixa de entrada",
+      "enviar",
+      "endereço"
+    ]
+  },
+  {
+    "palavra": "ARQUIVO",
+    "proibidas": [
+      "computador",
+      "pasta",
+      "salvar",
+      "documento",
+      "download"
+    ]
+  },
+  {
+    "palavra": "PASTA",
+    "proibidas": [
+      "arquivo",
+      "computador",
+      "diretório",
+      "guardar",
+      "amarela"
+    ]
+  },
+  {
+    "palavra": "DOWNLOAD",
+    "proibidas": [
+      "baixar",
+      "internet",
+      "arquivo",
+      "computador",
+      "transferir"
+    ]
+  },
+  {
+    "palavra": "UPLOAD",
+    "proibidas": [
+      "enviar",
+      "arquivo",
+      "internet",
+      "nuvem",
+      "carregar"
+    ]
+  },
+  {
+    "palavra": "NUVEM",
+    "proibidas": [
+      "internet",
+      "arquivo",
+      "armazenamento",
+      "cloud",
+      "céu"
+    ]
+  },
+  {
+    "palavra": "CÓDIGO",
+    "proibidas": [
+      "programação",
+      "linguagem",
+      "computador",
+      "desenvolvedor",
+      "script"
+    ]
+  },
+  {
+    "palavra": "PYTHON",
+    "proibidas": [
+      "programação",
+      "linguagem",
+      "cobra",
+      "código",
+      "script"
+    ]
+  },
+  {
+    "palavra": "JAVA",
+    "proibidas": [
+      "programação",
+      "linguagem",
+      "café",
+      "código",
+      "máquina virtual"
+    ]
+  },
+  {
+    "palavra": "SQL",
+    "proibidas": [
+      "banco de dados",
+      "consulta",
+      "tabela",
+      "select",
+      "dados"
+    ]
+  },
+  {
+    "palavra": "BANCO DE DADOS",
+    "proibidas": [
+      "tabela",
+      "SQL",
+      "dados",
+      "servidor",
+      "consulta"
+    ]
+  },
+  {
+    "palavra": "SERVIDOR",
+    "proibidas": [
+      "rede",
+      "computador",
+      "site",
+      "hospedar",
+      "backend"
+    ]
+  },
+  {
+    "palavra": "API",
+    "proibidas": [
+      "integração",
+      "sistema",
+      "requisição",
+      "endpoint",
+      "dados"
+    ]
+  },
+  {
+    "palavra": "BUG",
+    "proibidas": [
+      "erro",
+      "programa",
+      "corrigir",
+      "código",
+      "falha"
+    ]
+  },
+  {
+    "palavra": "SENHA DO WI-FI",
+    "proibidas": [
+      "internet",
+      "rede",
+      "roteador",
+      "conectar",
+      "código"
+    ]
+  },
+  {
+    "palavra": "QR CODE",
+    "proibidas": [
+      "quadrado",
+      "câmera",
+      "código",
+      "celular",
+      "pix"
+    ]
+  },
+  {
+    "palavra": "ROBÔ",
+    "proibidas": [
+      "máquina",
+      "automático",
+      "metal",
+      "inteligência artificial",
+      "humano"
+    ]
+  },
+  {
+    "palavra": "INTELIGÊNCIA ARTIFICIAL",
+    "proibidas": [
+      "robô",
+      "ChatGPT",
+      "máquina",
+      "aprender",
+      "algoritmo"
+    ]
+  },
+  {
+    "palavra": "DRONE",
+    "proibidas": [
+      "voar",
+      "câmera",
+      "controle",
+      "hélice",
+      "céu"
+    ]
+  },
+  {
+    "palavra": "VIDEOGAME",
+    "proibidas": [
+      "jogo",
+      "controle",
+      "console",
+      "jogar",
+      "tela"
+    ]
+  },
+  {
+    "palavra": "PLAYSTATION",
+    "proibidas": [
+      "Sony",
+      "videogame",
+      "controle",
+      "console",
+      "jogo"
+    ]
+  },
+  {
+    "palavra": "XBOX",
+    "proibidas": [
+      "Microsoft",
+      "videogame",
+      "controle",
+      "console",
+      "jogo"
+    ]
+  },
+  {
+    "palavra": "NINTENDO",
+    "proibidas": [
+      "Mario",
+      "videogame",
+      "Switch",
+      "jogo",
+      "console"
+    ]
+  },
+  {
+    "palavra": "MARIO",
+    "proibidas": [
+      "Nintendo",
+      "encanador",
+      "Luigi",
+      "cogumelo",
+      "videogame"
+    ]
+  },
+  {
+    "palavra": "MINECRAFT",
+    "proibidas": [
+      "bloco",
+      "construir",
+      "jogo",
+      "Steve",
+      "quadrado"
+    ]
+  },
+  {
+    "palavra": "FORTNITE",
+    "proibidas": [
+      "jogo",
+      "tiro",
+      "battle royale",
+      "construção",
+      "skin"
+    ]
+  },
+  {
+    "palavra": "POKÉMON",
+    "proibidas": [
+      "Pikachu",
+      "capturar",
+      "monstro",
+      "Nintendo",
+      "treinador"
+    ]
+  },
+  {
+    "palavra": "PIKACHU",
+    "proibidas": [
+      "Pokémon",
+      "amarelo",
+      "elétrico",
+      "Ash",
+      "rato"
+    ]
+  },
+  {
+    "palavra": "XADREZ",
+    "proibidas": [
+      "rei",
+      "rainha",
+      "tabuleiro",
+      "peão",
+      "jogo"
+    ]
+  },
+  {
+    "palavra": "BARALHO",
+    "proibidas": [
+      "carta",
+      "jogo",
+      "naipe",
+      "ás",
+      "coringa"
+    ]
+  },
+  {
+    "palavra": "DADO",
+    "proibidas": [
+      "jogo",
+      "número",
+      "seis",
+      "rolar",
+      "cubo"
+    ]
+  },
+  {
+    "palavra": "DOMINÓ",
+    "proibidas": [
+      "peça",
+      "ponto",
+      "jogo",
+      "mesa",
+      "dupla"
+    ]
+  },
+  {
+    "palavra": "QUEBRA-CABEÇA",
+    "proibidas": [
+      "peça",
+      "montar",
+      "imagem",
+      "encaixar",
+      "jogo"
+    ]
+  },
+  {
+    "palavra": "BONECA",
+    "proibidas": [
+      "brinquedo",
+      "menina",
+      "Barbie",
+      "cabelo",
+      "vestido"
+    ]
+  },
+  {
+    "palavra": "CARRINHO",
+    "proibidas": [
+      "brinquedo",
+      "carro",
+      "roda",
+      "criança",
+      "miniatura"
+    ]
+  },
+  {
+    "palavra": "BOLA",
+    "proibidas": [
+      "redonda",
+      "futebol",
+      "chutar",
+      "jogo",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "BICICLETA",
+    "proibidas": [
+      "pedalar",
+      "duas rodas",
+      "guidão",
+      "capacete",
+      "ciclovia"
+    ]
+  },
+  {
+    "palavra": "PATINETE",
+    "proibidas": [
+      "rodas",
+      "guidão",
+      "andar",
+      "elétrico",
+      "pé"
+    ]
+  },
+  {
+    "palavra": "SKATE",
+    "proibidas": [
+      "prancha",
+      "roda",
+      "manobra",
+      "andar",
+      "pista"
+    ]
+  },
+  {
+    "palavra": "CARRO",
+    "proibidas": [
+      "dirigir",
+      "roda",
+      "motor",
+      "estrada",
+      "veículo"
+    ]
+  },
+  {
+    "palavra": "MOTO",
+    "proibidas": [
+      "duas rodas",
+      "capacete",
+      "motor",
+      "pilotar",
+      "veículo"
+    ]
+  },
+  {
+    "palavra": "ÔNIBUS",
+    "proibidas": [
+      "passageiro",
+      "motorista",
+      "ponto",
+      "transporte",
+      "coletivo"
+    ]
+  },
+  {
+    "palavra": "METRÔ",
+    "proibidas": [
+      "trem",
+      "estação",
+      "subterrâneo",
+      "transporte",
+      "trilho"
+    ]
+  },
+  {
+    "palavra": "TREM",
+    "proibidas": [
+      "trilho",
+      "estação",
+      "vagão",
+      "locomotiva",
+      "viagem"
+    ]
+  },
+  {
+    "palavra": "NAVIO",
+    "proibidas": [
+      "mar",
+      "barco",
+      "porto",
+      "água",
+      "cruzeiro"
+    ]
+  },
+  {
+    "palavra": "BARCO",
+    "proibidas": [
+      "água",
+      "rio",
+      "mar",
+      "navegar",
+      "remo"
+    ]
+  },
+  {
+    "palavra": "SUBMARINO",
+    "proibidas": [
+      "mar",
+      "água",
+      "mergulhar",
+      "profundidade",
+      "navio"
+    ]
+  },
+  {
+    "palavra": "HELICÓPTERO",
+    "proibidas": [
+      "voar",
+      "hélice",
+      "piloto",
+      "céu",
+      "aeronave"
+    ]
+  },
+  {
+    "palavra": "CAMINHÃO",
+    "proibidas": [
+      "carga",
+      "estrada",
+      "motorista",
+      "grande",
+      "veículo"
+    ]
+  },
+  {
+    "palavra": "TÁXI",
+    "proibidas": [
+      "motorista",
+      "corrida",
+      "carro",
+      "passageiro",
+      "amarelo"
+    ]
+  },
+  {
+    "palavra": "UBER",
+    "proibidas": [
+      "aplicativo",
+      "motorista",
+      "corrida",
+      "carro",
+      "passageiro"
+    ]
+  },
+  {
+    "palavra": "AMBULÂNCIA",
+    "proibidas": [
+      "hospital",
+      "sirene",
+      "emergência",
+      "médico",
+      "doente"
+    ]
+  },
+  {
+    "palavra": "VIATURA",
+    "proibidas": [
+      "polícia",
+      "sirene",
+      "carro",
+      "emergência",
+      "patrulha"
+    ]
+  },
+  {
+    "palavra": "TRATOR",
+    "proibidas": [
+      "fazenda",
+      "campo",
+      "máquina",
+      "roda",
+      "agricultura"
+    ]
+  },
+  {
+    "palavra": "FOGUETE",
+    "proibidas": [
+      "espaço",
+      "lua",
+      "NASA",
+      "lançar",
+      "astronauta"
+    ]
+  },
+  {
+    "palavra": "ASTRONAUTA",
+    "proibidas": [
+      "espaço",
+      "foguete",
+      "lua",
+      "capacete",
+      "NASA"
+    ]
+  },
+  {
+    "palavra": "SOL",
+    "proibidas": [
+      "quente",
+      "céu",
+      "luz",
+      "dia",
+      "estrela"
+    ]
+  },
+  {
+    "palavra": "LUA",
+    "proibidas": [
+      "noite",
+      "céu",
+      "satélite",
+      "cheia",
+      "astronauta"
+    ]
+  },
+  {
+    "palavra": "ESTRELA",
+    "proibidas": [
+      "céu",
+      "noite",
+      "brilhar",
+      "sol",
+      "constelação"
+    ]
+  },
+  {
+    "palavra": "PLANETA",
+    "proibidas": [
+      "Terra",
+      "espaço",
+      "órbita",
+      "Sol",
+      "mundo"
+    ]
+  },
+  {
+    "palavra": "TERRA",
+    "proibidas": [
+      "planeta",
+      "mundo",
+      "solo",
+      "chão",
+      "globo"
+    ]
+  },
+  {
+    "palavra": "MAR",
+    "proibidas": [
+      "água",
+      "praia",
+      "oceano",
+      "onda",
+      "sal"
+    ]
+  },
+  {
+    "palavra": "PRAIA",
+    "proibidas": [
+      "areia",
+      "mar",
+      "sol",
+      "onda",
+      "verão"
+    ]
+  },
+  {
+    "palavra": "AREIA",
+    "proibidas": [
+      "praia",
+      "grão",
+      "castelo",
+      "deserto",
+      "mar"
+    ]
+  },
+  {
+    "palavra": "ONDA",
+    "proibidas": [
+      "mar",
+      "praia",
+      "surfe",
+      "água",
+      "quebrar"
+    ]
+  },
+  {
+    "palavra": "RIO",
+    "proibidas": [
+      "água",
+      "correnteza",
+      "margem",
+      "ponte",
+      "nascente"
+    ]
+  },
+  {
+    "palavra": "LAGO",
+    "proibidas": [
+      "água",
+      "parado",
+      "margem",
+      "peixe",
+      "natureza"
+    ]
+  },
+  {
+    "palavra": "CACHOEIRA",
+    "proibidas": [
+      "água",
+      "queda",
+      "rio",
+      "natureza",
+      "pedra"
+    ]
+  },
+  {
+    "palavra": "MONTANHA",
+    "proibidas": [
+      "alta",
+      "subir",
+      "pico",
+      "neve",
+      "trilha"
+    ]
+  },
+  {
+    "palavra": "VULCÃO",
+    "proibidas": [
+      "lava",
+      "erupção",
+      "montanha",
+      "fogo",
+      "cinzas"
+    ]
+  },
+  {
+    "palavra": "DESERTO",
+    "proibidas": [
+      "areia",
+      "calor",
+      "camelo",
+      "seco",
+      "duna"
+    ]
+  },
+  {
+    "palavra": "FLORESTA",
+    "proibidas": [
+      "árvore",
+      "mata",
+      "natureza",
+      "verde",
+      "animal"
+    ]
+  },
+  {
+    "palavra": "ÁRVORE",
+    "proibidas": [
+      "folha",
+      "tronco",
+      "raiz",
+      "floresta",
+      "fruta"
+    ]
+  },
+  {
+    "palavra": "FLOR",
+    "proibidas": [
+      "perfume",
+      "pétala",
+      "jardim",
+      "rosa",
+      "planta"
+    ]
+  },
+  {
+    "palavra": "ROSA",
+    "proibidas": [
+      "flor",
+      "vermelha",
+      "espinho",
+      "pétala",
+      "romance"
+    ]
+  },
+  {
+    "palavra": "CACTO",
+    "proibidas": [
+      "espinho",
+      "deserto",
+      "planta",
+      "água",
+      "verde"
+    ]
+  },
+  {
+    "palavra": "GRAMA",
+    "proibidas": [
+      "verde",
+      "jardim",
+      "chão",
+      "cortar",
+      "campo"
+    ]
+  },
+  {
+    "palavra": "FOLHA",
+    "proibidas": [
+      "árvore",
+      "verde",
+      "papel",
+      "cair",
+      "planta"
+    ]
+  },
+  {
+    "palavra": "PEDRA",
+    "proibidas": [
+      "rocha",
+      "dura",
+      "chão",
+      "montanha",
+      "cinza"
+    ]
+  },
+  {
+    "palavra": "NEVE",
+    "proibidas": [
+      "frio",
+      "branca",
+      "gelo",
+      "inverno",
+      "montanha"
+    ]
+  },
+  {
+    "palavra": "GELO",
+    "proibidas": [
+      "frio",
+      "água",
+      "congelado",
+      "cubo",
+      "freezer"
+    ]
+  },
+  {
+    "palavra": "CHUVA",
+    "proibidas": [
+      "água",
+      "céu",
+      "molhar",
+      "nuvem",
+      "guarda-chuva"
+    ]
+  },
+  {
+    "palavra": "TEMPESTADE",
+    "proibidas": [
+      "chuva",
+      "vento",
+      "raio",
+      "trovão",
+      "nuvem"
+    ]
+  },
+  {
+    "palavra": "RAIO",
+    "proibidas": [
+      "tempestade",
+      "luz",
+      "céu",
+      "trovão",
+      "eletricidade"
+    ]
+  },
+  {
+    "palavra": "TROVÃO",
+    "proibidas": [
+      "barulho",
+      "tempestade",
+      "raio",
+      "céu",
+      "som"
+    ]
+  },
+  {
+    "palavra": "VENTO",
+    "proibidas": [
+      "ar",
+      "soprar",
+      "frio",
+      "folha",
+      "forte"
+    ]
+  },
+  {
+    "palavra": "ARCO-ÍRIS",
+    "proibidas": [
+      "cores",
+      "chuva",
+      "céu",
+      "sete",
+      "sol"
+    ]
+  },
+  {
+    "palavra": "FOGO",
+    "proibidas": [
+      "quente",
+      "chama",
+      "queimar",
+      "vermelho",
+      "fumaça"
+    ]
+  },
+  {
+    "palavra": "FUMAÇA",
+    "proibidas": [
+      "fogo",
+      "cinza",
+      "ar",
+      "chaminé",
+      "queimar"
+    ]
+  },
+  {
+    "palavra": "LEÃO",
+    "proibidas": [
+      "animal",
+      "rei",
+      "selva",
+      "juba",
+      "rugir"
+    ]
+  },
+  {
+    "palavra": "TIGRE",
+    "proibidas": [
+      "animal",
+      "listras",
+      "felino",
+      "selva",
+      "laranja"
+    ]
+  },
+  {
+    "palavra": "ELEFANTE",
+    "proibidas": [
+      "animal",
+      "tromba",
+      "grande",
+      "cinza",
+      "África"
+    ]
+  },
+  {
+    "palavra": "GIRAFA",
+    "proibidas": [
+      "animal",
+      "pescoço",
+      "alta",
+      "manchas",
+      "África"
+    ]
+  },
+  {
+    "palavra": "ZEBRA",
+    "proibidas": [
+      "animal",
+      "listras",
+      "preto e branco",
+      "África",
+      "cavalo"
+    ]
+  },
+  {
+    "palavra": "MACACO",
+    "proibidas": [
+      "animal",
+      "banana",
+      "árvore",
+      "rabo",
+      "selva"
+    ]
+  },
+  {
+    "palavra": "GORILA",
+    "proibidas": [
+      "macaco",
+      "animal",
+      "forte",
+      "selva",
+      "grande"
+    ]
+  },
+  {
+    "palavra": "URSO",
+    "proibidas": [
+      "animal",
+      "mel",
+      "floresta",
+      "grande",
+      "hibernar"
+    ]
+  },
+  {
+    "palavra": "PANDA",
+    "proibidas": [
+      "animal",
+      "bambu",
+      "preto e branco",
+      "China",
+      "urso"
+    ]
+  },
+  {
+    "palavra": "LOBO",
+    "proibidas": [
+      "animal",
+      "uivar",
+      "lua",
+      "floresta",
+      "alcateia"
+    ]
+  },
+  {
+    "palavra": "RAPOSA",
+    "proibidas": [
+      "animal",
+      "laranja",
+      "floresta",
+      "rabo",
+      "esperta"
+    ]
+  },
+  {
+    "palavra": "COELHO",
+    "proibidas": [
+      "animal",
+      "cenoura",
+      "orelha",
+      "pular",
+      "Páscoa"
+    ]
+  },
+  {
+    "palavra": "GATO",
+    "proibidas": [
+      "animal",
+      "miar",
+      "pet",
+      "bigode",
+      "rato"
+    ]
+  },
+  {
+    "palavra": "RATO",
+    "proibidas": [
+      "animal",
+      "queijo",
+      "pequeno",
+      "cauda",
+      "roedor"
+    ]
+  },
+  {
+    "palavra": "HAMSTER",
+    "proibidas": [
+      "animal",
+      "roda",
+      "gaiola",
+      "pequeno",
+      "roedor"
+    ]
+  },
+  {
+    "palavra": "CAVALO",
+    "proibidas": [
+      "animal",
+      "montar",
+      "fazenda",
+      "relinchar",
+      "crina"
+    ]
+  },
+  {
+    "palavra": "VACA",
+    "proibidas": [
+      "animal",
+      "leite",
+      "fazenda",
+      "mugir",
+      "boi"
+    ]
+  },
+  {
+    "palavra": "BOI",
+    "proibidas": [
+      "animal",
+      "gado",
+      "fazenda",
+      "chifre",
+      "carne"
+    ]
+  },
+  {
+    "palavra": "PORCO",
+    "proibidas": [
+      "animal",
+      "fazenda",
+      "lama",
+      "bacon",
+      "focinho"
+    ]
+  },
+  {
+    "palavra": "OVELHA",
+    "proibidas": [
+      "animal",
+      "lã",
+      "fazenda",
+      "rebanho",
+      "branca"
+    ]
+  },
+  {
+    "palavra": "CABRA",
+    "proibidas": [
+      "animal",
+      "chifre",
+      "fazenda",
+      "leite",
+      "montanha"
+    ]
+  },
+  {
+    "palavra": "GALINHA",
+    "proibidas": [
+      "animal",
+      "ovo",
+      "fazenda",
+      "pena",
+      "galo"
+    ]
+  },
+  {
+    "palavra": "GALO",
+    "proibidas": [
+      "galinha",
+      "cantar",
+      "fazenda",
+      "crista",
+      "manhã"
+    ]
+  },
+  {
+    "palavra": "PATO",
+    "proibidas": [
+      "animal",
+      "água",
+      "bico",
+      "pena",
+      "quack"
+    ]
+  },
+  {
+    "palavra": "PINGUIM",
+    "proibidas": [
+      "animal",
+      "gelo",
+      "Antártida",
+      "preto e branco",
+      "ave"
+    ]
+  },
+  {
+    "palavra": "ÁGUIA",
+    "proibidas": [
+      "ave",
+      "voar",
+      "garras",
+      "céu",
+      "rapina"
+    ]
+  },
+  {
+    "palavra": "PAPAGAIO",
+    "proibidas": [
+      "ave",
+      "falar",
+      "verde",
+      "bico",
+      "pena"
+    ]
+  },
+  {
+    "palavra": "CORUJA",
+    "proibidas": [
+      "ave",
+      "noite",
+      "olhos",
+      "sabedoria",
+      "voar"
+    ]
+  },
+  {
+    "palavra": "POMBO",
+    "proibidas": [
+      "ave",
+      "cidade",
+      "praça",
+      "voar",
+      "cinza"
+    ]
+  },
+  {
+    "palavra": "TUCANO",
+    "proibidas": [
+      "ave",
+      "bico",
+      "colorido",
+      "Brasil",
+      "floresta"
+    ]
+  },
+  {
+    "palavra": "FLAMINGO",
+    "proibidas": [
+      "ave",
+      "rosa",
+      "perna",
+      "água",
+      "bico"
+    ]
+  },
+  {
+    "palavra": "PEIXE",
+    "proibidas": [
+      "água",
+      "nadar",
+      "aquário",
+      "escama",
+      "barbatana"
+    ]
+  },
+  {
+    "palavra": "TUBARÃO",
+    "proibidas": [
+      "mar",
+      "dente",
+      "peixe",
+      "perigoso",
+      "barbatana"
+    ]
+  },
+  {
+    "palavra": "BALEIA",
+    "proibidas": [
+      "mar",
+      "grande",
+      "oceano",
+      "mamífero",
+      "água"
+    ]
+  },
+  {
+    "palavra": "GOLFINHO",
+    "proibidas": [
+      "mar",
+      "nadar",
+      "inteligente",
+      "oceano",
+      "pular"
+    ]
+  },
+  {
+    "palavra": "POLVO",
+    "proibidas": [
+      "mar",
+      "tentáculo",
+      "oito",
+      "molusco",
+      "água"
+    ]
+  },
+  {
+    "palavra": "LULA",
+    "proibidas": [
+      "mar",
+      "tentáculo",
+      "tinta",
+      "molusco",
+      "água"
+    ]
+  },
+  {
+    "palavra": "CARANGUEJO",
+    "proibidas": [
+      "mar",
+      "pinça",
+      "praia",
+      "casco",
+      "andar de lado"
+    ]
+  },
+  {
+    "palavra": "TARTARUGA",
+    "proibidas": [
+      "animal",
+      "casco",
+      "devagar",
+      "mar",
+      "réptil"
+    ]
+  },
+  {
+    "palavra": "JACARÉ",
+    "proibidas": [
+      "animal",
+      "dente",
+      "rio",
+      "réptil",
+      "verde"
+    ]
+  },
+  {
+    "palavra": "COBRA",
+    "proibidas": [
+      "animal",
+      "rastejar",
+      "veneno",
+      "réptil",
+      "sem pernas"
+    ]
+  },
+  {
+    "palavra": "SAPO",
+    "proibidas": [
+      "animal",
+      "pular",
+      "lago",
+      "verde",
+      "coaxar"
+    ]
+  },
+  {
+    "palavra": "BORBOLETA",
+    "proibidas": [
+      "inseto",
+      "asa",
+      "colorida",
+      "lagarta",
+      "voar"
+    ]
+  },
+  {
+    "palavra": "ABELHA",
+    "proibidas": [
+      "inseto",
+      "mel",
+      "ferrão",
+      "colmeia",
+      "voar"
+    ]
+  },
+  {
+    "palavra": "FORMIGA",
+    "proibidas": [
+      "inseto",
+      "pequena",
+      "colônia",
+      "açúcar",
+      "trabalhar"
+    ]
+  },
+  {
+    "palavra": "MOSQUITO",
+    "proibidas": [
+      "inseto",
+      "picar",
+      "sangue",
+      "voar",
+      "dengue"
+    ]
+  },
+  {
+    "palavra": "ARANHA",
+    "proibidas": [
+      "oito pernas",
+      "teia",
+      "inseto",
+      "veneno",
+      "relacionado"
+    ]
+  },
+  {
+    "palavra": "ESCORPIÃO",
+    "proibidas": [
+      "veneno",
+      "ferrão",
+      "animal",
+      "cauda",
+      "deserto"
+    ]
+  },
+  {
+    "palavra": "MÉDICO",
+    "proibidas": [
+      "hospital",
+      "paciente",
+      "doença",
+      "consulta",
+      "saúde"
+    ]
+  },
+  {
+    "palavra": "ENFERMEIRO",
+    "proibidas": [
+      "hospital",
+      "paciente",
+      "médico",
+      "cuidar",
+      "saúde"
+    ]
+  },
+  {
+    "palavra": "DENTISTA",
+    "proibidas": [
+      "dente",
+      "consultório",
+      "cárie",
+      "boca",
+      "broca"
+    ]
+  },
+  {
+    "palavra": "VETERINÁRIO",
+    "proibidas": [
+      "animal",
+      "médico",
+      "pet",
+      "clínica",
+      "cuidar"
+    ]
+  },
+  {
+    "palavra": "PROFESSOR",
+    "proibidas": [
+      "aluno",
+      "escola",
+      "ensinar",
+      "aula",
+      "matéria"
+    ]
+  },
+  {
+    "palavra": "ALUNO",
+    "proibidas": [
+      "escola",
+      "professor",
+      "estudar",
+      "prova",
+      "aula"
+    ]
+  },
+  {
+    "palavra": "ADVOGADO",
+    "proibidas": [
+      "lei",
+      "cliente",
+      "tribunal",
+      "processo",
+      "defender"
+    ]
+  },
+  {
+    "palavra": "JUIZ",
+    "proibidas": [
+      "tribunal",
+      "lei",
+      "sentença",
+      "martelo",
+      "justiça"
+    ]
+  },
+  {
+    "palavra": "POLICIAL",
+    "proibidas": [
+      "polícia",
+      "crime",
+      "arma",
+      "viatura",
+      "prisão"
+    ]
+  },
+  {
+    "palavra": "BOMBEIRO",
+    "proibidas": [
+      "fogo",
+      "incêndio",
+      "mangueira",
+      "resgate",
+      "caminhão"
+    ]
+  },
+  {
+    "palavra": "MOTORISTA",
+    "proibidas": [
+      "dirigir",
+      "carro",
+      "volante",
+      "estrada",
+      "passageiro"
+    ]
+  },
+  {
+    "palavra": "PILOTO",
+    "proibidas": [
+      "avião",
+      "voar",
+      "aeroporto",
+      "cabine",
+      "céu"
+    ]
+  },
+  {
+    "palavra": "COZINHEIRO",
+    "proibidas": [
+      "cozinha",
+      "comida",
+      "chef",
+      "panela",
+      "restaurante"
+    ]
+  },
+  {
+    "palavra": "GARÇOM",
+    "proibidas": [
+      "restaurante",
+      "mesa",
+      "pedido",
+      "comida",
+      "bandeja"
+    ]
+  },
+  {
+    "palavra": "PADEIRO",
+    "proibidas": [
+      "pão",
+      "padaria",
+      "farinha",
+      "forno",
+      "massa"
+    ]
+  },
+  {
+    "palavra": "AÇOUGUEIRO",
+    "proibidas": [
+      "carne",
+      "açougue",
+      "faca",
+      "cortar",
+      "balcão"
+    ]
+  },
+  {
+    "palavra": "CABELEREIRO",
+    "proibidas": [
+      "cabelo",
+      "cortar",
+      "salão",
+      "tesoura",
+      "pente"
+    ]
+  },
+  {
+    "palavra": "BARBEIRO",
+    "proibidas": [
+      "barba",
+      "cortar",
+      "navalha",
+      "salão",
+      "cabelo"
+    ]
+  },
+  {
+    "palavra": "PEDREIRO",
+    "proibidas": [
+      "obra",
+      "cimento",
+      "tijolo",
+      "construção",
+      "parede"
+    ]
+  },
+  {
+    "palavra": "ELETRICISTA",
+    "proibidas": [
+      "energia",
+      "fio",
+      "tomada",
+      "choque",
+      "eletricidade"
+    ]
+  },
+  {
+    "palavra": "ENCANADOR",
+    "proibidas": [
+      "cano",
+      "água",
+      "vazamento",
+      "pia",
+      "conserto"
+    ]
+  },
+  {
+    "palavra": "MECÂNICO",
+    "proibidas": [
+      "carro",
+      "motor",
+      "oficina",
+      "consertar",
+      "ferramenta"
+    ]
+  },
+  {
+    "palavra": "ENGENHEIRO",
+    "proibidas": [
+      "projeto",
+      "obra",
+      "cálculo",
+      "construção",
+      "tecnologia"
+    ]
+  },
+  {
+    "palavra": "PROGRAMADOR",
+    "proibidas": [
+      "código",
+      "computador",
+      "software",
+      "linguagem",
+      "desenvolvedor"
+    ]
+  },
+  {
+    "palavra": "ENGENHEIRO DE DADOS",
+    "proibidas": [
+      "pipeline",
+      "dados",
+      "ETL",
+      "Spark",
+      "banco"
+    ]
+  },
+  {
+    "palavra": "ANALISTA",
+    "proibidas": [
+      "dados",
+      "relatório",
+      "empresa",
+      "planilha",
+      "trabalho"
+    ]
+  },
+  {
+    "palavra": "VENDEDOR",
+    "proibidas": [
+      "venda",
+      "cliente",
+      "loja",
+      "produto",
+      "comissão"
+    ]
+  },
+  {
+    "palavra": "CAIXA",
+    "proibidas": [
+      "dinheiro",
+      "mercado",
+      "pagamento",
+      "cliente",
+      "troco"
+    ]
+  },
+  {
+    "palavra": "ATOR",
+    "proibidas": [
+      "filme",
+      "personagem",
+      "cinema",
+      "atuar",
+      "atriz"
+    ]
+  },
+  {
+    "palavra": "ATRIZ",
+    "proibidas": [
+      "filme",
+      "personagem",
+      "cinema",
+      "atuar",
+      "ator"
+    ]
+  },
+  {
+    "palavra": "CANTOR",
+    "proibidas": [
+      "música",
+      "cantar",
+      "voz",
+      "palco",
+      "show"
+    ]
+  },
+  {
+    "palavra": "DANÇARINO",
+    "proibidas": [
+      "dança",
+      "música",
+      "palco",
+      "movimento",
+      "coreografia"
+    ]
+  },
+  {
+    "palavra": "JORNALISTA",
+    "proibidas": [
+      "notícia",
+      "reportagem",
+      "televisão",
+      "jornal",
+      "entrevista"
+    ]
+  },
+  {
+    "palavra": "FOTÓGRAFO",
+    "proibidas": [
+      "foto",
+      "câmera",
+      "imagem",
+      "ensaio",
+      "lente"
+    ]
+  },
+  {
+    "palavra": "PINTOR",
+    "proibidas": [
+      "tinta",
+      "parede",
+      "quadro",
+      "pincel",
+      "pintar"
+    ]
+  },
+  {
+    "palavra": "ESCRITOR",
+    "proibidas": [
+      "livro",
+      "escrever",
+      "autor",
+      "história",
+      "texto"
+    ]
+  },
+  {
+    "palavra": "CIENTISTA",
+    "proibidas": [
+      "pesquisa",
+      "laboratório",
+      "experimento",
+      "ciência",
+      "descoberta"
+    ]
+  },
+  {
+    "palavra": "ASTRÔNOMO",
+    "proibidas": [
+      "estrela",
+      "telescópio",
+      "espaço",
+      "planeta",
+      "céu"
+    ]
+  },
+  {
+    "palavra": "AGRICULTOR",
+    "proibidas": [
+      "fazenda",
+      "plantar",
+      "campo",
+      "colheita",
+      "terra"
+    ]
+  },
+  {
+    "palavra": "PESCADOR",
+    "proibidas": [
+      "peixe",
+      "vara",
+      "rio",
+      "pescar",
+      "barco"
+    ]
+  },
+  {
+    "palavra": "FUTEBOLISTA",
+    "proibidas": [
+      "bola",
+      "campo",
+      "gol",
+      "time",
+      "jogador"
+    ]
+  },
+  {
+    "palavra": "ÁRBITRO",
+    "proibidas": [
+      "juiz",
+      "futebol",
+      "apito",
+      "cartão",
+      "regra"
+    ]
+  },
+  {
+    "palavra": "GOLEIRO",
+    "proibidas": [
+      "gol",
+      "bola",
+      "luva",
+      "futebol",
+      "defender"
+    ]
+  },
+  {
+    "palavra": "ATACANTE",
+    "proibidas": [
+      "gol",
+      "futebol",
+      "time",
+      "chutar",
+      "jogador"
+    ]
+  },
+  {
+    "palavra": "NATAÇÃO",
+    "proibidas": [
+      "água",
+      "piscina",
+      "nadar",
+      "esporte",
+      "nadador"
+    ]
+  },
+  {
+    "palavra": "BASQUETE",
+    "proibidas": [
+      "bola",
+      "cesta",
+      "quadra",
+      "NBA",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "VÔLEI",
+    "proibidas": [
+      "bola",
+      "rede",
+      "quadra",
+      "saque",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "TÊNIS",
+    "proibidas": [
+      "raquete",
+      "bola",
+      "quadra",
+      "rede",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "PINGUE-PONGUE",
+    "proibidas": [
+      "mesa",
+      "raquete",
+      "bolinha",
+      "rede",
+      "tênis de mesa"
+    ]
+  },
+  {
+    "palavra": "GOLFE",
+    "proibidas": [
+      "taco",
+      "buraco",
+      "bola",
+      "grama",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "BOXE",
+    "proibidas": [
+      "luva",
+      "luta",
+      "ringue",
+      "soco",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "JUDÔ",
+    "proibidas": [
+      "luta",
+      "kimono",
+      "tatame",
+      "golpe",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "KARATÊ",
+    "proibidas": [
+      "luta",
+      "golpe",
+      "faixa",
+      "kimono",
+      "arte marcial"
+    ]
+  },
+  {
+    "palavra": "JIU-JÍTSU",
+    "proibidas": [
+      "luta",
+      "tatame",
+      "faixa",
+      "finalização",
+      "kimono"
+    ]
+  },
+  {
+    "palavra": "CORRIDA",
+    "proibidas": [
+      "correr",
+      "velocidade",
+      "pista",
+      "atleta",
+      "maratona"
+    ]
+  },
+  {
+    "palavra": "MARATONA",
+    "proibidas": [
+      "corrida",
+      "42 km",
+      "correr",
+      "atleta",
+      "prova"
+    ]
+  },
+  {
+    "palavra": "CICLISMO",
+    "proibidas": [
+      "bicicleta",
+      "pedalar",
+      "esporte",
+      "capacete",
+      "estrada"
+    ]
+  },
+  {
+    "palavra": "SURFE",
+    "proibidas": [
+      "onda",
+      "prancha",
+      "mar",
+      "praia",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "SKI",
+    "proibidas": [
+      "neve",
+      "montanha",
+      "esporte",
+      "prancha",
+      "frio"
+    ]
+  },
+  {
+    "palavra": "PATINAÇÃO",
+    "proibidas": [
+      "gelo",
+      "patins",
+      "esporte",
+      "pista",
+      "deslizar"
+    ]
+  },
+  {
+    "palavra": "ACADEMIA",
+    "proibidas": [
+      "musculação",
+      "peso",
+      "exercício",
+      "treino",
+      "halter"
+    ]
+  },
+  {
+    "palavra": "MUSCULAÇÃO",
+    "proibidas": [
+      "academia",
+      "peso",
+      "músculo",
+      "treino",
+      "halter"
+    ]
+  },
+  {
+    "palavra": "YOGA",
+    "proibidas": [
+      "posição",
+      "alongar",
+      "tapete",
+      "respiração",
+      "exercício"
+    ]
+  },
+  {
+    "palavra": "CAMINHADA",
+    "proibidas": [
+      "andar",
+      "exercício",
+      "rua",
+      "passo",
+      "parque"
+    ]
+  },
+  {
+    "palavra": "CAMPEONATO",
+    "proibidas": [
+      "competição",
+      "time",
+      "troféu",
+      "jogo",
+      "vencedor"
+    ]
+  },
+  {
+    "palavra": "MEDALHA",
+    "proibidas": [
+      "ouro",
+      "prêmio",
+      "competição",
+      "atleta",
+      "pescoço"
+    ]
+  },
+  {
+    "palavra": "TROFÉU",
+    "proibidas": [
+      "campeão",
+      "prêmio",
+      "taça",
+      "vencedor",
+      "competição"
+    ]
+  },
+  {
+    "palavra": "APITO",
+    "proibidas": [
+      "árbitro",
+      "som",
+      "futebol",
+      "soprar",
+      "esporte"
+    ]
+  },
+  {
+    "palavra": "CARTÃO VERMELHO",
+    "proibidas": [
+      "futebol",
+      "expulsão",
+      "árbitro",
+      "jogador",
+      "falta"
+    ]
+  },
+  {
+    "palavra": "CARTÃO AMARELO",
+    "proibidas": [
+      "futebol",
+      "advertência",
+      "árbitro",
+      "jogador",
+      "falta"
+    ]
+  },
+  {
+    "palavra": "ESTÁDIO",
+    "proibidas": [
+      "futebol",
+      "torcida",
+      "campo",
+      "arquibancada",
+      "jogo"
+    ]
+  },
+  {
+    "palavra": "TORCIDA",
+    "proibidas": [
+      "futebol",
+      "time",
+      "gritar",
+      "estádio",
+      "fã"
+    ]
+  },
+  {
+    "palavra": "CINEMA",
+    "proibidas": [
+      "filme",
+      "pipoca",
+      "tela",
+      "cadeira",
+      "ingresso"
+    ]
+  },
+  {
+    "palavra": "FILME",
+    "proibidas": [
+      "cinema",
+      "ator",
+      "assistir",
+      "história",
+      "diretor"
+    ]
+  },
+  {
+    "palavra": "SÉRIE",
+    "proibidas": [
+      "episódio",
+      "temporada",
+      "televisão",
+      "assistir",
+      "streaming"
+    ]
+  },
+  {
+    "palavra": "NOVELA",
+    "proibidas": [
+      "televisão",
+      "capítulo",
+      "ator",
+      "personagem",
+      "Globo"
+    ]
+  },
+  {
+    "palavra": "DESENHO ANIMADO",
+    "proibidas": [
+      "criança",
+      "animação",
+      "televisão",
+      "personagem",
+      "cartoon"
+    ]
+  },
+  {
+    "palavra": "ANIME",
+    "proibidas": [
+      "Japão",
+      "desenho",
+      "mangá",
+      "episódio",
+      "personagem"
+    ]
+  },
+  {
+    "palavra": "MANGÁ",
+    "proibidas": [
+      "Japão",
+      "quadrinho",
+      "anime",
+      "ler",
+      "página"
+    ]
+  },
+  {
+    "palavra": "LIVRO DE RECEITAS",
+    "proibidas": [
+      "cozinhar",
+      "comida",
+      "ingrediente",
+      "receita",
+      "cozinha"
+    ]
+  },
+  {
+    "palavra": "JORNAL",
+    "proibidas": [
+      "notícia",
+      "papel",
+      "reportagem",
+      "ler",
+      "manchete"
+    ]
+  },
+  {
+    "palavra": "REVISTA",
+    "proibidas": [
+      "página",
+      "notícia",
+      "capa",
+      "ler",
+      "banca"
+    ]
+  },
+  {
+    "palavra": "RÁDIO",
+    "proibidas": [
+      "música",
+      "ouvir",
+      "estação",
+      "som",
+      "frequência"
+    ]
+  },
+  {
+    "palavra": "MÚSICA",
+    "proibidas": [
+      "ouvir",
+      "som",
+      "cantor",
+      "letra",
+      "melodia"
+    ]
+  },
+  {
+    "palavra": "VIOLÃO",
+    "proibidas": [
+      "corda",
+      "música",
+      "tocar",
+      "instrumento",
+      "guitarra"
+    ]
+  },
+  {
+    "palavra": "GUITARRA",
+    "proibidas": [
+      "música",
+      "corda",
+      "rock",
+      "instrumento",
+      "amplificador"
+    ]
+  },
+  {
+    "palavra": "PIANO",
+    "proibidas": [
+      "tecla",
+      "música",
+      "instrumento",
+      "tocar",
+      "preto e branco"
+    ]
+  },
+  {
+    "palavra": "BATERIA",
+    "proibidas": [
+      "tambor",
+      "música",
+      "baqueta",
+      "instrumento",
+      "ritmo"
+    ]
+  },
+  {
+    "palavra": "MICROFONE",
+    "proibidas": [
+      "cantar",
+      "voz",
+      "palco",
+      "som",
+      "karaokê"
+    ]
+  },
+  {
+    "palavra": "KARAOKÊ",
+    "proibidas": [
+      "cantar",
+      "música",
+      "microfone",
+      "letra",
+      "voz"
+    ]
+  },
+  {
+    "palavra": "SHOW",
+    "proibidas": [
+      "música",
+      "palco",
+      "cantor",
+      "público",
+      "ingresso"
+    ]
+  },
+  {
+    "palavra": "FESTA",
+    "proibidas": [
+      "música",
+      "dançar",
+      "aniversário",
+      "convidado",
+      "comemorar"
+    ]
+  },
+  {
+    "palavra": "ANIVERSÁRIO",
+    "proibidas": [
+      "bolo",
+      "vela",
+      "idade",
+      "parabéns",
+      "presente"
+    ]
+  },
+  {
+    "palavra": "CASAMENTO",
+    "proibidas": [
+      "noiva",
+      "noivo",
+      "igreja",
+      "aliança",
+      "festa"
+    ]
+  },
+  {
+    "palavra": "NOIVA",
+    "proibidas": [
+      "casamento",
+      "vestido",
+      "noivo",
+      "branco",
+      "aliança"
+    ]
+  },
+  {
+    "palavra": "NOIVO",
+    "proibidas": [
+      "casamento",
+      "terno",
+      "noiva",
+      "aliança",
+      "cerimônia"
+    ]
+  },
+  {
+    "palavra": "ALIANÇA",
+    "proibidas": [
+      "casamento",
+      "anel",
+      "dedo",
+      "ouro",
+      "noivos"
+    ]
+  },
+  {
+    "palavra": "PRESENTE",
+    "proibidas": [
+      "ganhar",
+      "embrulho",
+      "aniversário",
+      "dar",
+      "surpresa"
+    ]
+  },
+  {
+    "palavra": "BALÃO",
+    "proibidas": [
+      "festa",
+      "ar",
+      "aniversário",
+      "estourar",
+      "colorido"
+    ]
+  },
+  {
+    "palavra": "VELA",
+    "proibidas": [
+      "bolo",
+      "fogo",
+      "aniversário",
+      "apagar",
+      "luz"
+    ]
+  },
+  {
+    "palavra": "CONFETE",
+    "proibidas": [
+      "carnaval",
+      "festa",
+      "papel",
+      "colorido",
+      "jogar"
+    ]
+  },
+  {
+    "palavra": "CARNAVAL",
+    "proibidas": [
+      "samba",
+      "fantasia",
+      "bloco",
+      "festa",
+      "fevereiro"
+    ]
+  },
+  {
+    "palavra": "NATAL",
+    "proibidas": [
+      "Papai Noel",
+      "presente",
+      "dezembro",
+      "árvore",
+      "Jesus"
+    ]
+  },
+  {
+    "palavra": "PAPAI NOEL",
+    "proibidas": [
+      "Natal",
+      "presente",
+      "barba",
+      "vermelho",
+      "trenó"
+    ]
+  },
+  {
+    "palavra": "ÁRVORE DE NATAL",
+    "proibidas": [
+      "Natal",
+      "enfeite",
+      "presente",
+      "verde",
+      "pisca-pisca"
+    ]
+  },
+  {
+    "palavra": "PÁSCOA",
+    "proibidas": [
+      "coelho",
+      "chocolate",
+      "ovo",
+      "feriado",
+      "domingo"
+    ]
+  },
+  {
+    "palavra": "HALLOWEEN",
+    "proibidas": [
+      "fantasia",
+      "terror",
+      "abóbora",
+      "doces",
+      "outubro"
+    ]
+  },
+  {
+    "palavra": "FANTASIA",
+    "proibidas": [
+      "roupa",
+      "carnaval",
+      "personagem",
+      "festa",
+      "vestir"
+    ]
+  },
+  {
+    "palavra": "ABÓBORA",
+    "proibidas": [
+      "Halloween",
+      "laranja",
+      "legume",
+      "semente",
+      "doce"
+    ]
+  },
+  {
+    "palavra": "ESCOLA",
+    "proibidas": [
+      "aluno",
+      "professor",
+      "aula",
+      "estudar",
+      "sala"
+    ]
+  },
+  {
+    "palavra": "FACULDADE",
+    "proibidas": [
+      "curso",
+      "aluno",
+      "professor",
+      "universidade",
+      "diploma"
+    ]
+  },
+  {
+    "palavra": "PROVA",
+    "proibidas": [
+      "nota",
+      "escola",
+      "pergunta",
+      "estudar",
+      "teste"
+    ]
+  },
+  {
+    "palavra": "NOTA",
+    "proibidas": [
+      "prova",
+      "escola",
+      "número",
+      "boletim",
+      "avaliação"
+    ]
+  },
+  {
+    "palavra": "DIPLOMA",
+    "proibidas": [
+      "faculdade",
+      "formatura",
+      "curso",
+      "certificado",
+      "estudo"
+    ]
+  },
+  {
+    "palavra": "FORMATURA",
+    "proibidas": [
+      "faculdade",
+      "diploma",
+      "festa",
+      "curso",
+      "aluno"
+    ]
+  },
+  {
+    "palavra": "LIÇÃO DE CASA",
+    "proibidas": [
+      "escola",
+      "professor",
+      "atividade",
+      "caderno",
+      "estudar"
+    ]
+  },
+  {
+    "palavra": "RECREIO",
+    "proibidas": [
+      "escola",
+      "intervalo",
+      "aluno",
+      "lanche",
+      "pátio"
+    ]
+  },
+  {
+    "palavra": "BIBLIOTECA",
+    "proibidas": [
+      "livro",
+      "ler",
+      "silêncio",
+      "estante",
+      "escola"
+    ]
+  },
+  {
+    "palavra": "QUADRO NEGRO",
+    "proibidas": [
+      "professor",
+      "giz",
+      "escola",
+      "aula",
+      "escrever"
+    ]
+  },
+  {
+    "palavra": "GIZ",
+    "proibidas": [
+      "quadro",
+      "escola",
+      "professor",
+      "branco",
+      "escrever"
+    ]
+  },
+  {
+    "palavra": "MOCHILA ESCOLAR",
+    "proibidas": [
+      "livro",
+      "caderno",
+      "costas",
+      "aluno",
+      "escola"
+    ]
+  },
+  {
+    "palavra": "UNIFORME",
+    "proibidas": [
+      "escola",
+      "roupa",
+      "aluno",
+      "igual",
+      "vestir"
+    ]
+  },
+  {
+    "palavra": "EMPRESA",
+    "proibidas": [
+      "trabalho",
+      "funcionário",
+      "escritório",
+      "negócio",
+      "chefe"
+    ]
+  },
+  {
+    "palavra": "ESCRITÓRIO",
+    "proibidas": [
+      "trabalho",
+      "mesa",
+      "computador",
+      "empresa",
+      "cadeira"
+    ]
+  },
+  {
+    "palavra": "REUNIÃO",
+    "proibidas": [
+      "trabalho",
+      "pessoas",
+      "empresa",
+      "conversa",
+      "agenda"
+    ]
+  },
+  {
+    "palavra": "CHEFE",
+    "proibidas": [
+      "trabalho",
+      "funcionário",
+      "empresa",
+      "mandar",
+      "gerente"
+    ]
+  },
+  {
+    "palavra": "SALÁRIO",
+    "proibidas": [
+      "trabalho",
+      "dinheiro",
+      "pagamento",
+      "mês",
+      "empresa"
+    ]
+  },
+  {
+    "palavra": "FÉRIAS",
+    "proibidas": [
+      "trabalho",
+      "descanso",
+      "viagem",
+      "dias",
+      "praia"
+    ]
+  },
+  {
+    "palavra": "CURRÍCULO",
+    "proibidas": [
+      "emprego",
+      "experiência",
+      "vaga",
+      "trabalho",
+      "candidato"
+    ]
+  },
+  {
+    "palavra": "ENTREVISTA",
+    "proibidas": [
+      "emprego",
+      "pergunta",
+      "recrutador",
+      "vaga",
+      "candidato"
+    ]
+  },
+  {
+    "palavra": "EMPREGO",
+    "proibidas": [
+      "trabalho",
+      "salário",
+      "empresa",
+      "vaga",
+      "funcionário"
+    ]
+  },
+  {
+    "palavra": "HOME OFFICE",
+    "proibidas": [
+      "casa",
+      "trabalho",
+      "computador",
+      "remoto",
+      "empresa"
+    ]
+  },
+  {
+    "palavra": "PLANILHA",
+    "proibidas": [
+      "Excel",
+      "célula",
+      "tabela",
+      "dados",
+      "trabalho"
+    ]
+  },
+  {
+    "palavra": "RELATÓRIO",
+    "proibidas": [
+      "dados",
+      "documento",
+      "empresa",
+      "resultado",
+      "trabalho"
+    ]
+  },
+  {
+    "palavra": "GRÁFICO",
+    "proibidas": [
+      "dados",
+      "linha",
+      "barra",
+      "relatório",
+      "visualização"
+    ]
+  },
+  {
+    "palavra": "PROJETO",
+    "proibidas": [
+      "trabalho",
+      "prazo",
+      "equipe",
+      "planejamento",
+      "entrega"
+    ]
+  },
+  {
+    "palavra": "PRAZO",
+    "proibidas": [
+      "data",
+      "entrega",
+      "tempo",
+      "projeto",
+      "atraso"
+    ]
+  },
+  {
+    "palavra": "EQUIPE",
+    "proibidas": [
+      "grupo",
+      "trabalho",
+      "pessoas",
+      "projeto",
+      "time"
+    ]
+  },
+  {
+    "palavra": "CLIENTE",
+    "proibidas": [
+      "empresa",
+      "comprar",
+      "venda",
+      "atendimento",
+      "produto"
+    ]
+  },
+  {
+    "palavra": "REUNIÃO ONLINE",
+    "proibidas": [
+      "videochamada",
+      "trabalho",
+      "câmera",
+      "microfone",
+      "Zoom"
+    ]
+  },
+  {
+    "palavra": "VIDEOCHAMADA",
+    "proibidas": [
+      "câmera",
+      "microfone",
+      "internet",
+      "reunião",
+      "chamada"
+    ]
+  },
+  {
+    "palavra": "ZOOM",
+    "proibidas": [
+      "reunião",
+      "videochamada",
+      "câmera",
+      "internet",
+      "trabalho"
+    ]
+  },
+  {
+    "palavra": "DOR DE CABEÇA",
+    "proibidas": [
+      "cabeça",
+      "dor",
+      "remédio",
+      "enxaqueca",
+      "doer"
+    ]
+  },
+  {
+    "palavra": "FEBRE",
+    "proibidas": [
+      "temperatura",
+      "doente",
+      "quente",
+      "termômetro",
+      "gripe"
+    ]
+  },
+  {
+    "palavra": "GRIPE",
+    "proibidas": [
+      "doente",
+      "espirro",
+      "febre",
+      "tosse",
+      "vírus"
+    ]
+  },
+  {
+    "palavra": "RESFRIADO",
+    "proibidas": [
+      "nariz",
+      "espirro",
+      "doente",
+      "gripe",
+      "frio"
+    ]
+  },
+  {
+    "palavra": "TOSSE",
+    "proibidas": [
+      "garganta",
+      "doente",
+      "gripe",
+      "som",
+      "tossir"
+    ]
+  },
+  {
+    "palavra": "ESPIRRO",
+    "proibidas": [
+      "nariz",
+      "atchim",
+      "gripe",
+      "alergia",
+      "lenço"
+    ]
+  },
+  {
+    "palavra": "REMÉDIO",
+    "proibidas": [
+      "doença",
+      "farmácia",
+      "comprimido",
+      "médico",
+      "tomar"
+    ]
+  },
+  {
+    "palavra": "COMPRIMIDO",
+    "proibidas": [
+      "remédio",
+      "engolir",
+      "farmácia",
+      "pílula",
+      "água"
+    ]
+  },
+  {
+    "palavra": "TERMÔMETRO",
+    "proibidas": [
+      "temperatura",
+      "febre",
+      "medir",
+      "graus",
+      "doente"
+    ]
+  },
+  {
+    "palavra": "HOSPITAL",
+    "proibidas": [
+      "médico",
+      "doente",
+      "enfermeiro",
+      "paciente",
+      "emergência"
+    ]
+  },
+  {
+    "palavra": "FARMÁCIA",
+    "proibidas": [
+      "remédio",
+      "comprimido",
+      "comprar",
+      "receita",
+      "saúde"
+    ]
+  },
+  {
+    "palavra": "CORAÇÃO",
+    "proibidas": [
+      "sangue",
+      "bater",
+      "peito",
+      "órgão",
+      "amor"
+    ]
+  },
+  {
+    "palavra": "CÉREBRO",
+    "proibidas": [
+      "cabeça",
+      "pensar",
+      "órgão",
+      "mente",
+      "inteligência"
+    ]
+  },
+  {
+    "palavra": "PULMÃO",
+    "proibidas": [
+      "respirar",
+      "ar",
+      "órgão",
+      "peito",
+      "oxigênio"
+    ]
+  },
+  {
+    "palavra": "ESTÔMAGO",
+    "proibidas": [
+      "comida",
+      "barriga",
+      "digestão",
+      "órgão",
+      "fome"
+    ]
+  },
+  {
+    "palavra": "DENTE",
+    "proibidas": [
+      "boca",
+      "dentista",
+      "mastigar",
+      "branco",
+      "escova"
+    ]
+  },
+  {
+    "palavra": "LÍNGUA",
+    "proibidas": [
+      "boca",
+      "falar",
+      "gosto",
+      "lamber",
+      "órgão"
+    ]
+  },
+  {
+    "palavra": "OLHO",
+    "proibidas": [
+      "ver",
+      "visão",
+      "rosto",
+      "piscar",
+      "lágrima"
+    ]
+  },
+  {
+    "palavra": "ORELHA",
+    "proibidas": [
+      "ouvir",
+      "som",
+      "cabeça",
+      "brinco",
+      "audição"
+    ]
+  },
+  {
+    "palavra": "NARIZ",
+    "proibidas": [
+      "cheiro",
+      "respirar",
+      "rosto",
+      "espirro",
+      "narina"
+    ]
+  },
+  {
+    "palavra": "BOCA",
+    "proibidas": [
+      "falar",
+      "comer",
+      "lábio",
+      "dente",
+      "beijo"
+    ]
+  },
+  {
+    "palavra": "MÃO",
+    "proibidas": [
+      "dedo",
+      "braço",
+      "pegar",
+      "palma",
+      "unha"
+    ]
+  },
+  {
+    "palavra": "PÉ",
+    "proibidas": [
+      "andar",
+      "perna",
+      "sapato",
+      "dedo",
+      "chão"
+    ]
+  },
+  {
+    "palavra": "BRAÇO",
+    "proibidas": [
+      "mão",
+      "ombro",
+      "cotovelo",
+      "corpo",
+      "músculo"
+    ]
+  },
+  {
+    "palavra": "PERNA",
+    "proibidas": [
+      "pé",
+      "joelho",
+      "andar",
+      "corpo",
+      "correr"
+    ]
+  },
+  {
+    "palavra": "CABEÇA",
+    "proibidas": [
+      "cabelo",
+      "rosto",
+      "cérebro",
+      "pescoço",
+      "chapéu"
+    ]
+  },
+  {
+    "palavra": "CABELO",
+    "proibidas": [
+      "cabeça",
+      "pente",
+      "cortar",
+      "salão",
+      "fio"
+    ]
+  },
+  {
+    "palavra": "BARBA",
+    "proibidas": [
+      "rosto",
+      "homem",
+      "barbeiro",
+      "raspar",
+      "pelo"
+    ]
+  },
+  {
+    "palavra": "BIGODE",
+    "proibidas": [
+      "rosto",
+      "barba",
+      "pelo",
+      "nariz",
+      "homem"
+    ]
+  },
+  {
+    "palavra": "UNHA",
+    "proibidas": [
+      "dedo",
+      "mão",
+      "pé",
+      "esmalte",
+      "cortar"
+    ]
+  },
+  {
+    "palavra": "SANGUE",
+    "proibidas": [
+      "vermelho",
+      "veia",
+      "corpo",
+      "coração",
+      "ferida"
+    ]
+  },
+  {
+    "palavra": "SONO",
+    "proibidas": [
+      "dormir",
+      "cama",
+      "cansaço",
+      "noite",
+      "bocejo"
+    ]
+  },
+  {
+    "palavra": "FOME",
+    "proibidas": [
+      "comida",
+      "comer",
+      "estômago",
+      "refeição",
+      "vontade"
+    ]
+  },
+  {
+    "palavra": "SEDE",
+    "proibidas": [
+      "água",
+      "beber",
+      "boca",
+      "calor",
+      "líquido"
+    ]
+  },
+  {
+    "palavra": "RISADA",
+    "proibidas": [
+      "rir",
+      "engraçado",
+      "humor",
+      "som",
+      "piada"
+    ]
+  },
+  {
+    "palavra": "CHORO",
+    "proibidas": [
+      "lágrima",
+      "tristeza",
+      "chorar",
+      "olho",
+      "emoção"
+    ]
+  },
+  {
+    "palavra": "BEIJO",
+    "proibidas": [
+      "boca",
+      "amor",
+      "lábio",
+      "casal",
+      "romance"
+    ]
+  },
+  {
+    "palavra": "ABRAÇO",
+    "proibidas": [
+      "braço",
+      "carinho",
+      "apertar",
+      "pessoa",
+      "amor"
+    ]
+  },
+  {
+    "palavra": "AMOR",
+    "proibidas": [
+      "coração",
+      "casal",
+      "paixão",
+      "sentimento",
+      "romance"
+    ]
+  },
+  {
+    "palavra": "MEDO",
+    "proibidas": [
+      "assustar",
+      "terror",
+      "sentimento",
+      "coragem",
+      "pavor"
+    ]
+  },
+  {
+    "palavra": "RAIVA",
+    "proibidas": [
+      "bravo",
+      "sentimento",
+      "nervoso",
+      "ódio",
+      "irritado"
+    ]
+  },
+  {
+    "palavra": "ALEGRIA",
+    "proibidas": [
+      "feliz",
+      "sorriso",
+      "sentimento",
+      "felicidade",
+      "contentamento"
+    ]
+  },
+  {
+    "palavra": "TRISTEZA",
+    "proibidas": [
+      "chorar",
+      "sentimento",
+      "infeliz",
+      "lágrima",
+      "depressivo"
+    ]
+  },
+  {
+    "palavra": "VERGONHA",
+    "proibidas": [
+      "constrangido",
+      "rosto",
+      "sentimento",
+      "timidez",
+      "corar"
+    ]
+  },
+  {
+    "palavra": "SURPRESA",
+    "proibidas": [
+      "inesperado",
+      "presente",
+      "espanto",
+      "reação",
+      "assustar"
+    ]
+  },
+  {
+    "palavra": "PIADA",
+    "proibidas": [
+      "engraçado",
+      "rir",
+      "humor",
+      "contar",
+      "comédia"
+    ]
+  }
+]
