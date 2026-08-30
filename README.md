@@ -4,6 +4,14 @@ Uma plataforma de jogos de festa para rodar localmente: uma pessoa hospeda o ser
 
 O projeto usa FastAPI e WebSockets para manter a sala, a partida e as pontuações sincronizadas em tempo real.
 
+## Propósito do projeto
+
+Neste momento, o **Noite de Jogos** foi criado para reunir amigos presencialmente e transformar uma noite comum em uma sessão de jogos compartilhada.
+
+O computador de uma pessoa executa o servidor local, e os participantes entram pelo navegador de seus próprios celulares usando a mesma rede Wi-Fi. Não há necessidade de criar contas, instalar aplicativos ou depender de uma conexão externa para jogar.
+
+A prioridade atual é uma experiência simples, rápida e divertida para grupos na mesma casa, apartamento, república ou evento presencial.
+
 ## Jogos disponíveis
 
 | Jogo | Descrição |
@@ -115,3 +123,35 @@ Os conteúdos dos jogos ficam em `games/<jogo>/data/` em arquivos JSON. Para cri
 ## Estado atual
 
 O projeto está em desenvolvimento ativo. A suíte automatizada cobre gerenciamento de conexões, ITO e regras centrais de COUP; recomenda-se testar manualmente cada jogo com mais de um aparelho antes de uma partida.
+
+## Próxima versão — v1.1
+
+A v1.1 será uma atualização de estabilidade e experiência de jogo, focada em deixar a plataforma mais confiável para noites de jogos presenciais.
+
+### Validação dos jogos em grupo
+
+- Testar todos os jogos com 2 a 4 celulares conectados à mesma rede.
+- Validar entrada no lobby, seleção de jogo, início, fim de partida e retorno ao lobby.
+- Revisar reconexão, desconexão e troca automática de HOST.
+
+### Melhorias no COUP
+
+- Testar o fluxo de ações, desafios, bloqueios, eliminações e nova partida.
+- Melhorar a clareza das mensagens, das cartas, das moedas, do turno atual e do histórico.
+- Corrigir comportamentos encontrados nos testes com múltiplos jogadores.
+
+### Conteúdo e experiência em celular
+
+- Ampliar e revisar cartas, temas, identidades, situações, categorias e perguntas.
+- Revisar ortografia, acentuação e textos exibidos na interface.
+- Ajustar telas pequenas, botões, textos longos, contraste e leitura durante a partida.
+- Tornar mais visíveis o código de recuperação, o status da conexão e quem é o HOST.
+
+### Qualidade e release
+
+- Criar testes automatizados para os jogos que ainda não possuem cobertura.
+- Ampliar os testes de reconexão, desconexão e troca de HOST.
+- Documentar os cenários manuais usados para validar cada lançamento.
+- Criar um changelog e publicar a tag Git `v1.1` após os testes de aceitação.
+
+Hospedagem pública, contas de usuário e partidas remotas permanecem fora do escopo da v1.1: o foco continua sendo uma ótima experiência presencial na rede local.
