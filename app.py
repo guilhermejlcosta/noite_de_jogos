@@ -18,9 +18,7 @@ from games.coup.router import router as coup_router
 BASE_DIR = Path(__file__).resolve().parent
 
 
-app = FastAPI(
-    title="Noite de Jogos"
-)
+app = FastAPI(title="Noite de Jogos")
 
 
 # ============================================================
@@ -32,26 +30,14 @@ app = FastAPI(
 
 app.mount(
     "/static/nao_pode",
-    StaticFiles(
-        directory=(
-            BASE_DIR
-            / "games"
-            / "nao_pode"
-            / "web"
-        )
-    ),
+    StaticFiles(directory=(BASE_DIR / "games" / "nao_pode" / "web")),
     name="nao_pode_static",
 )
 
 
 app.mount(
     "/static",
-    StaticFiles(
-        directory=(
-            BASE_DIR
-            / "web"
-        )
-    ),
+    StaticFiles(directory=(BASE_DIR / "web")),
     name="static",
 )
 
@@ -60,52 +46,31 @@ app.mount(
 # ROTAS
 # ============================================================
 
-app.include_router(
-    lobby_router
-)
+app.include_router(lobby_router)
 
-app.include_router(
-    nao_pode_router
-)
+app.include_router(nao_pode_router)
 
-app.include_router(
-    quem_sou_eu_router
-)
+app.include_router(quem_sou_eu_router)
 
-app.include_router(
-    mimica_router
-)
+app.include_router(mimica_router)
 
-app.include_router(
-    quiz_router
-)
+app.include_router(quiz_router)
 
-app.include_router(
-    mais_provavel_router
-)
+app.include_router(mais_provavel_router)
 
-app.include_router(
-    stop_router
-)
+app.include_router(stop_router)
 
-app.include_router(
-    ito_router
-)
+app.include_router(ito_router)
 
-app.include_router(
-    coup_router
-)
+app.include_router(coup_router)
 
 
 # ============================================================
 # HOME
 # ============================================================
 
+
 @app.get("/")
 async def home():
 
-    return FileResponse(
-        BASE_DIR
-        / "web"
-        / "index.html"
-    )
+    return FileResponse(BASE_DIR / "web" / "index.html")

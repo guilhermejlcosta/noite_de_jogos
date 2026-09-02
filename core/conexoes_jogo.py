@@ -39,11 +39,13 @@ class ConexoesJogo:
         return self.websocket_do_jogador(jogador_id) is not None
 
     def ids_conectados(self) -> list[str]:
-        return list(dict.fromkeys(
-            jogador_id
-            for jogador_id in self._por_websocket.values()
-            if self.jogador(jogador_id)
-        ))
+        return list(
+            dict.fromkeys(
+                jogador_id
+                for jogador_id in self._por_websocket.values()
+                if self.jogador(jogador_id)
+            )
+        )
 
     def itens(self):
         return list(self._por_websocket.items())
@@ -69,22 +71,20 @@ class ConexoesJogo:
             return None
 
         jogador = self.jogador(jogador_id)
-        if (
-            marcar_offline
-            and jogador
-            and jogador.get("websocket") is websocket
-        ):
+        if marcar_offline and jogador and jogador.get("websocket") is websocket:
             jogador["websocket"] = None
             jogador["conectado"] = False
         return jogador_id
 
     async def enviar_sessao(self, websocket: WebSocket, jogador: dict):
-        await websocket.send_json({
-            "tipo": "sessao",
-            "token": jogador["token"],
-            "nome": jogador["nome"],
-            "codigo_recuperacao": jogador["codigo"],
-        })
+        await websocket.send_json(
+            {
+                "tipo": "sessao",
+                "token": jogador["token"],
+                "nome": jogador["nome"],
+                "codigo_recuperacao": jogador["codigo"],
+            }
+        )
 
     async def enviar_erro(self, websocket: WebSocket, mensagem: str):
         await websocket.send_json({"tipo": "erro", "mensagem": mensagem})

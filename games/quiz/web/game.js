@@ -1,9 +1,185 @@
-let socket=null,meuNome=null,voltando=false,reconexao=false;const TOKEN_KEY="noiteDeJogosToken",el=id=>document.getElementById(id),mostrar=(id,sim)=>el(id).classList.toggle("hidden",!sim);
-function enviar(d){if(socket&&socket.readyState===WebSocket.OPEN)socket.send(JSON.stringify(d))}
-function conectar(){if(voltando||(socket&&socket.readyState<=WebSocket.OPEN))return;const p=location.protocol==="https:"?"wss":"ws";socket=new WebSocket(`${p}://${location.host}/ws/jogos/quiz`);socket.onopen=()=>{const token=localStorage.getItem(TOKEN_KEY);el("status").textContent="Recuperando sua sessão...";if(token)enviar({acao:"reconectar",token});else{mostrar("entrada",true);el("status").textContent="Use seu código de recuperação."}};socket.onmessage=e=>processar(JSON.parse(e.data));socket.onclose=()=>{socket=null;if(voltando||reconexao)return;el("status").textContent="Conexão perdida. Reconectando...";reconexao=true;setTimeout(()=>{reconexao=false;conectar()},2000)}}
-function processar(d){if(d.tipo==="erro")return alert(d.mensagem);if(d.tipo==="sessao"){localStorage.setItem(TOKEN_KEY,d.token);meuNome=d.nome;el("status").textContent=`Conectado como ${meuNome}`;mostrar("entrada",false);return}if(d.tipo==="sessao_invalida"){localStorage.removeItem(TOKEN_KEY);mostrar("entrada",true);el("status").textContent="Sessão antiga não encontrada.";return}if(d.tipo==="voltar_lobby"){voltando=true;if(socket){socket.onclose=null;socket.close()}location.href="/";return}if(d.tipo==="estado")renderizar(d)}
-function placar(container,jogadores){container.replaceChildren(...[...jogadores].sort((a,b)=>b.pontos-a.pontos).map(j=>{const linha=document.createElement("div");linha.className=`linha${j.conectado?"":" offline"}`;const nome=document.createElement("strong");nome.textContent=`${j.nome}${j.host?" · HOST":""}`;const pontos=document.createElement("span");pontos.textContent=`${j.pontos} ponto${j.pontos===1?"":"s"}`;linha.append(nome,pontos);return linha}))}
-function alternativas(d){el("alternativas").replaceChildren(...d.alternativas.map((texto,i)=>{const botao=document.createElement("button");botao.className="alternativa";botao.textContent=`${String.fromCharCode(65+i)}. ${texto}`;botao.disabled=d.ja_respondi||d.fase!=="respondendo";if(i===d.minha_resposta)botao.classList.add("selecionada");if(d.fase==="resultado"){if(i===d.correta)botao.classList.add("correta");else if(i===d.minha_resposta)botao.classList.add("errada")}botao.onclick=()=>enviar({acao:"responder",alternativa:i});return botao}))}
-function chips(d){el("respostasJogadores").replaceChildren(...d.jogadores.map(j=>{const chip=document.createElement("span");chip.className="chip";if(d.fase==="resultado")chip.classList.add(j.acertou?"ok":"erro");chip.textContent=d.fase==="resultado"?`${j.nome}: ${j.acertou?"acertou":"errou"}`:`${j.nome}: ${j.respondeu?"respondeu":"pensando"}`;return chip}))}
-function renderizar(d){if(!d.jogadores.some(j=>j.nome===meuNome))return;el("meuCodigo").textContent=d.codigo_recuperacao||"----";mostrar("sala",!d.jogo_iniciado&&!d.jogo_finalizado);mostrar("partida",d.jogo_iniciado);mostrar("final",d.jogo_finalizado);mostrar("voltar",d.sou_host);placar(el("jogadoresSala"),d.jogadores);mostrar("configuracao",d.sou_host);mostrar("aguarde",!d.sou_host);if(d.jogo_iniciado){el("progresso").textContent=`${d.numero_pergunta}/${d.quantidade_perguntas}`;el("cronometro").textContent=`00:${String(d.tempo_restante).padStart(2,"0")}`;el("pergunta").textContent=d.pergunta;alternativas(d);chips(d);mostrar("encerrar",d.sou_host&&d.fase==="respondendo");mostrar("proxima",d.sou_host&&d.fase==="resultado");el("proxima").textContent=d.ultima_pergunta?"Ver resultado final":"Próxima pergunta";if(d.fase==="respondendo")el("mensagem").textContent=d.ja_respondi?"Resposta registrada. Aguarde os outros jogadores.":"Escolha uma alternativa.";else{const acertou=d.minha_resposta===d.correta;el("mensagem").textContent=d.minha_resposta==null?"Você não respondeu a tempo.":acertou?"Resposta correta! +1 ponto":"Resposta incorreta."}}if(d.jogo_finalizado){const empate=d.vencedores.length>1;el("destaqueFinal").textContent=empate?`🏆 Empate entre ${d.vencedores.join(", ")} com ${d.maior_pontuacao} pontos!`:`🏆 ${d.vencedores[0]} venceu com ${d.maior_pontuacao} pontos!`;placar(el("placarFinal"),d.jogadores);mostrar("nova",d.sou_host)}}
-function recuperar(){enviar({acao:"recuperar_codigo",codigo:el("codigo").value.trim()})}function comecar(){enviar({acao:"comecar",quantidade:parseInt(el("quantidade").value,10),tempo:parseInt(el("tempo").value,10)})}function encerrar(){enviar({acao:"encerrar_respostas"})}function proxima(){enviar({acao:"proxima"})}function novaPartida(){enviar({acao:"nova_partida"})}function voltarLobby(){enviar({acao:"voltar_lobby"})}el("codigo").addEventListener("keydown",e=>{if(e.key==="Enter")recuperar()});conectar();
+let socket = null,
+    meuNome = null,
+    voltando = false,
+    reconexao = false;
+const TOKEN_KEY = "noiteDeJogosToken",
+    el = id => document.getElementById(id),
+    mostrar = (id, sim) => el(id).classList.toggle("hidden", !sim);
+
+function enviar(d) {
+    if (socket && socket.readyState === WebSocket.OPEN) socket.send(JSON.stringify(d))
+}
+
+function conectar() {
+    if (voltando || (socket && socket.readyState <= WebSocket.OPEN)) return;
+    const p = location.protocol === "https:" ? "wss" : "ws";
+    socket = new WebSocket(`${p}://${location.host}/ws/jogos/quiz`);
+    socket.onopen = () => {
+        const token = localStorage.getItem(TOKEN_KEY);
+        el("status").textContent = "Recuperando sua sessão...";
+        if (token) enviar({
+            acao: "reconectar",
+            token
+        });
+        else {
+            mostrar("entrada", true);
+            el("status").textContent = "Use seu código de recuperação."
+        }
+    };
+    socket.onmessage = e => processar(JSON.parse(e.data));
+    socket.onclose = () => {
+        socket = null;
+        if (voltando || reconexao) return;
+        el("status").textContent = "Conexão perdida. Reconectando...";
+        reconexao = true;
+        setTimeout(() => {
+            reconexao = false;
+            conectar()
+        }, 2000)
+    }
+}
+
+function processar(d) {
+    if (d.tipo === "erro") return alert(d.mensagem);
+    if (d.tipo === "sessao") {
+        localStorage.setItem(TOKEN_KEY, d.token);
+        meuNome = d.nome;
+        el("status").textContent = `Conectado como ${meuNome}`;
+        mostrar("entrada", false);
+        return
+    }
+    if (d.tipo === "sessao_invalida") {
+        localStorage.removeItem(TOKEN_KEY);
+        mostrar("entrada", true);
+        el("status").textContent = "Sessão antiga não encontrada.";
+        return
+    }
+    if (d.tipo === "voltar_lobby") {
+        voltando = true;
+        if (socket) {
+            socket.onclose = null;
+            socket.close()
+        }
+        location.href = "/";
+        return
+    }
+    if (d.tipo === "estado") renderizar(d)
+}
+
+function placar(container, jogadores) {
+    container.replaceChildren(...[...jogadores].sort((a, b) => b.pontos - a.pontos).map(j => {
+        const linha = document.createElement("div");
+        linha.className = `linha${j.conectado?"":" offline"}`;
+        const nome = document.createElement("strong");
+        nome.textContent = `${j.nome}${j.host?" · HOST":""}`;
+        const pontos = document.createElement("span");
+        pontos.textContent = `${j.pontos} ponto${j.pontos===1?"":"s"}`;
+        linha.append(nome, pontos);
+        return linha
+    }))
+}
+
+function alternativas(d) {
+    el("alternativas").replaceChildren(...d.alternativas.map((texto, i) => {
+        const botao = document.createElement("button");
+        botao.className = "alternativa";
+        botao.textContent = `${String.fromCharCode(65+i)}. ${texto}`;
+        botao.disabled = d.ja_respondi || d.fase !== "respondendo";
+        if (i === d.minha_resposta) botao.classList.add("selecionada");
+        if (d.fase === "resultado") {
+            if (i === d.correta) botao.classList.add("correta");
+            else if (i === d.minha_resposta) botao.classList.add("errada")
+        }
+        botao.onclick = () => enviar({
+            acao: "responder",
+            alternativa: i
+        });
+        return botao
+    }))
+}
+
+function chips(d) {
+    el("respostasJogadores").replaceChildren(...d.jogadores.map(j => {
+        const chip = document.createElement("span");
+        chip.className = "chip";
+        if (d.fase === "resultado") chip.classList.add(j.acertou ? "ok" : "erro");
+        chip.textContent = d.fase === "resultado" ? `${j.nome}: ${j.acertou?"acertou":"errou"}` : `${j.nome}: ${j.respondeu?"respondeu":"pensando"}`;
+        return chip
+    }))
+}
+
+function renderizar(d) {
+    if (!d.jogadores.some(j => j.nome === meuNome)) return;
+    el("meuCodigo").textContent = d.codigo_recuperacao || "----";
+    mostrar("sala", !d.jogo_iniciado && !d.jogo_finalizado);
+    mostrar("partida", d.jogo_iniciado);
+    mostrar("final", d.jogo_finalizado);
+    mostrar("voltar", d.sou_host);
+    placar(el("jogadoresSala"), d.jogadores);
+    mostrar("configuracao", d.sou_host);
+    mostrar("aguarde", !d.sou_host);
+    if (d.jogo_iniciado) {
+        el("progresso").textContent = `${d.numero_pergunta}/${d.quantidade_perguntas}`;
+        el("cronometro").textContent = `00:${String(d.tempo_restante).padStart(2,"0")}`;
+        el("pergunta").textContent = d.pergunta;
+        alternativas(d);
+        chips(d);
+        mostrar("encerrar", d.sou_host && d.fase === "respondendo");
+        mostrar("proxima", d.sou_host && d.fase === "resultado");
+        el("proxima").textContent = d.ultima_pergunta ? "Ver resultado final" : "Próxima pergunta";
+        if (d.fase === "respondendo") el("mensagem").textContent = d.ja_respondi ? "Resposta registrada. Aguarde os outros jogadores." : "Escolha uma alternativa.";
+        else {
+            const acertou = d.minha_resposta === d.correta;
+            el("mensagem").textContent = d.minha_resposta == null ? "Você não respondeu a tempo." : acertou ? "Resposta correta! +1 ponto" : "Resposta incorreta."
+        }
+    }
+    if (d.jogo_finalizado) {
+        const empate = d.vencedores.length > 1;
+        el("destaqueFinal").textContent = empate ? `🏆 Empate entre ${d.vencedores.join(", ")} com ${d.maior_pontuacao} pontos!` : `🏆 ${d.vencedores[0]} venceu com ${d.maior_pontuacao} pontos!`;
+        placar(el("placarFinal"), d.jogadores);
+        mostrar("nova", d.sou_host)
+    }
+}
+
+function recuperar() {
+    enviar({
+        acao: "recuperar_codigo",
+        codigo: el("codigo").value.trim()
+    })
+}
+
+function comecar() {
+    enviar({
+        acao: "comecar",
+        quantidade: parseInt(el("quantidade").value, 10),
+        tempo: parseInt(el("tempo").value, 10)
+    })
+}
+
+function encerrar() {
+    enviar({
+        acao: "encerrar_respostas"
+    })
+}
+
+function proxima() {
+    enviar({
+        acao: "proxima"
+    })
+}
+
+function novaPartida() {
+    enviar({
+        acao: "nova_partida"
+    })
+}
+
+function voltarLobby() {
+    enviar({
+        acao: "voltar_lobby"
+    })
+}
+el("codigo").addEventListener("keydown", e => {
+    if (e.key === "Enter") recuperar()
+});
+conectar();

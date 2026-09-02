@@ -38,6 +38,7 @@ if not hasattr(state, "jogadores_retornando_lobby"):
 # ARQUIVOS WEB
 # ============================================================
 
+
 @router.get("/jogos/nao-pode")
 async def pagina_nao_pode():
     return FileResponse(WEB_DIR / "index.html")
@@ -45,23 +46,18 @@ async def pagina_nao_pode():
 
 @router.get("/jogos/nao-pode/style.css")
 async def estilo_nao_pode():
-    return FileResponse(
-        WEB_DIR / "style.css",
-        media_type="text/css"
-    )
+    return FileResponse(WEB_DIR / "style.css", media_type="text/css")
 
 
 @router.get("/jogos/nao-pode/game.js")
 async def javascript_nao_pode():
-    return FileResponse(
-        WEB_DIR / "game.js",
-        media_type="application/javascript"
-    )
+    return FileResponse(WEB_DIR / "game.js", media_type="application/javascript")
 
 
 # ============================================================
 # HELPERS DE JOGADOR / SESSÃO
 # ============================================================
+
 
 def _jogador_por_id(jogador_id: Optional[str]):
     if not jogador_id:
@@ -135,6 +131,7 @@ def _criar_jogador(nome: str):
 # HELPERS DO ESTADO
 # ============================================================
 
+
 def _nome_jogador(jogador_id: Optional[str]):
     jogador = _jogador_por_id(jogador_id)
 
@@ -152,17 +149,17 @@ def _lista_jogadores(jogador_destino_id: str):
     lista = []
 
     for jogador_id, jogador in jogadores_core.jogadores.items():
-        lista.append({
-            "nome": jogador["nome"],
-            "host": jogador_id == jogadores_core.host_id,
-            "pontos": jogador.get("pontos", 0),
-            "conectado": conexoes.conectado(jogador_id),
-            "codigo_recuperacao": (
-                jogador.get("codigo")
-                if jogador_id == jogador_destino_id
-                else None
-            ),
-        })
+        lista.append(
+            {
+                "nome": jogador["nome"],
+                "host": jogador_id == jogadores_core.host_id,
+                "pontos": jogador.get("pontos", 0),
+                "conectado": conexoes.conectado(jogador_id),
+                "codigo_recuperacao": (
+                    jogador.get("codigo") if jogador_id == jogador_destino_id else None
+                ),
+            }
+        )
 
     return lista
 
@@ -181,26 +178,10 @@ def _montar_estado(jogador_destino_id: str):
             for jogador_id in state.ordem_jogadores
             if _nome_jogador(jogador_id)
         ],
-        "jogador_atual": (
-            jogador_atual["nome"]
-            if jogador_atual
-            else None
-        ),
-        "jogador_atual_conectado": (
-            conexoes.conectado(
-                state.jogador_atual_id
-            )
-        ),
-        "sou_jogador_atual": (
-            jogador_destino_id
-            ==
-            state.jogador_atual_id
-        ),
-        "sou_host": (
-            jogador_destino_id
-            ==
-            jogadores_core.host_id
-        ),
+        "jogador_atual": (jogador_atual["nome"] if jogador_atual else None),
+        "jogador_atual_conectado": (conexoes.conectado(state.jogador_atual_id)),
+        "sou_jogador_atual": (jogador_destino_id == state.jogador_atual_id),
+        "sou_host": (jogador_destino_id == jogadores_core.host_id),
         "tempo_configurado": state.tempo_configurado,
         "tempo_restante": state.tempo_restante,
         "rodadas_configuradas": state.rodadas_configuradas,
@@ -208,23 +189,16 @@ def _montar_estado(jogador_destino_id: str):
         "carta_revelada": state.carta_revelada,
         "turno_travado": state.turno_travado,
         "partida_pausada": state.partida_pausada,
-        "jogador_pausado": _nome_jogador(
-            state.jogador_pausado_id
-        ),
-        "codigo_recuperacao": (
-            _jogador_por_id(jogador_destino_id) or {}
-        ).get("codigo"),
+        "jogador_pausado": _nome_jogador(state.jogador_pausado_id),
+        "codigo_recuperacao": (_jogador_por_id(jogador_destino_id) or {}).get("codigo"),
         "carta": None,
     }
 
     if (
         state.jogo_iniciado
-        and
-        state.carta_revelada
-        and
-        jogador_destino_id == state.jogador_atual_id
-        and
-        state.carta_atual
+        and state.carta_revelada
+        and jogador_destino_id == state.jogador_atual_id
+        and state.carta_atual
     ):
         estado["carta"] = state.carta_atual
 
@@ -236,9 +210,7 @@ async def enviar_estado():
 
     for websocket, jogador_id in conexoes.itens():
         try:
-            await websocket.send_json(
-                _montar_estado(jogador_id)
-            )
+            await websocket.send_json(_montar_estado(jogador_id))
         except Exception:
             desconectados.append(websocket)
 
@@ -249,6 +221,7 @@ async def enviar_estado():
 # ============================================================
 # TIMER
 # ============================================================
+
 
 def _cancelar_timer():
     tarefa = state.timer_task
@@ -261,13 +234,7 @@ def _cancelar_timer():
 
 async def _executar_cronometro():
     try:
-        while (
-            state.jogo_iniciado
-            and
-            state.carta_revelada
-            and
-            not state.turno_travado
-        ):
+        while state.jogo_iniciado and state.carta_revelada and not state.turno_travado:
             if state.partida_pausada:
                 await asyncio.sleep(0.20)
                 continue
@@ -276,20 +243,15 @@ async def _executar_cronometro():
 
             if (
                 not state.jogo_iniciado
-                or
-                not state.carta_revelada
-                or
-                state.turno_travado
+                or not state.carta_revelada
+                or state.turno_travado
             ):
                 return
 
             if state.partida_pausada:
                 continue
 
-            state.tempo_restante = max(
-                0,
-                state.tempo_restante - 1
-            )
+            state.tempo_restante = max(0, state.tempo_restante - 1)
 
             if state.tempo_restante <= 0:
                 state.turno_travado = True
@@ -312,14 +274,13 @@ async def _executar_cronometro():
 def _iniciar_timer():
     _cancelar_timer()
 
-    state.timer_task = asyncio.create_task(
-        _executar_cronometro()
-    )
+    state.timer_task = asyncio.create_task(_executar_cronometro())
 
 
 # ============================================================
 # REGRAS DE TURNO
 # ============================================================
+
 
 def _preparar_turno():
     state.carta_atual = game.sortear_carta()
@@ -364,9 +325,7 @@ def _avancar_turno():
             _finalizar_jogo()
             return
 
-    state.jogador_atual_id = state.ordem_jogadores[
-        state.indice_atual
-    ]
+    state.jogador_atual_id = state.ordem_jogadores[state.indice_atual]
 
     _preparar_turno()
 
@@ -375,15 +334,15 @@ def _avancar_turno():
 # VOLTAR AO LOBBY
 # ============================================================
 
+
 async def enviar_todos_para_lobby():
-    await conexoes.enviar_voltar_lobby(
-        state.jogadores_retornando_lobby
-    )
+    await conexoes.enviar_voltar_lobby(state.jogadores_retornando_lobby)
 
 
 # ============================================================
 # WEBSOCKET
 # ============================================================
+
 
 @router.websocket("/ws/jogos/nao-pode")
 async def websocket_nao_pode(websocket: WebSocket):
@@ -402,49 +361,33 @@ async def websocket_nao_pode(websocket: WebSocket):
 
             if acao == "entrar":
                 if state.jogo_iniciado:
-                    await conexoes.enviar_erro(
-                        websocket,
-                        "A partida já começou."
-                    )
+                    await conexoes.enviar_erro(websocket, "A partida já começou.")
                     continue
 
-                nome = str(
-                    dados.get("nome", "")
-                ).strip()
+                nome = str(dados.get("nome", "")).strip()
 
                 if not nome:
-                    await conexoes.enviar_erro(
-                        websocket,
-                        "Digite seu nome."
-                    )
+                    await conexoes.enviar_erro(websocket, "Digite seu nome.")
                     continue
 
                 nome_em_uso = any(
-                    jogador["nome"].lower()
-                    ==
-                    nome.lower()
+                    jogador["nome"].lower() == nome.lower()
                     for jogador in jogadores_core.jogadores.values()
                 )
 
                 if nome_em_uso:
                     await conexoes.enviar_erro(
                         websocket,
-                        "Esse nome já está sendo usado. Se for você, use a reconexão."
+                        "Esse nome já está sendo usado. Se for você, use a reconexão.",
                     )
                     continue
 
                 jogador = _criar_jogador(nome)
                 jogador_id = jogador["id"]
 
-                await conexoes.associar(
-                    websocket,
-                    jogador
-                )
+                await conexoes.associar(websocket, jogador)
 
-                await conexoes.enviar_sessao(
-                    websocket,
-                    jogador
-                )
+                await conexoes.enviar_sessao(websocket, jogador)
 
                 await enviar_estado()
                 continue
@@ -454,35 +397,21 @@ async def websocket_nao_pode(websocket: WebSocket):
             # =================================================
 
             if acao == "reconectar":
-                jogador = _jogador_por_token(
-                    str(dados.get("token", ""))
-                )
+                jogador = _jogador_por_token(str(dados.get("token", "")))
 
                 if not jogador:
-                    await websocket.send_json({
-                        "tipo": "sessao_invalida"
-                    })
+                    await websocket.send_json({"tipo": "sessao_invalida"})
                     continue
 
                 jogador_id = jogador["id"]
 
-                await conexoes.associar(
-                    websocket,
-                    jogador
-                )
+                await conexoes.associar(websocket, jogador)
 
-                if (
-                    state.partida_pausada
-                    and
-                    state.jogador_pausado_id == jogador_id
-                ):
+                if state.partida_pausada and state.jogador_pausado_id == jogador_id:
                     state.partida_pausada = False
                     state.jogador_pausado_id = None
 
-                await conexoes.enviar_sessao(
-                    websocket,
-                    jogador
-                )
+                await conexoes.enviar_sessao(websocket, jogador)
 
                 await enviar_estado()
                 continue
@@ -492,36 +421,23 @@ async def websocket_nao_pode(websocket: WebSocket):
             # =================================================
 
             if acao == "recuperar_codigo":
-                jogador = _jogador_por_codigo(
-                    str(dados.get("codigo", ""))
-                )
+                jogador = _jogador_por_codigo(str(dados.get("codigo", "")))
 
                 if not jogador:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Código de recuperação não encontrado."
+                        websocket, "Código de recuperação não encontrado."
                     )
                     continue
 
                 jogador_id = jogador["id"]
 
-                await conexoes.associar(
-                    websocket,
-                    jogador
-                )
+                await conexoes.associar(websocket, jogador)
 
-                if (
-                    state.partida_pausada
-                    and
-                    state.jogador_pausado_id == jogador_id
-                ):
+                if state.partida_pausada and state.jogador_pausado_id == jogador_id:
                     state.partida_pausada = False
                     state.jogador_pausado_id = None
 
-                await conexoes.enviar_sessao(
-                    websocket,
-                    jogador
-                )
+                await conexoes.enviar_sessao(websocket, jogador)
 
                 await enviar_estado()
                 continue
@@ -531,8 +447,7 @@ async def websocket_nao_pode(websocket: WebSocket):
 
             if not jogador_id:
                 await conexoes.enviar_erro(
-                    websocket,
-                    "Sessão não encontrada. Entre novamente."
+                    websocket, "Sessão não encontrada. Entre novamente."
                 )
                 continue
 
@@ -543,8 +458,7 @@ async def websocket_nao_pode(websocket: WebSocket):
             if acao == "comecar":
                 if jogador_id != jogadores_core.host_id:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Somente o HOST pode iniciar."
+                        websocket, "Somente o HOST pode iniciar."
                     )
                     continue
 
@@ -552,8 +466,7 @@ async def websocket_nao_pode(websocket: WebSocket):
 
                 if len(conectados) < 2:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "São necessários pelo menos 2 jogadores conectados."
+                        websocket, "São necessários pelo menos 2 jogadores conectados."
                     )
                     continue
 
@@ -562,8 +475,7 @@ async def websocket_nao_pode(websocket: WebSocket):
                     rodadas = int(dados.get("rodadas", 3))
                 except (TypeError, ValueError):
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Configuração de tempo ou rodadas inválida."
+                        websocket, "Configuração de tempo ou rodadas inválida."
                     )
                     continue
 
@@ -603,8 +515,7 @@ async def websocket_nao_pode(websocket: WebSocket):
 
                 if jogador_id != state.jogador_atual_id:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Somente o jogador da vez pode revelar a carta."
+                        websocket, "Somente o jogador da vez pode revelar a carta."
                     )
                     continue
 
@@ -632,8 +543,7 @@ async def websocket_nao_pode(websocket: WebSocket):
             if acao == "resultado":
                 if jogador_id != jogadores_core.host_id:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Somente o HOST controla o resultado."
+                        websocket, "Somente o HOST controla o resultado."
                     )
                     continue
 
@@ -643,16 +553,12 @@ async def websocket_nao_pode(websocket: WebSocket):
                 if not state.carta_revelada:
                     continue
 
-                acertou = bool(
-                    dados.get("acertou", False)
-                )
+                acertou = bool(dados.get("acertou", False))
 
                 atual = _jogador_atual()
 
                 if acertou and atual:
-                    atual["pontos"] = (
-                        atual.get("pontos", 0) + 1
-                    )
+                    atual["pontos"] = atual.get("pontos", 0) + 1
 
                 _avancar_turno()
 
@@ -666,19 +572,14 @@ async def websocket_nao_pode(websocket: WebSocket):
             if acao == "pular_desconectado":
                 if jogador_id != jogadores_core.host_id:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Somente o HOST pode pular o jogador."
+                        websocket, "Somente o HOST pode pular o jogador."
                     )
                     continue
 
                 if not state.partida_pausada:
                     continue
 
-                if (
-                    state.jogador_pausado_id
-                    !=
-                    state.jogador_atual_id
-                ):
+                if state.jogador_pausado_id != state.jogador_atual_id:
                     continue
 
                 _avancar_turno()
@@ -693,8 +594,7 @@ async def websocket_nao_pode(websocket: WebSocket):
             if acao == "nova_partida":
                 if jogador_id != jogadores_core.host_id:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Somente o HOST pode iniciar uma nova partida."
+                        websocket, "Somente o HOST pode iniciar uma nova partida."
                     )
                     continue
 
@@ -713,8 +613,7 @@ async def websocket_nao_pode(websocket: WebSocket):
             if acao == "voltar_lobby":
                 if jogador_id != jogadores_core.host_id:
                     await conexoes.enviar_erro(
-                        websocket,
-                        "Somente o HOST pode voltar todos ao lobby."
+                        websocket, "Somente o HOST pode voltar todos ao lobby."
                     )
                     continue
 
@@ -732,17 +631,10 @@ async def websocket_nao_pode(websocket: WebSocket):
         pass
 
     except Exception as erro:
-        print(
-            "Erro no WebSocket do Não Pode:",
-            repr(erro)
-        )
+        print("Erro no WebSocket do Não Pode:", repr(erro))
 
     finally:
-        jogador_id = (
-            jogador_id
-            or
-            conexoes.id_por_websocket(websocket)
-        )
+        jogador_id = jogador_id or conexoes.id_por_websocket(websocket)
 
         conexoes.remover(websocket, marcar_offline=False)
 
@@ -753,9 +645,7 @@ async def websocket_nao_pode(websocket: WebSocket):
         # WebSocket é intencional. Não podemos tratar isso como queda,
         # pausar partida ou derrubar a sessão compartilhada.
         if jogador_id in state.jogadores_retornando_lobby:
-            state.jogadores_retornando_lobby.discard(
-                jogador_id
-            )
+            state.jogadores_retornando_lobby.discard(jogador_id)
             return
 
         jogador = _jogador_por_id(jogador_id)
@@ -764,11 +654,7 @@ async def websocket_nao_pode(websocket: WebSocket):
             jogador["websocket"] = None
             jogador["conectado"] = False
 
-        if (
-            state.jogo_iniciado
-            and
-            state.jogador_atual_id == jogador_id
-        ):
+        if state.jogo_iniciado and state.jogador_atual_id == jogador_id:
             state.partida_pausada = True
             state.jogador_pausado_id = jogador_id
 
@@ -777,10 +663,6 @@ async def websocket_nao_pode(websocket: WebSocket):
         # reconexão por token/código.
         if jogadores_core.host_id == jogador_id:
             conectados = conexoes.ids_conectados()
-            jogadores_core.host_id = (
-                conectados[0]
-                if conectados
-                else None
-            )
+            jogadores_core.host_id = conectados[0] if conectados else None
 
         await enviar_estado()

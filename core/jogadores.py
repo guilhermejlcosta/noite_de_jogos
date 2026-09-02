@@ -16,26 +16,20 @@ host_id = None
 # RECUPERAÇÃO
 # ============================================================
 
+
 def gerar_codigo_recuperacao():
 
-    usados = {
-        jogador["codigo"]
-        for jogador in jogadores.values()
-    }
+    usados = {jogador["codigo"] for jogador in jogadores.values()}
 
     while True:
 
-        codigo = (
-            f"{random.randint(0, 9999):04d}"
-        )
+        codigo = f"{random.randint(0, 9999):04d}"
 
         if codigo not in usados:
             return codigo
 
 
-def jogador_por_token(
-    token
-):
+def jogador_por_token(token):
 
     for jogador in jogadores.values():
 
@@ -45,9 +39,7 @@ def jogador_por_token(
     return None
 
 
-def jogador_por_codigo(
-    codigo
-):
+def jogador_por_codigo(codigo):
 
     for jogador in jogadores.values():
 
@@ -61,13 +53,10 @@ def jogador_por_codigo(
 # CONSULTAS
 # ============================================================
 
-def nome_jogador(
-    player_id
-):
 
-    jogador = jogadores.get(
-        player_id
-    )
+def nome_jogador(player_id):
+
+    jogador = jogadores.get(player_id)
 
     if jogador:
         return jogador["nome"]
@@ -75,45 +64,17 @@ def nome_jogador(
     return None
 
 
-def jogador_conectado(
-    player_id
-):
+def jogador_conectado(player_id):
 
-    jogador = jogadores.get(
-        player_id
-    )
+    jogador = jogadores.get(player_id)
 
-    return bool(
-
-        jogador
-
-        and
-
-        jogador["conectado"]
-
-        and
-
-        jogador["websocket"]
-        is not None
-
-    )
+    return bool(jogador and jogador["conectado"] and jogador["websocket"] is not None)
 
 
 def ids_jogadores_conectados():
 
     return [
-
-        player_id
-
-        for (
-            player_id,
-            jogador
-        )
-
-        in jogadores.items()
-
-        if jogador["conectado"]
-
+        player_id for (player_id, jogador) in jogadores.items() if jogador["conectado"]
     ]
 
 
@@ -121,49 +82,26 @@ def ids_jogadores_conectados():
 # WEBSOCKET
 # ============================================================
 
-def associar_websocket(
-    websocket,
-    jogador
-):
+
+def associar_websocket(websocket, jogador):
 
     jogador["conectado"] = True
 
     jogador["websocket"] = websocket
 
-    websocket_para_jogador[
-        websocket
-    ] = jogador["id"]
+    websocket_para_jogador[websocket] = jogador["id"]
 
 
-def desassociar_websocket(
-    websocket
-):
+def desassociar_websocket(websocket):
 
-    player_id = (
-        websocket_para_jogador
-        .pop(
-            websocket,
-            None
-        )
-    )
+    player_id = websocket_para_jogador.pop(websocket, None)
 
     if not player_id:
         return None
 
-    jogador = jogadores.get(
-        player_id
-    )
+    jogador = jogadores.get(player_id)
 
-    if (
-
-        jogador
-
-        and
-
-        jogador["websocket"]
-        is websocket
-
-    ):
+    if jogador and jogador["websocket"] is websocket:
 
         jogador["conectado"] = False
 
@@ -172,29 +110,13 @@ def desassociar_websocket(
     return player_id
 
 
-async def fechar_conexao_antiga(
-    jogador,
-    nova_conexao
-):
+async def fechar_conexao_antiga(jogador, nova_conexao):
 
-    antiga = jogador.get(
-        "websocket"
-    )
+    antiga = jogador.get("websocket")
 
-    if (
+    if antiga and antiga is not nova_conexao:
 
-        antiga
-
-        and
-
-        antiga is not nova_conexao
-
-    ):
-
-        websocket_para_jogador.pop(
-            antiga,
-            None
-        )
+        websocket_para_jogador.pop(antiga, None)
 
         try:
 
@@ -205,52 +127,31 @@ async def fechar_conexao_antiga(
             pass
 
 
-async def enviar_sessao(
-    websocket,
-    jogador
-):
+async def enviar_sessao(websocket, jogador):
 
-    await websocket.send_json({
-
-        "tipo":
-            "sessao",
-
-        "token":
-            jogador["token"],
-
-        "nome":
-            jogador["nome"],
-
-        "codigo_recuperacao":
-            jogador["codigo"]
-
-    })
+    await websocket.send_json(
+        {
+            "tipo": "sessao",
+            "token": jogador["token"],
+            "nome": jogador["nome"],
+            "codigo_recuperacao": jogador["codigo"],
+        }
+    )
 
 
 # ============================================================
 # HOST
 # ============================================================
 
+
 def escolher_novo_host():
 
     global host_id
 
-    if jogador_conectado(
-        host_id
-    ):
+    if jogador_conectado(host_id):
 
         return
 
-    conectados = (
-        ids_jogadores_conectados()
-    )
+    conectados = ids_jogadores_conectados()
 
-    host_id = (
-
-        conectados[0]
-
-        if conectados
-
-        else None
-
-    )
+    host_id = conectados[0] if conectados else None

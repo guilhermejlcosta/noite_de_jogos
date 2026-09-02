@@ -6,7 +6,9 @@ from pathlib import Path
 from . import state
 
 
-with open(Path(__file__).resolve().parent / "data" / "perguntas.json", "r", encoding="utf-8") as arquivo:
+with open(
+    Path(__file__).resolve().parent / "data" / "perguntas.json", "r", encoding="utf-8"
+) as arquivo:
     PERGUNTAS = json.load(arquivo)
 
 
@@ -41,7 +43,11 @@ def revelar_resultado():
 
 async def executar_timer(enviar_estado):
     try:
-        while state.jogo_iniciado and state.fase == "respondendo" and state.tempo_restante > 0:
+        while (
+            state.jogo_iniciado
+            and state.fase == "respondendo"
+            and state.tempo_restante > 0
+        ):
             await asyncio.sleep(1)
             if not state.jogo_iniciado or state.fase != "respondendo":
                 return

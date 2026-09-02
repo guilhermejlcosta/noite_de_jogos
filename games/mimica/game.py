@@ -6,7 +6,9 @@ from pathlib import Path
 from . import state
 
 
-with open(Path(__file__).resolve().parent / "data" / "temas.json", "r", encoding="utf-8") as arquivo:
+with open(
+    Path(__file__).resolve().parent / "data" / "temas.json", "r", encoding="utf-8"
+) as arquivo:
     TEMAS = json.load(arquivo)
 
 
@@ -31,10 +33,14 @@ async def executar_timer(enviar_estado):
     try:
         while state.jogo_iniciado and state.tema_revelado and not state.turno_travado:
             if state.partida_pausada:
-                await asyncio.sleep(.2)
+                await asyncio.sleep(0.2)
                 continue
             await asyncio.sleep(1)
-            if not state.jogo_iniciado or not state.tema_revelado or state.turno_travado:
+            if (
+                not state.jogo_iniciado
+                or not state.tema_revelado
+                or state.turno_travado
+            ):
                 return
             if state.partida_pausada:
                 continue

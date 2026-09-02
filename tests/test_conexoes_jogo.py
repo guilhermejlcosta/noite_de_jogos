@@ -58,12 +58,17 @@ class TestConexoesJogo(unittest.IsolatedAsyncioTestCase):
     async def test_envia_sessao_sem_mudar_contrato(self):
         websocket = WebSocketFalso()
         await self.conexoes.enviar_sessao(websocket, self.jogador)
-        self.assertEqual(websocket.mensagens, [{
-            "tipo": "sessao",
-            "token": "token-1",
-            "nome": "Ana",
-            "codigo_recuperacao": "1234",
-        }])
+        self.assertEqual(
+            websocket.mensagens,
+            [
+                {
+                    "tipo": "sessao",
+                    "token": "token-1",
+                    "nome": "Ana",
+                    "codigo_recuperacao": "1234",
+                }
+            ],
+        )
 
     async def test_retorno_ao_lobby_marca_jogador_e_avisa_socket(self):
         websocket = WebSocketFalso()

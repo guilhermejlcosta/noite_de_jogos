@@ -1,10 +1,215 @@
-let socket=null,meuNome=null,voltando=false,reconexao=false,chaveFormulario=null;const TOKEN_KEY="noiteDeJogosToken",el=id=>document.getElementById(id),mostrar=(id,sim)=>el(id).classList.toggle("hidden",!sim);
-function enviar(d){if(socket&&socket.readyState===WebSocket.OPEN)socket.send(JSON.stringify(d))}function conectar(){if(voltando||(socket&&socket.readyState<=WebSocket.OPEN))return;const p=location.protocol==="https:"?"wss":"ws";socket=new WebSocket(`${p}://${location.host}/ws/jogos/stop`);socket.onopen=()=>{const token=localStorage.getItem(TOKEN_KEY);if(token)enviar({acao:"reconectar",token});else mostrar("entrada",true)};socket.onmessage=e=>processar(JSON.parse(e.data));socket.onclose=()=>{socket=null;if(voltando||reconexao)return;reconexao=true;setTimeout(()=>{reconexao=false;conectar()},2000)}}
-function processar(d){if(d.tipo==="erro")return alert(d.mensagem);if(d.tipo==="sessao"){localStorage.setItem(TOKEN_KEY,d.token);meuNome=d.nome;el("status").textContent=`Conectado como ${meuNome}`;mostrar("entrada",false);return}if(d.tipo==="sessao_invalida"){localStorage.removeItem(TOKEN_KEY);mostrar("entrada",true);return}if(d.tipo==="voltar_lobby"){voltando=true;if(socket){socket.onclose=null;socket.close()}location.href="/";return}if(d.tipo==="estado")renderizar(d)}
-function placar(container,jogadores){container.replaceChildren(...[...jogadores].sort((a,b)=>b.pontos_totais-a.pontos_totais).map(j=>{const linha=document.createElement("div");linha.className=`linha${j.conectado?"":" offline"}`;linha.innerHTML=`<strong></strong><span>${j.pontos_totais} pontos</span>`;linha.querySelector("strong").textContent=`${j.nome}${j.host?" · HOST":""}`;return linha}))}
-function criarFormulario(d){const novaChave=`${d.rodada_atual}:${d.letra}`;const campos=document.querySelectorAll("#formulario [data-categoria]");if(chaveFormulario===novaChave&&campos.length===d.categorias.length)return;chaveFormulario=novaChave;el("formulario").replaceChildren(...d.categorias.map(c=>{const div=document.createElement("div");div.className="campo";const label=document.createElement("label");label.textContent=c.nome;label.htmlFor=`stop-${c.id}`;const input=document.createElement("input");input.id=`stop-${c.id}`;input.dataset.categoria=c.id;input.maxLength=60;input.autocomplete="off";input.placeholder=`${c.nome} com ${d.letra}`;input.value=d.minhas_respostas[c.id]??"";div.append(label,input);return div}))}
-function respostas(){const r={};document.querySelectorAll("[data-categoria]").forEach(i=>r[i.dataset.categoria]=i.value);return r}
-function revisar(d){el("tabelas").replaceChildren(...d.jogadores.map(j=>{const bloco=document.createElement("div");bloco.className="tabela";const titulo=document.createElement("h3");titulo.textContent=`${j.nome} — ${j.pontos_rodada} pontos`;bloco.append(titulo);(j.respostas||[]).forEach(r=>{const item=document.createElement("button");item.className=`resposta${r.invalida?" invalida":""}`;item.disabled=!d.sou_host;const cat=document.createElement("strong");cat.textContent=r.categoria;const valor=document.createElement("span");valor.textContent=r.resposta||"—";item.append(cat,valor);item.onclick=()=>enviar({acao:"invalidar",jogador_id:j.id,categoria_id:r.categoria_id});bloco.append(item)});return bloco}))}
-function tempo(s){return `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`}
-function renderizar(d){if(!d.jogadores.some(j=>j.nome===meuNome))return;if(d.fase!=="preenchendo")chaveFormulario=null;el("meuCodigo").textContent=d.codigo_recuperacao||"----";mostrar("sala",!d.jogo_iniciado&&!d.jogo_finalizado);mostrar("jogo",d.jogo_iniciado&&d.fase==="preenchendo");mostrar("revisao",d.jogo_iniciado&&d.fase==="revisao");mostrar("final",d.jogo_finalizado);mostrar("voltar",d.sou_host);placar(el("jogadoresSala"),d.jogadores);mostrar("config",d.sou_host);mostrar("aguarde",!d.sou_host);if(d.jogo_iniciado&&d.fase==="preenchendo"){el("progresso").textContent=`${d.rodada_atual}/${d.rodadas_configuradas}`;el("cronometro").textContent=tempo(d.tempo_restante);el("letra").textContent=d.letra;criarFormulario(d);mostrar("encerrar",d.sou_host);el("mensagem").textContent=d.ja_enviei?"Respostas salvas. Você ainda pode editar e salvar novamente.":"Preencha todas as categorias antes que alguém grite STOP!"}if(d.jogo_iniciado&&d.fase==="revisao"){revisar(d);mostrar("proxima",d.sou_host);el("proxima").textContent=d.ultima_rodada?"Ver resultado final":"Próxima rodada"}if(d.jogo_finalizado){const empate=d.vencedores.length>1;el("destaque").textContent=empate?`🏆 Empate entre ${d.vencedores.join(", ")} com ${d.maior_pontuacao} pontos!`:`🏆 ${d.vencedores[0]} venceu com ${d.maior_pontuacao} pontos!`;placar(el("ranking"),d.jogadores);mostrar("nova",d.sou_host)}}
-function recuperar(){enviar({acao:"recuperar_codigo",codigo:el("codigo").value.trim()})}function comecar(){enviar({acao:"comecar",rodadas:parseInt(el("rodadas").value,10),tempo:parseInt(el("tempo").value,10)})}function salvar(parar){enviar({acao:parar?"stop":"salvar",respostas:respostas()})}function encerrar(){enviar({acao:"encerrar"})}function proxima(){enviar({acao:"proxima"})}function novaPartida(){enviar({acao:"nova_partida"})}function voltarLobby(){enviar({acao:"voltar_lobby"})}el("codigo").addEventListener("keydown",e=>{if(e.key==="Enter")recuperar()});conectar();
+let socket = null,
+    meuNome = null,
+    voltando = false,
+    reconexao = false,
+    chaveFormulario = null;
+const TOKEN_KEY = "noiteDeJogosToken",
+    el = id => document.getElementById(id),
+    mostrar = (id, sim) => el(id).classList.toggle("hidden", !sim);
+
+function enviar(d) {
+    if (socket && socket.readyState === WebSocket.OPEN) socket.send(JSON.stringify(d))
+}
+
+function conectar() {
+    if (voltando || (socket && socket.readyState <= WebSocket.OPEN)) return;
+    const p = location.protocol === "https:" ? "wss" : "ws";
+    socket = new WebSocket(`${p}://${location.host}/ws/jogos/stop`);
+    socket.onopen = () => {
+        const token = localStorage.getItem(TOKEN_KEY);
+        if (token) enviar({
+            acao: "reconectar",
+            token
+        });
+        else mostrar("entrada", true)
+    };
+    socket.onmessage = e => processar(JSON.parse(e.data));
+    socket.onclose = () => {
+        socket = null;
+        if (voltando || reconexao) return;
+        reconexao = true;
+        setTimeout(() => {
+            reconexao = false;
+            conectar()
+        }, 2000)
+    }
+}
+
+function processar(d) {
+    if (d.tipo === "erro") return alert(d.mensagem);
+    if (d.tipo === "sessao") {
+        localStorage.setItem(TOKEN_KEY, d.token);
+        meuNome = d.nome;
+        el("status").textContent = `Conectado como ${meuNome}`;
+        mostrar("entrada", false);
+        return
+    }
+    if (d.tipo === "sessao_invalida") {
+        localStorage.removeItem(TOKEN_KEY);
+        mostrar("entrada", true);
+        return
+    }
+    if (d.tipo === "voltar_lobby") {
+        voltando = true;
+        if (socket) {
+            socket.onclose = null;
+            socket.close()
+        }
+        location.href = "/";
+        return
+    }
+    if (d.tipo === "estado") renderizar(d)
+}
+
+function placar(container, jogadores) {
+    container.replaceChildren(...[...jogadores].sort((a, b) => b.pontos_totais - a.pontos_totais).map(j => {
+        const linha = document.createElement("div");
+        linha.className = `linha${j.conectado?"":" offline"}`;
+        linha.innerHTML = `<strong></strong><span>${j.pontos_totais} pontos</span>`;
+        linha.querySelector("strong").textContent = `${j.nome}${j.host?" · HOST":""}`;
+        return linha
+    }))
+}
+
+function criarFormulario(d) {
+    const novaChave = `${d.rodada_atual}:${d.letra}`;
+    const campos = document.querySelectorAll("#formulario [data-categoria]");
+    if (chaveFormulario === novaChave && campos.length === d.categorias.length) return;
+    chaveFormulario = novaChave;
+    el("formulario").replaceChildren(...d.categorias.map(c => {
+        const div = document.createElement("div");
+        div.className = "campo";
+        const label = document.createElement("label");
+        label.textContent = c.nome;
+        label.htmlFor = `stop-${c.id}`;
+        const input = document.createElement("input");
+        input.id = `stop-${c.id}`;
+        input.dataset.categoria = c.id;
+        input.maxLength = 60;
+        input.autocomplete = "off";
+        input.placeholder = `${c.nome} com ${d.letra}`;
+        input.value = d.minhas_respostas[c.id] ?? "";
+        div.append(label, input);
+        return div
+    }))
+}
+
+function respostas() {
+    const r = {};
+    document.querySelectorAll("[data-categoria]").forEach(i => r[i.dataset.categoria] = i.value);
+    return r
+}
+
+function revisar(d) {
+    el("tabelas").replaceChildren(...d.jogadores.map(j => {
+        const bloco = document.createElement("div");
+        bloco.className = "tabela";
+        const titulo = document.createElement("h3");
+        titulo.textContent = `${j.nome} — ${j.pontos_rodada} pontos`;
+        bloco.append(titulo);
+        (j.respostas || []).forEach(r => {
+            const item = document.createElement("button");
+            item.className = `resposta${r.invalida?" invalida":""}`;
+            item.disabled = !d.sou_host;
+            const cat = document.createElement("strong");
+            cat.textContent = r.categoria;
+            const valor = document.createElement("span");
+            valor.textContent = r.resposta || "—";
+            item.append(cat, valor);
+            item.onclick = () => enviar({
+                acao: "invalidar",
+                jogador_id: j.id,
+                categoria_id: r.categoria_id
+            });
+            bloco.append(item)
+        });
+        return bloco
+    }))
+}
+
+function tempo(s) {
+    return `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`
+}
+
+function renderizar(d) {
+    if (!d.jogadores.some(j => j.nome === meuNome)) return;
+    if (d.fase !== "preenchendo") chaveFormulario = null;
+    el("meuCodigo").textContent = d.codigo_recuperacao || "----";
+    mostrar("sala", !d.jogo_iniciado && !d.jogo_finalizado);
+    mostrar("jogo", d.jogo_iniciado && d.fase === "preenchendo");
+    mostrar("revisao", d.jogo_iniciado && d.fase === "revisao");
+    mostrar("final", d.jogo_finalizado);
+    mostrar("voltar", d.sou_host);
+    placar(el("jogadoresSala"), d.jogadores);
+    mostrar("config", d.sou_host);
+    mostrar("aguarde", !d.sou_host);
+    if (d.jogo_iniciado && d.fase === "preenchendo") {
+        el("progresso").textContent = `${d.rodada_atual}/${d.rodadas_configuradas}`;
+        el("cronometro").textContent = tempo(d.tempo_restante);
+        el("letra").textContent = d.letra;
+        criarFormulario(d);
+        mostrar("encerrar", d.sou_host);
+        el("mensagem").textContent = d.ja_enviei ? "Respostas salvas. Você ainda pode editar e salvar novamente." : "Preencha todas as categorias antes que alguém grite STOP!"
+    }
+    if (d.jogo_iniciado && d.fase === "revisao") {
+        revisar(d);
+        mostrar("proxima", d.sou_host);
+        el("proxima").textContent = d.ultima_rodada ? "Ver resultado final" : "Próxima rodada"
+    }
+    if (d.jogo_finalizado) {
+        const empate = d.vencedores.length > 1;
+        el("destaque").textContent = empate ? `🏆 Empate entre ${d.vencedores.join(", ")} com ${d.maior_pontuacao} pontos!` : `🏆 ${d.vencedores[0]} venceu com ${d.maior_pontuacao} pontos!`;
+        placar(el("ranking"), d.jogadores);
+        mostrar("nova", d.sou_host)
+    }
+}
+
+function recuperar() {
+    enviar({
+        acao: "recuperar_codigo",
+        codigo: el("codigo").value.trim()
+    })
+}
+
+function comecar() {
+    enviar({
+        acao: "comecar",
+        rodadas: parseInt(el("rodadas").value, 10),
+        tempo: parseInt(el("tempo").value, 10)
+    })
+}
+
+function salvar(parar) {
+    enviar({
+        acao: parar ? "stop" : "salvar",
+        respostas: respostas()
+    })
+}
+
+function encerrar() {
+    enviar({
+        acao: "encerrar"
+    })
+}
+
+function proxima() {
+    enviar({
+        acao: "proxima"
+    })
+}
+
+function novaPartida() {
+    enviar({
+        acao: "nova_partida"
+    })
+}
+
+function voltarLobby() {
+    enviar({
+        acao: "voltar_lobby"
+    })
+}
+el("codigo").addEventListener("keydown", e => {
+    if (e.key === "Enter") recuperar()
+});
+conectar();

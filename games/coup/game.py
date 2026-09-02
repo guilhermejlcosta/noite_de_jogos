@@ -16,7 +16,9 @@ ACOES = {
 
 
 def vivos(jogador_id):
-    return [c for c in state.jogadores.get(jogador_id, {}).get("cartas", []) if c["viva"]]
+    return [
+        c for c in state.jogadores.get(jogador_id, {}).get("cartas", []) if c["viva"]
+    ]
 
 
 def ativo(jogador_id):
@@ -41,7 +43,10 @@ def iniciar(participantes):
     state.baralho = [papel for papel in PAPEIS for _ in range(3)]
     random.shuffle(state.baralho)
     state.jogadores = {
-        pid: {"moedas": 2, "cartas": [{"papel": state.baralho.pop(), "viva": True} for _ in range(2)]}
+        pid: {
+            "moedas": 2,
+            "cartas": [{"papel": state.baralho.pop(), "viva": True} for _ in range(2)],
+        }
         for pid in state.participantes
     }
     state.jogo_iniciado = True
@@ -135,7 +140,14 @@ def agir(ator, tipo, alvo=None):
         _registrar("Renda recebida.")
         _encerrar_turno()
         return True, None
-    state.acao_pendente = {"tipo": tipo, "ator": ator, "alvo": alvo, "papel": ACOES[tipo].get("papel"), "bloqueador": None, "papel_bloqueio": None}
+    state.acao_pendente = {
+        "tipo": tipo,
+        "ator": ator,
+        "alvo": alvo,
+        "papel": ACOES[tipo].get("papel"),
+        "bloqueador": None,
+        "papel_bloqueio": None,
+    }
     _registrar(f"Ação declarada: {ACOES[tipo]['nome']}.")
     if tipo == "golpe":
         _executar()
@@ -164,13 +176,19 @@ def continuar(jogador_id):
 
 def desafiar_acao(desafiante):
     acao = state.acao_pendente
-    if state.fase != "reacao_acao" or not acao or desafiante == acao["ator"] or not ativo(desafiante):
+    if (
+        state.fase != "reacao_acao"
+        or not acao
+        or desafiante == acao["ator"]
+        or not ativo(desafiante)
+    ):
         return False
     ator, papel = acao["ator"], acao["papel"]
     if _comprovar(ator, papel):
         perdida = _perder_influencia(desafiante)
         _registrar(f"O desafio falhou. O desafiante perdeu {perdida}.")
-        if _verificar_fim(): return True
+        if _verificar_fim():
+            return True
         return continuar(ator)
     perdida = _perder_influencia(ator)
     _registrar(f"O blefe foi descoberto. O autor perdeu {perdida}.")
@@ -182,10 +200,17 @@ def bloquear(jogador_id, papel):
     acao = state.acao_pendente
     if state.fase != "reacao_alvo" or not acao or not ativo(jogador_id):
         return False
-    permitidos = {"ajuda": ("Duque",), "roubar": ("Capitão", "Embaixador"), "assassinar": ("Condessa",)}
-    if papel not in permitidos.get(acao["tipo"], ()): return False
-    if acao["tipo"] != "ajuda" and jogador_id != acao["alvo"]: return False
-    if jogador_id == acao["ator"]: return False
+    permitidos = {
+        "ajuda": ("Duque",),
+        "roubar": ("Capitão", "Embaixador"),
+        "assassinar": ("Condessa",),
+    }
+    if papel not in permitidos.get(acao["tipo"], ()):
+        return False
+    if acao["tipo"] != "ajuda" and jogador_id != acao["alvo"]:
+        return False
+    if jogador_id == acao["ator"]:
+        return False
     acao["bloqueador"], acao["papel_bloqueio"] = jogador_id, papel
     state.fase = "reacao_bloqueio"
     _registrar(f"Um bloqueio com {papel} foi declarado.")
@@ -193,7 +218,8 @@ def bloquear(jogador_id, papel):
 
 
 def aceitar_bloqueio(jogador_id):
-    if state.fase != "reacao_bloqueio" or jogador_id != state.acao_pendente["ator"]: return False
+    if state.fase != "reacao_bloqueio" or jogador_id != state.acao_pendente["ator"]:
+        return False
     _registrar("O bloqueio foi aceito.")
     _encerrar_turno()
     return True
@@ -201,7 +227,8 @@ def aceitar_bloqueio(jogador_id):
 
 def desafiar_bloqueio(jogador_id):
     acao = state.acao_pendente
-    if state.fase != "reacao_bloqueio" or not acao or jogador_id != acao["ator"]: return False
+    if state.fase != "reacao_bloqueio" or not acao or jogador_id != acao["ator"]:
+        return False
     bloqueador, papel = acao["bloqueador"], acao["papel_bloqueio"]
     if _comprovar(bloqueador, papel):
         perdida = _perder_influencia(jogador_id)
@@ -210,12 +237,21 @@ def desafiar_bloqueio(jogador_id):
     else:
         perdida = _perder_influencia(bloqueador)
         _registrar(f"O bloqueio era blefe. O bloqueador perdeu {perdida}.")
-        if _verificar_fim(): return True
+        if _verificar_fim():
+            return True
         _executar()
     return True
 
 
 def resetar():
-    state.jogo_iniciado=False; state.jogo_finalizado=False; state.fase="aguardando"
-    state.participantes=[]; state.jogadores={}; state.baralho=[]; state.indice_turno=0
-    state.acao_pendente=None; state.mensagem=""; state.historico=[]; state.vencedor_id=None
+    state.jogo_iniciado = False
+    state.jogo_finalizado = False
+    state.fase = "aguardando"
+    state.participantes = []
+    state.jogadores = {}
+    state.baralho = []
+    state.indice_turno = 0
+    state.acao_pendente = None
+    state.mensagem = ""
+    state.historico = []
+    state.vencedor_id = None

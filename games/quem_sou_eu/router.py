@@ -36,18 +36,20 @@ async def javascript():
 def montar_estado(destino_id):
     jogadores = []
     for jogador_id, jogador in jogadores_core.jogadores.items():
-        jogadores.append({
-            "id": jogador_id,
-            "nome": jogador["nome"],
-            "host": jogador_id == jogadores_core.host_id,
-            "conectado": conexoes.conectado(jogador_id),
-            "descobriu": jogador_id in state.descobriram,
-            "identidade": (
-                state.identidades.get(jogador_id)
-                if jogador_id != destino_id or jogador_id in state.descobriram
-                else None
-            ),
-        })
+        jogadores.append(
+            {
+                "id": jogador_id,
+                "nome": jogador["nome"],
+                "host": jogador_id == jogadores_core.host_id,
+                "conectado": conexoes.conectado(jogador_id),
+                "descobriu": jogador_id in state.descobriram,
+                "identidade": (
+                    state.identidades.get(jogador_id)
+                    if jogador_id != destino_id or jogador_id in state.descobriram
+                    else None
+                ),
+            }
+        )
     atual = conexoes.jogador(state.jogador_atual_id)
     return {
         "tipo": "estado",
@@ -90,7 +92,9 @@ async def websocket_jogo(websocket: WebSocket):
             acao = dados.get("acao")
 
             if acao == "reconectar":
-                jogador = jogadores_core.jogador_por_token(str(dados.get("token", "")).strip())
+                jogador = jogadores_core.jogador_por_token(
+                    str(dados.get("token", "")).strip()
+                )
                 if not jogador:
                     await websocket.send_json({"tipo": "sessao_invalida"})
                     continue
@@ -101,9 +105,13 @@ async def websocket_jogo(websocket: WebSocket):
                 continue
 
             if acao == "recuperar_codigo":
-                jogador = jogadores_core.jogador_por_codigo(str(dados.get("codigo", "")).strip())
+                jogador = jogadores_core.jogador_por_codigo(
+                    str(dados.get("codigo", "")).strip()
+                )
                 if not jogador:
-                    await conexoes.enviar_erro(websocket, "Código de recuperação não encontrado.")
+                    await conexoes.enviar_erro(
+                        websocket, "Código de recuperação não encontrado."
+                    )
                     continue
                 jogador["token"] = uuid.uuid4().hex
                 jogador_id = jogador["id"]
@@ -119,14 +127,20 @@ async def websocket_jogo(websocket: WebSocket):
 
             if acao == "comecar":
                 if jogador_id != jogadores_core.host_id:
-                    await conexoes.enviar_erro(websocket, "Somente o HOST pode iniciar.")
+                    await conexoes.enviar_erro(
+                        websocket, "Somente o HOST pode iniciar."
+                    )
                     continue
                 conectados = conexoes.ids_conectados()
                 if len(conectados) < 2:
-                    await conexoes.enviar_erro(websocket, "São necessários pelo menos 2 jogadores.")
+                    await conexoes.enviar_erro(
+                        websocket, "São necessários pelo menos 2 jogadores."
+                    )
                     continue
                 if len(conectados) > len(game.IDENTIDADES):
-                    await conexoes.enviar_erro(websocket, "Não há identidades suficientes para todos.")
+                    await conexoes.enviar_erro(
+                        websocket, "Não há identidades suficientes para todos."
+                    )
                     continue
                 game.iniciar(conectados)
 
@@ -148,7 +162,9 @@ async def websocket_jogo(websocket: WebSocket):
 
             elif acao == "voltar_lobby":
                 if jogador_id != jogadores_core.host_id:
-                    await conexoes.enviar_erro(websocket, "Somente o HOST pode voltar ao Lobby.")
+                    await conexoes.enviar_erro(
+                        websocket, "Somente o HOST pode voltar ao Lobby."
+                    )
                     continue
                 lobby_core.jogo_selecionado = None
                 game.resetar()

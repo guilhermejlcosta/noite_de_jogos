@@ -36,8 +36,7 @@ function ativarAudio() {
         if (audioContext.state === "suspended") {
             audioContext.resume();
         }
-    }
-    catch (erro) {
+    } catch (erro) {
         console.log("Áudio indisponível:", erro);
     }
 }
@@ -124,9 +123,9 @@ function alternarSom() {
 }
 
 function atualizarBotoesSom() {
-    const texto = sonsLigados
-        ? "🔊 Sons ligados"
-        : "🔇 Sons desligados";
+    const texto = sonsLigados ?
+        "🔊 Sons ligados" :
+        "🔇 Sons desligados";
 
     [
         "botaoSomSala",
@@ -170,8 +169,7 @@ function animarTrocaJogador() {
 
 function socketAberto() {
     return (
-        socket
-        &&
+        socket &&
         socket.readyState === WebSocket.OPEN
     );
 }
@@ -218,28 +216,23 @@ function conectar() {
     }
 
     if (
-        socket
-        &&
+        socket &&
         (
-            socket.readyState === WebSocket.OPEN
-            ||
+            socket.readyState === WebSocket.OPEN ||
             socket.readyState === WebSocket.CONNECTING
         )
     ) {
         return;
     }
 
-    const protocolo = location.protocol === "https:"
-        ? "wss"
-        : "ws";
+    const protocolo = location.protocol === "https:" ?
+        "wss" :
+        "ws";
 
     socket = new WebSocket(
-        protocolo
-        +
-        "://"
-        +
-        location.host
-        +
+        protocolo +
+        "://" +
+        location.host +
         "/ws/jogos/nao-pode"
     );
 
@@ -256,8 +249,7 @@ function conectar() {
                     token: token
                 })
             );
-        }
-        else {
+        } else {
             document.getElementById("status").innerText =
                 "🟢 Conectado ao servidor";
         }
@@ -324,8 +316,7 @@ function conectar() {
 
                 try {
                     socket.close();
-                }
-                catch (erro) {
+                } catch (erro) {
                     console.log(
                         "Não foi possível fechar o socket:",
                         erro
@@ -541,8 +532,7 @@ function atualizarEstado(dados) {
         document.getElementById("jogo").style.display = "none";
 
         atualizarSala(dados);
-    }
-    else {
+    } else {
         document.getElementById("sala").style.display = "none";
         document.getElementById("jogo").style.display = "block";
 
@@ -573,45 +563,32 @@ function atualizarSala(dados) {
 
         if (jogador.host) {
             extras +=
-                '<div class="host">'
-                +
-                '👑 HOST'
-                +
+                '<div class="host">' +
+                '👑 HOST' +
                 '</div>';
         }
 
         if (jogador.codigo_recuperacao) {
             extras +=
-                '<div class="codigo">'
-                +
-                'Código: '
-                +
-                jogador.codigo_recuperacao
-                +
+                '<div class="codigo">' +
+                'Código: ' +
+                jogador.codigo_recuperacao +
                 '</div>';
         }
 
         div.innerHTML =
-            '<div class="linha-jogador">'
-            +
-            '<div>👤 '
-            +
-            nome
-            +
-            extras
-            +
-            '</div>'
-            +
-            '<div>'
-            +
+            '<div class="linha-jogador">' +
+            '<div>👤 ' +
+            nome +
+            extras +
+            '</div>' +
+            '<div>' +
             (
-                jogador.conectado
-                ? "🟢"
-                : "🔴"
-            )
-            +
-            '</div>'
-            +
+                jogador.conectado ?
+                "🟢" :
+                "🔴"
+            ) +
+            '</div>' +
             '</div>';
 
         lista.appendChild(div);
@@ -630,11 +607,10 @@ function atualizarSala(dados) {
 
         botaoComecar.disabled = conectados.length < 2;
 
-        aviso.innerText = conectados.length < 2
-            ? "Aguardando pelo menos mais 1 jogador..."
-            : "Você é o HOST. Configure e inicie a partida.";
-    }
-    else {
+        aviso.innerText = conectados.length < 2 ?
+            "Aguardando pelo menos mais 1 jogador..." :
+            "Você é o HOST. Configure e inicie a partida.";
+    } else {
         configHost.style.display = "none";
         aviso.innerText =
             "Aguardando o HOST configurar e iniciar a partida.";
@@ -652,10 +628,8 @@ function formatarTempo(segundos) {
     const resto = segundos % 60;
 
     return (
-        String(minutos).padStart(2, "0")
-        +
-        ":"
-        +
+        String(minutos).padStart(2, "0") +
+        ":" +
         String(resto).padStart(2, "0")
     );
 }
@@ -666,8 +640,7 @@ function formatarTempo(segundos) {
 
 function atualizarJogo(dados) {
     if (
-        dados.jogador_atual
-        &&
+        dados.jogador_atual &&
         dados.jogador_atual !== ultimoJogadorAtual
     ) {
         ultimoJogadorAtual = dados.jogador_atual;
@@ -679,15 +652,12 @@ function atualizarJogo(dados) {
     }
 
     document.getElementById("rodadaInfo").innerText =
-        dados.rodada_atual
-        +
-        " / "
-        +
+        dados.rodada_atual +
+        " / " +
         dados.rodadas_configuradas;
 
     document.getElementById("tempoConfigInfo").innerText =
-        dados.tempo_configurado
-        +
+        dados.tempo_configurado +
         "s";
 
     document.getElementById("jogadorAtual").innerText =
@@ -697,8 +667,7 @@ function atualizarJogo(dados) {
 
     if (dados.sou_jogador_atual) {
         areaVez.classList.add("minhaVez");
-    }
-    else {
+    } else {
         areaVez.classList.remove("minhaVez");
     }
 
@@ -714,23 +683,19 @@ function atualizarJogo(dados) {
 
         ultimoSegundoSom = null;
         tempoAnterior = null;
-    }
-    else {
+    } else {
         cronometro.innerText = formatarTempo(
             dados.tempo_restante
         );
 
-        cronometro.className = dados.tempo_restante <= 10
-            ? "timer timer-acabando"
-            : "timer";
+        cronometro.className = dados.tempo_restante <= 10 ?
+            "timer timer-acabando" :
+            "timer";
 
         if (
-            !dados.partida_pausada
-            &&
-            dados.tempo_restante <= 10
-            &&
-            dados.tempo_restante > 0
-            &&
+            !dados.partida_pausada &&
+            dados.tempo_restante <= 10 &&
+            dados.tempo_restante > 0 &&
             ultimoSegundoSom !== dados.tempo_restante
         ) {
             ultimoSegundoSom = dados.tempo_restante;
@@ -738,8 +703,7 @@ function atualizarJogo(dados) {
         }
 
         if (
-            dados.tempo_restante === 0
-            &&
+            dados.tempo_restante === 0 &&
             tempoAnterior !== 0
         ) {
             somTempoEsgotado();
@@ -761,24 +725,20 @@ function atualizarJogo(dados) {
         areaPausa.style.display = "block";
 
         document.getElementById("textoPausa").innerText =
-            dados.jogador_pausado
-            +
-            " desconectou. "
-            +
+            dados.jogador_pausado +
+            " desconectou. " +
             "O cronômetro foi pausado e continuará do mesmo ponto se a pessoa voltar.";
 
-        botaoPular.style.display = dados.sou_host
-            ? "block"
-            : "none";
+        botaoPular.style.display = dados.sou_host ?
+            "block" :
+            "none";
 
         botaoPular.innerText =
-            "⏭ PULAR "
-            +
+            "⏭ PULAR " +
             String(
                 dados.jogador_pausado || "JOGADOR"
             ).toUpperCase();
-    }
-    else {
+    } else {
         areaPausa.style.display = "none";
         botaoPular.style.display = "none";
     }
@@ -789,12 +749,11 @@ function atualizarJogo(dados) {
 
     document.getElementById("avisoTempo").style.display =
         (
-            dados.turno_travado
-            &&
+            dados.turno_travado &&
             !dados.partida_pausada
-        )
-        ? "block"
-        : "none";
+        ) ?
+        "block" :
+        "none";
 
     // ========================================================
     // REVELAR
@@ -804,18 +763,14 @@ function atualizarJogo(dados) {
 
     areaRevelar.style.display =
         (
-            dados.sou_jogador_atual
-            &&
-            dados.jogador_atual_conectado
-            &&
-            !dados.carta_revelada
-            &&
-            !dados.turno_travado
-            &&
+            dados.sou_jogador_atual &&
+            dados.jogador_atual_conectado &&
+            !dados.carta_revelada &&
+            !dados.turno_travado &&
             !dados.partida_pausada
-        )
-        ? "block"
-        : "none";
+        ) ?
+        "block" :
+        "none";
 
     // ========================================================
     // CARTA
@@ -842,50 +797,37 @@ function atualizarJogo(dados) {
 
             proibidas.appendChild(div);
         });
-    }
-    else {
+    } else {
         carta.style.display = "none";
 
         if (
-            dados.sou_jogador_atual
-            &&
-            !dados.carta_revelada
-            &&
+            dados.sou_jogador_atual &&
+            !dados.carta_revelada &&
             !dados.partida_pausada
         ) {
             escondida.style.display = "none";
-        }
-        else {
+        } else {
             escondida.style.display = "block";
 
             const texto = document.getElementById("textoEscondido");
 
             if (dados.partida_pausada) {
                 texto.innerText =
-                    "Aguardando a reconexão de "
-                    +
-                    dados.jogador_pausado
-                    +
+                    "Aguardando a reconexão de " +
+                    dados.jogador_pausado +
                     ".";
-            }
-            else if (!dados.carta_revelada) {
+            } else if (!dados.carta_revelada) {
                 texto.innerText =
-                    "Aguardando "
-                    +
-                    dados.jogador_atual
-                    +
+                    "Aguardando " +
+                    dados.jogador_atual +
                     " revelar a carta.";
-            }
-            else if (dados.turno_travado) {
+            } else if (dados.turno_travado) {
                 texto.innerText =
                     "O tempo terminou. Aguardando o HOST definir o resultado.";
-            }
-            else {
+            } else {
                 texto.innerText =
-                    "Somente "
-                    +
-                    dados.jogador_atual
-                    +
+                    "Somente " +
+                    dados.jogador_atual +
                     " consegue ver a carta.";
             }
         }
@@ -897,14 +839,12 @@ function atualizarJogo(dados) {
 
     document.getElementById("controlesHost").style.display =
         (
-            dados.sou_host
-            &&
-            dados.carta_revelada
-            &&
+            dados.sou_host &&
+            dados.carta_revelada &&
             !dados.partida_pausada
-        )
-        ? "block"
-        : "none";
+        ) ?
+        "block" :
+        "none";
 
     atualizarPlacar(
         dados.jogadores,
@@ -934,9 +874,9 @@ function atualizarPlacar(
         }
     );
 
-    const maiorPontuacao = ordenados.length > 0
-        ? ordenados[0].pontos
-        : 0;
+    const maiorPontuacao = ordenados.length > 0 ?
+        ordenados[0].pontos :
+        0;
 
     ordenados.forEach(
         (jogador, indice) => {
@@ -944,36 +884,26 @@ function atualizarPlacar(
             div.className = "placar-item";
 
             if (
-                elementoId === "placarFinal"
-                &&
+                elementoId === "placarFinal" &&
                 jogador.pontos === maiorPontuacao
             ) {
                 div.classList.add("lider");
             }
 
-            const status = jogador.conectado
-                ? "🟢"
-                : "🔴";
+            const status = jogador.conectado ?
+                "🟢" :
+                "🔴";
 
             div.innerHTML =
-                "<span>"
-                +
-                status
-                +
-                " "
-                +
-                (indice + 1)
-                +
-                "º - "
-                +
-                jogador.nome
-                +
-                "</span>"
-                +
-                "<strong>"
-                +
-                jogador.pontos
-                +
+                "<span>" +
+                status +
+                " " +
+                (indice + 1) +
+                "º - " +
+                jogador.nome +
+                "</span>" +
+                "<strong>" +
+                jogador.pontos +
                 "</strong>";
 
             placar.appendChild(div);
@@ -1024,9 +954,9 @@ function atualizarFinal(dados) {
         (a, b) => b.pontos - a.pontos
     );
 
-    const maiorPontuacao = ordenados.length > 0
-        ? ordenados[0].pontos
-        : 0;
+    const maiorPontuacao = ordenados.length > 0 ?
+        ordenados[0].pontos :
+        0;
 
     const vencedores = ordenados
         .filter(
@@ -1037,9 +967,9 @@ function atualizarFinal(dados) {
         );
 
     document.getElementById("vencedor").innerText =
-        vencedores.length === 1
-        ? "🥇 " + vencedores[0]
-        : "🤝 Empate: " + vencedores.join(" e ");
+        vencedores.length === 1 ?
+        "🥇 " + vencedores[0] :
+        "🤝 Empate: " + vencedores.join(" e ");
 
     atualizarPlacar(
         dados.jogadores,
@@ -1047,22 +977,22 @@ function atualizarFinal(dados) {
     );
 
     document.getElementById("botaoNovaPartida").style.display =
-        dados.sou_host
-        ? "block"
-        : "none";
+        dados.sou_host ?
+        "block" :
+        "none";
 
     const botaoVoltarLobby = garantirBotaoVoltarLobby();
 
     if (botaoVoltarLobby) {
-        botaoVoltarLobby.style.display = dados.sou_host
-            ? "block"
-            : "none";
+        botaoVoltarLobby.style.display = dados.sou_host ?
+            "block" :
+            "none";
     }
 
     document.getElementById("avisoNovaPartida").innerText =
-        dados.sou_host
-        ? "Você pode iniciar outra partida ou voltar ao lobby para escolher outro jogo."
-        : "Aguardando o HOST iniciar uma nova partida ou voltar ao lobby.";
+        dados.sou_host ?
+        "Você pode iniciar outra partida ou voltar ao lobby para escolher outro jogo." :
+        "Aguardando o HOST iniciar uma nova partida ou voltar ao lobby.";
 }
 
 // ============================================================
@@ -1070,26 +1000,26 @@ function atualizarFinal(dados) {
 // ============================================================
 
 document
-.getElementById("nome")
-.addEventListener(
-    "keydown",
-    function(event) {
-        if (event.key === "Enter") {
-            entrar();
+    .getElementById("nome")
+    .addEventListener(
+        "keydown",
+        function(event) {
+            if (event.key === "Enter") {
+                entrar();
+            }
         }
-    }
-);
+    );
 
 document
-.getElementById("codigoRecuperacao")
-.addEventListener(
-    "keydown",
-    function(event) {
-        if (event.key === "Enter") {
-            recuperarComCodigo();
+    .getElementById("codigoRecuperacao")
+    .addEventListener(
+        "keydown",
+        function(event) {
+            if (event.key === "Enter") {
+                recuperarComCodigo();
+            }
         }
-    }
-);
+    );
 
 atualizarBotoesSom();
 conectar();

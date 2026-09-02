@@ -7,7 +7,9 @@ from pathlib import Path
 from . import state
 
 
-with open(Path(__file__).resolve().parent / "data" / "categorias.json", "r", encoding="utf-8") as arquivo:
+with open(
+    Path(__file__).resolve().parent / "data" / "categorias.json", "r", encoding="utf-8"
+) as arquivo:
     CATEGORIAS = json.load(arquivo)
 
 LETRAS = list("ABCDEFGHIJKLMNOPRSTUV")
@@ -27,7 +29,11 @@ def cancelar_timer():
 
 async def executar_timer(enviar_estado):
     try:
-        while state.jogo_iniciado and state.fase == "preenchendo" and state.tempo_restante > 0:
+        while (
+            state.jogo_iniciado
+            and state.fase == "preenchendo"
+            and state.tempo_restante > 0
+        ):
             await asyncio.sleep(1)
             if not state.jogo_iniciado or state.fase != "preenchendo":
                 return
@@ -114,7 +120,11 @@ def calcular_pontos():
         for pid in state.participantes:
             resposta = state.respostas.get(pid, {}).get(cid, "")
             valor = normalizar(resposta)
-            valida = bool(valor) and valor.startswith(state.letra_atual.casefold()) and (pid, cid) not in state.invalidas
+            valida = (
+                bool(valor)
+                and valor.startswith(state.letra_atual.casefold())
+                and (pid, cid) not in state.invalidas
+            )
             if valida:
                 valores[pid] = valor
         for pid, valor in valores.items():
@@ -126,7 +136,9 @@ def proxima(enviar_estado):
     if state.fase != "revisao":
         return
     for pid in state.participantes:
-        state.pontos_totais[pid] = state.pontos_totais.get(pid, 0) + state.pontos_rodada.get(pid, 0)
+        state.pontos_totais[pid] = state.pontos_totais.get(
+            pid, 0
+        ) + state.pontos_rodada.get(pid, 0)
     if state.rodada_atual >= state.rodadas_configuradas:
         state.jogo_iniciado = False
         state.jogo_finalizado = True

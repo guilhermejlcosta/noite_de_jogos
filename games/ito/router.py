@@ -36,24 +36,28 @@ def montar_estado(destino_id):
     revelar = state.fase in ("resultado", "final")
     jogadores = []
     for pid, cadastro in jogadores_core.jogadores.items():
-        jogadores.append({
-            "id": pid,
-            "nome": cadastro["nome"],
-            "host": pid == jogadores_core.host_id,
-            "conectado": conexoes.conectado(pid),
-            "enviou_pista": pid in state.pistas,
-        })
+        jogadores.append(
+            {
+                "id": pid,
+                "nome": cadastro["nome"],
+                "host": pid == jogadores_core.host_id,
+                "conectado": conexoes.conectado(pid),
+                "enviou_pista": pid in state.pistas,
+            }
+        )
 
     ordem = []
     for pid in state.ordem:
         cadastro = conexoes.jogador(pid)
         if cadastro:
-            ordem.append({
-                "id": pid,
-                "nome": cadastro["nome"],
-                "pista": state.pistas.get(pid),
-                "numero": state.numeros.get(pid) if revelar else None,
-            })
+            ordem.append(
+                {
+                    "id": pid,
+                    "nome": cadastro["nome"],
+                    "pista": state.pistas.get(pid),
+                    "numero": state.numeros.get(pid) if revelar else None,
+                }
+            )
 
     return {
         "tipo": "estado",
@@ -64,7 +68,11 @@ def montar_estado(destino_id):
         "jogo_finalizado": state.jogo_finalizado,
         "fase": state.fase,
         "tema": game.tema_atual(),
-        "numero_secreto": state.numeros.get(destino_id) if state.fase in ("pistas", "ordenando") else None,
+        "numero_secreto": (
+            state.numeros.get(destino_id)
+            if state.fase in ("pistas", "ordenando")
+            else None
+        ),
         "minha_pista": state.pistas.get(destino_id),
         "ordem": ordem,
         "rodada": state.indice_rodada + 1,
@@ -98,14 +106,20 @@ async def websocket_jogo(websocket: WebSocket):
 
             if acao in ("reconectar", "recuperar_codigo"):
                 if acao == "reconectar":
-                    cadastro = jogadores_core.jogador_por_token(str(dados.get("token", "")).strip())
+                    cadastro = jogadores_core.jogador_por_token(
+                        str(dados.get("token", "")).strip()
+                    )
                 else:
-                    cadastro = jogadores_core.jogador_por_codigo(str(dados.get("codigo", "")).strip())
+                    cadastro = jogadores_core.jogador_por_codigo(
+                        str(dados.get("codigo", "")).strip()
+                    )
                 if not cadastro:
                     if acao == "reconectar":
                         await websocket.send_json({"tipo": "sessao_invalida"})
                     else:
-                        await conexoes.enviar_erro(websocket, "Código de recuperação não encontrado.")
+                        await conexoes.enviar_erro(
+                            websocket, "Código de recuperação não encontrado."
+                        )
                     continue
                 if acao == "recuperar_codigo":
                     cadastro["token"] = uuid.uuid4().hex
@@ -122,11 +136,15 @@ async def websocket_jogo(websocket: WebSocket):
 
             if acao == "comecar":
                 if jogador_id != jogadores_core.host_id:
-                    await conexoes.enviar_erro(websocket, "Somente o HOST pode iniciar.")
+                    await conexoes.enviar_erro(
+                        websocket, "Somente o HOST pode iniciar."
+                    )
                     continue
                 participantes = conexoes.ids_conectados()
                 if len(participantes) < 2:
-                    await conexoes.enviar_erro(websocket, "São necessários pelo menos 2 jogadores.")
+                    await conexoes.enviar_erro(
+                        websocket, "São necessários pelo menos 2 jogadores."
+                    )
                     continue
                 try:
                     quantidade = int(dados.get("quantidade", 5))
@@ -135,7 +153,9 @@ async def websocket_jogo(websocket: WebSocket):
                 game.iniciar(participantes, max(3, min(10, quantidade)))
             elif acao == "enviar_pista":
                 if not game.enviar_pista(jogador_id, dados.get("pista", "")):
-                    await conexoes.enviar_erro(websocket, "Não foi possível registrar essa pista.")
+                    await conexoes.enviar_erro(
+                        websocket, "Não foi possível registrar essa pista."
+                    )
                     continue
             elif acao == "mover":
                 if jogador_id != jogadores_core.host_id:
@@ -156,7 +176,9 @@ async def websocket_jogo(websocket: WebSocket):
                 game.resetar()
             elif acao == "voltar_lobby":
                 if jogador_id != jogadores_core.host_id:
-                    await conexoes.enviar_erro(websocket, "Somente o HOST pode voltar ao Lobby.")
+                    await conexoes.enviar_erro(
+                        websocket, "Somente o HOST pode voltar ao Lobby."
+                    )
                     continue
                 lobby_core.jogo_selecionado = None
                 game.resetar()

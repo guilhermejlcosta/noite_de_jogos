@@ -4,6 +4,8 @@ Uma plataforma de jogos de festa para rodar localmente: uma pessoa hospeda o ser
 
 O projeto usa FastAPI e WebSockets para manter a sala, a partida e as pontuações sincronizadas em tempo real.
 
+Para entender como as pastas, telas, WebSockets e regras se conectam, consulte o [guia técnico](DOCUMENTACAO_TECNICA.md).
+
 ## Propósito do projeto
 
 Neste momento, o **Noite de Jogos** foi criado para reunir amigos presencialmente e transformar uma noite comum em uma sessão de jogos compartilhada.

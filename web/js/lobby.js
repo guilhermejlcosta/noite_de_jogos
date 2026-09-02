@@ -79,8 +79,7 @@ function conectar() {
     // Evita criar duas conexões.
 
     if (
-        socket !== null
-        &&
+        socket !== null &&
         (
             socket.readyState ===
             WebSocket.OPEN
@@ -102,13 +101,13 @@ function conectar() {
         window.location.protocol ===
         "https:"
 
-            ?
+        ?
 
-            "wss"
+        "wss"
 
-            :
+        :
 
-            "ws";
+        "ws";
 
 
     const endereco =
@@ -150,7 +149,7 @@ function conectar() {
     // ========================================================
 
     socket.onopen =
-        function () {
+        function() {
 
             console.log(
                 "[NOITE DE JOGOS] WebSocket conectado"
@@ -184,11 +183,9 @@ function conectar() {
 
                 enviar({
 
-                    acao:
-                        "reconectar",
+                    acao: "reconectar",
 
-                    token:
-                        token
+                    token: token
 
                 });
 
@@ -202,7 +199,7 @@ function conectar() {
     // ========================================================
 
     socket.onmessage =
-        function (event) {
+        function(event) {
 
             console.log(
                 "[NOITE DE JOGOS] Mensagem:",
@@ -220,9 +217,7 @@ function conectar() {
                         event.data
                     );
 
-            }
-
-            catch (erro) {
+            } catch (erro) {
 
                 console.error(
                     "[NOITE DE JOGOS] JSON inválido:",
@@ -247,7 +242,7 @@ function conectar() {
     // ========================================================
 
     socket.onerror =
-        function (erro) {
+        function(erro) {
 
             console.error(
                 "[NOITE DE JOGOS] Erro no WebSocket:",
@@ -267,7 +262,7 @@ function conectar() {
     // ========================================================
 
     socket.onclose =
-        function () {
+        function() {
 
             console.log(
                 "[NOITE DE JOGOS] WebSocket desconectado"
@@ -310,7 +305,7 @@ function agendarReconexao() {
 
     setTimeout(
 
-        function () {
+        function() {
 
             reconexaoAgendada =
                 false;
@@ -521,8 +516,8 @@ function entrar() {
 
     const nome =
         campoNome
-            .value
-            .trim();
+        .value
+        .trim();
 
 
     if (!nome) {
@@ -558,11 +553,9 @@ function entrar() {
 
     enviar({
 
-        acao:
-            "entrar",
+        acao: "entrar",
 
-        nome:
-            nome
+        nome: nome
 
     });
 
@@ -662,8 +655,8 @@ function recuperarComCodigo() {
 
     const codigo =
         campo
-            .value
-            .trim();
+        .value
+        .trim();
 
 
     if (
@@ -698,11 +691,9 @@ function recuperarComCodigo() {
 
     enviar({
 
-        acao:
-            "recuperar_codigo",
+        acao: "recuperar_codigo",
 
-        codigo:
-            codigo
+        codigo: codigo
 
     });
 
@@ -799,9 +790,7 @@ function atualizarLobby(dados) {
 
 
     for (
-        let i = 0;
-        i < dados.jogadores.length;
-        i++
+        let i = 0; i < dados.jogadores.length; i++
     ) {
 
         const jogador =
@@ -933,9 +922,7 @@ function atualizarJogadores(dados) {
 
 
     for (
-        let i = 0;
-        i < dados.jogadores.length;
-        i++
+        let i = 0; i < dados.jogadores.length; i++
     ) {
 
         const jogador =
@@ -1039,13 +1026,13 @@ function atualizarJogadores(dados) {
 
             jogador.conectado
 
-                ?
+            ?
 
-                "🟢"
+            "🟢"
 
-                :
+            :
 
-                "🔴";
+            "🔴";
 
 
         linha.appendChild(
@@ -1108,14 +1095,12 @@ function atualizarJogos(dados) {
 
 
     for (
-        let i = 0;
-        i < dados.jogadores.length;
-        i++
+        let i = 0; i < dados.jogadores.length; i++
     ) {
 
         if (
             dados.jogadores[i]
-                .conectado
+            .conectado
         ) {
 
             conectados++;
@@ -1140,18 +1125,14 @@ function atualizarJogos(dados) {
             aviso.innerText =
                 "👑 Você é o HOST. Escolha o jogo.";
 
-        }
-
-        else {
+        } else {
 
             aviso.innerText =
                 "Aguardando pelo menos mais 1 jogador.";
 
         }
 
-    }
-
-    else {
+    } else {
 
         aviso.innerText =
             "Aguardando o HOST escolher o jogo.";
@@ -1164,9 +1145,7 @@ function atualizarJogos(dados) {
     // ========================================================
 
     for (
-        let i = 0;
-        i < dados.jogos.length;
-        i++
+        let i = 0; i < dados.jogos.length; i++
     ) {
 
         criarCardJogo(
@@ -1215,9 +1194,7 @@ function criarCardJogo(
             "disponivel"
         );
 
-    }
-
-    else {
+    } else {
 
         card.classList.add(
             "indisponivel"
@@ -1322,7 +1299,7 @@ function criarCardJogo(
 
 
         botaoRegras.onclick =
-            function (evento) {
+            function(evento) {
 
                 // Evita que o clique no botão
                 // também selecione o jogo.
@@ -1378,15 +1355,13 @@ function criarCardJogo(
     // ========================================================
 
     if (
-        jogo.disponivel
-        &&
-        souHost
-        &&
+        jogo.disponivel &&
+        souHost &&
         conectados >= 2
     ) {
 
         card.onclick =
-            function () {
+            function() {
 
                 selecionarJogo(
                     jogo.id
@@ -1529,8 +1504,7 @@ function abrirRegras(jogo) {
     ) {
 
         for (
-            const texto
-            of regras.como_jogar
+            const texto of regras.como_jogar
         ) {
 
             const item =
@@ -1628,7 +1602,7 @@ if (modalRegras) {
 
         "click",
 
-        function (evento) {
+        function(evento) {
 
             if (
                 evento.target ===
@@ -1654,7 +1628,7 @@ document.addEventListener(
 
     "keydown",
 
-    function (evento) {
+    function(evento) {
 
         if (
             evento.key ===
@@ -1698,11 +1672,9 @@ function selecionarJogo(jogoId) {
 
     enviar({
 
-        acao:
-            "selecionar_jogo",
+        acao: "selecionar_jogo",
 
-        jogo:
-            jogoId
+        jogo: jogoId
 
     });
 
@@ -1716,9 +1688,7 @@ function selecionarJogo(jogoId) {
 function abrirJogoSelecionado(dados) {
 
     for (
-        let i = 0;
-        i < dados.jogos.length;
-        i++
+        let i = 0; i < dados.jogos.length; i++
     ) {
 
         const jogo =
@@ -1771,7 +1741,7 @@ if (campoNome) {
 
         "keydown",
 
-        function (event) {
+        function(event) {
 
             if (
                 event.key ===
@@ -1805,7 +1775,7 @@ if (campoCodigo) {
 
         "keydown",
 
-        function (event) {
+        function(event) {
 
             if (
                 event.key ===

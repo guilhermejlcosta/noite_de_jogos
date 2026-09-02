@@ -5,12 +5,16 @@ from pathlib import Path
 from . import state
 
 
-with open(Path(__file__).resolve().parent / "data" / "situacoes.json", "r", encoding="utf-8") as arquivo:
+with open(
+    Path(__file__).resolve().parent / "data" / "situacoes.json", "r", encoding="utf-8"
+) as arquivo:
     SITUACOES = json.load(arquivo)
 
 
 def situacao_atual():
-    if not state.situacoes_partida or not 0 <= state.indice_situacao < len(state.situacoes_partida):
+    if not state.situacoes_partida or not 0 <= state.indice_situacao < len(
+        state.situacoes_partida
+    ):
         return None
     return state.situacoes_partida[state.indice_situacao]
 

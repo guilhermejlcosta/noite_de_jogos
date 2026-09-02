@@ -36,20 +36,28 @@ def montar_estado(destino_id):
     atual = conexoes.jogador(state.jogador_atual_id)
     lista = []
     for pid, cadastro in jogadores_core.jogadores.items():
-        lista.append({
-            "id": pid, "nome": cadastro["nome"],
-            "host": pid == jogadores_core.host_id,
-            "conectado": conexoes.conectado(pid), "pontos": state.pontos.get(pid, 0),
-        })
+        lista.append(
+            {
+                "id": pid,
+                "nome": cadastro["nome"],
+                "host": pid == jogadores_core.host_id,
+                "conectado": conexoes.conectado(pid),
+                "pontos": state.pontos.get(pid, 0),
+            }
+        )
     pode_ver = (
-        state.jogo_iniciado and state.tema_revelado
+        state.jogo_iniciado
+        and state.tema_revelado
         and destino_id == state.jogador_atual_id
     )
     return {
-        "tipo": "estado", "versao": state.VERSAO, "jogadores": lista,
+        "tipo": "estado",
+        "versao": state.VERSAO,
+        "jogadores": lista,
         "sou_host": destino_id == jogadores_core.host_id,
         "sou_jogador_atual": destino_id == state.jogador_atual_id,
-        "jogo_iniciado": state.jogo_iniciado, "jogo_finalizado": state.jogo_finalizado,
+        "jogo_iniciado": state.jogo_iniciado,
+        "jogo_finalizado": state.jogo_finalizado,
         "jogador_atual": atual["nome"] if atual else None,
         "jogador_atual_conectado": conexoes.conectado(state.jogador_atual_id),
         "rodada_atual": state.rodada_atual,
@@ -90,14 +98,20 @@ async def websocket_jogo(websocket: WebSocket):
 
             if acao in ("reconectar", "recuperar_codigo"):
                 if acao == "reconectar":
-                    cadastro = jogadores_core.jogador_por_token(str(dados.get("token", "")).strip())
+                    cadastro = jogadores_core.jogador_por_token(
+                        str(dados.get("token", "")).strip()
+                    )
                 else:
-                    cadastro = jogadores_core.jogador_por_codigo(str(dados.get("codigo", "")).strip())
+                    cadastro = jogadores_core.jogador_por_codigo(
+                        str(dados.get("codigo", "")).strip()
+                    )
                 if not cadastro:
                     if acao == "reconectar":
                         await websocket.send_json({"tipo": "sessao_invalida"})
                     else:
-                        await conexoes.enviar_erro(websocket, "Código de recuperação não encontrado.")
+                        await conexoes.enviar_erro(
+                            websocket, "Código de recuperação não encontrado."
+                        )
                     continue
                 if acao == "recuperar_codigo":
                     cadastro["token"] = uuid.uuid4().hex
@@ -119,11 +133,15 @@ async def websocket_jogo(websocket: WebSocket):
 
             if acao == "comecar":
                 if jogador_id != jogadores_core.host_id:
-                    await conexoes.enviar_erro(websocket, "Somente o HOST pode iniciar.")
+                    await conexoes.enviar_erro(
+                        websocket, "Somente o HOST pode iniciar."
+                    )
                     continue
                 participantes = conexoes.ids_conectados()
                 if len(participantes) < 2:
-                    await conexoes.enviar_erro(websocket, "São necessários pelo menos 2 jogadores.")
+                    await conexoes.enviar_erro(
+                        websocket, "São necessários pelo menos 2 jogadores."
+                    )
                     continue
                 try:
                     tempo = int(dados.get("tempo", 60))
@@ -131,7 +149,12 @@ async def websocket_jogo(websocket: WebSocket):
                 except (TypeError, ValueError):
                     await conexoes.enviar_erro(websocket, "Configuração inválida.")
                     continue
-                game.iniciar(participantes, max(30, min(180, tempo)), max(1, min(10, rodadas)), conexoes.conectado)
+                game.iniciar(
+                    participantes,
+                    max(30, min(180, tempo)),
+                    max(1, min(10, rodadas)),
+                    conexoes.conectado,
+                )
 
             elif acao == "revelar":
                 if jogador_id != state.jogador_atual_id or not state.jogo_iniciado:
@@ -148,7 +171,9 @@ async def websocket_jogo(websocket: WebSocket):
                 if not state.tema_revelado:
                     continue
                 if bool(dados.get("acertou")) and state.jogador_atual_id:
-                    state.pontos[state.jogador_atual_id] = state.pontos.get(state.jogador_atual_id, 0) + 1
+                    state.pontos[state.jogador_atual_id] = (
+                        state.pontos.get(state.jogador_atual_id, 0) + 1
+                    )
                 game.avancar_turno(conexoes.conectado)
 
             elif acao == "pular_desconectado":
@@ -163,7 +188,9 @@ async def websocket_jogo(websocket: WebSocket):
 
             elif acao == "voltar_lobby":
                 if jogador_id != jogadores_core.host_id:
-                    await conexoes.enviar_erro(websocket, "Somente o HOST pode voltar ao Lobby.")
+                    await conexoes.enviar_erro(
+                        websocket, "Somente o HOST pode voltar ao Lobby."
+                    )
                     continue
                 lobby_core.jogo_selecionado = None
                 game.resetar()
